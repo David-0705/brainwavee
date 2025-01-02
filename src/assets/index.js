@@ -24,6 +24,7 @@ import background from "./background.jpg";
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
 import heroBackground from "./hero/hero-background.jpg";
+import hysteria from "./hero/hysteria.jpg"
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
@@ -39,6 +40,7 @@ import slack from "./collaboration/slack.png";
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
+import marathon from "./services/marathon.jpg";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -75,6 +77,15 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+import fieldFootball from "./Gride/fieldFootball.avif";
+import baseketBall from "./Gride/baseketBall.jpg";
+
+import youtube from "./socials/youtube.png";
+import dbc from "./college/DBCL-logo-DBC.png";
+import dbit from "./college/DBIT.jpg";
+import dbiti from "./college/DBiti.png";
+
+
 export {
   brainwave,
   check,
@@ -87,6 +98,9 @@ export {
   smallSphere,
   grid,
   yourlogo,
+  dbc,
+  dbit,
+  dbiti,
   homeSmile,
   file02,
   searchMd,
@@ -101,6 +115,7 @@ export {
   curve,
   robot,
   heroBackground,
+  hysteria,
   curve1,
   curve2,
   discord,
@@ -114,6 +129,7 @@ export {
   service1,
   service2,
   service3,
+  marathon,
   lines,
   stars,
   coins,
@@ -144,4 +160,7 @@ export {
   instagram,
   telegram,
   twitter,
+  youtube,
+  fieldFootball,
+  baseketBall,
 };
