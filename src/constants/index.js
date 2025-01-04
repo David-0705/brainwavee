@@ -41,6 +41,29 @@ import {
 } from "../assets";
 
 export const navigation = [
+  {
+    id: "0",
+    title: "Home",
+    url: "/",
+  },
+  {
+    id: "1",
+    title: "Events",
+    url: "/events",
+  },
+  {
+    id: "2",
+    title: "Points",
+    url: "/points",
+  },
+  {
+    id:"3",
+    title:"Departments",
+    url:"/department"
+  }
+]
+
+export const homeNavigation = [
     {
     id: "0",
     title: "Home",

@@ -1,6 +1,6 @@
 import React from "react";
 import Section from "./Section";
-import { socials,navigation } from "../constants";
+import { socials,homeNavigation } from "../constants";
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
 
        
         <div className="flex flex-row items-center justify-center">
-          {navigation.map((item) => (
+          {homeNavigation.map((item) => (
                         <a
                           key={item.id}
                           href={item.url}
