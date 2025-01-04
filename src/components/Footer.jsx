@@ -1,6 +1,6 @@
 import React from "react";
 import Section from "./Section";
-import { socials } from "../constants";
+import { socials,navigation } from "../constants";
 
 const Footer = () => {
   return (
@@ -9,6 +9,20 @@ const Footer = () => {
         <p className="caption text-n-4 lg:block">
           © {new Date().getFullYear()}. All rights reserved.
         </p>
+
+       
+        <div className="flex flex-row items-center justify-center">
+          {navigation.map((item) => (
+                        <a
+                          key={item.id}
+                          href={item.url}
+                          className="px-5 text-n-4 transition-colors hover:text-white"
+
+                        >
+                          {item.title}
+                        </a>
+                      ))}
+        </div>
 
         <ul className="flex gap-5 flex-wrap">
           {socials.map((item) => (

@@ -41,10 +41,19 @@ export const HamburgerMenu = () => {
         />
       </div>
 
+      <div className="relative w-12 h-12 mx-auto mt-4">
+        {/* Shine Effect */}
+        
+        {/* Hamburger Icon */}
+        <div className="absolute inset-0 flex flex-col justify-center space-y-2">
+          <div className="w-8 h-1 bg-n-6 rounded"></div>
+          <div className="w-8 h-1 bg-n-6 rounded"></div>
+          <div className="w-8 h-1 bg-n-6 rounded"></div>
+        </div>
+      </div>
+
       <Rings />
-
       <SideLines />
-
       <BackgroundCircles />
     </div>
   );
