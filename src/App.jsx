@@ -8,6 +8,7 @@ import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
 import Grid from './components/Euphoria/Grid';
+import EventRule from "./components/Euphoria/EventRule";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <Services />
         <Grid />
         <Benefits />
+        <EventRule/>
         {/* <Collaboration /> */}
         {/* <Pricing /> */}
         {/* <Roadmap /> */}

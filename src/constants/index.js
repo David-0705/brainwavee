@@ -271,7 +271,7 @@ export const socials = [
     id: "0",
     title: "youtube",
     iconUrl: youtube,
-    url: "#",
+    url: "https://www.youtube.com/@hysteriadbcl6187/",
   },
   {
     id: "2",
