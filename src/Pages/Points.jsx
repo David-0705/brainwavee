@@ -1,11 +1,19 @@
 import FetchPointsData from "../components/Points/FetchPointsData";
-import Header from "../components/Header";
+
 import DefaultPage from "../components/DefaultPage";
+import { pointsnav } from "../constants";
+import CardComponent from "../components/Card/CardComponent";
+import { Gradient } from "../components/design/Services";
+import { BackgroundCircles } from "../components/design/Hero";
 
 const Points = () => {
   return (
-    <DefaultPage>
-        <FetchPointsData/>
+    <DefaultPage nav={pointsnav}>
+      <BackgroundCircles/>
+      <div className="rotate-40">
+                    <Gradient/>
+                    </div>
+      <FetchPointsData />
     </DefaultPage>
   );
 };

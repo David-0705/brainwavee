@@ -1,8 +1,8 @@
 import DefaultPage from "../components/DefaultPage";
-
+import { homeNavigation } from "../constants";
 const Departments =()=>{
     return(
-        <DefaultPage>
+        <DefaultPage nav={homeNavigation}>
         
            
         </DefaultPage>

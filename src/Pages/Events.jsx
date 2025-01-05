@@ -1,9 +1,9 @@
 import DefaultPage from "../components/DefaultPage";
-
+import { homeNavigation } from "../constants";
 const Events =()=>{
     return(
         
-        <DefaultPage>
+        <DefaultPage nav={homeNavigation}>
            
         </DefaultPage>
         

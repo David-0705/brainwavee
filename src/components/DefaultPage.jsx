@@ -1,7 +1,8 @@
 import Header from "./Header";
 import Footer from "./Footer";
+import ButtonGradient from "../assets/svg/ButtonGradient";
 
-const DefaultPage =({ children })=>{
+const DefaultPage =({ children,nav })=>{
     return(
         
         <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
@@ -9,7 +10,8 @@ const DefaultPage =({ children })=>{
         <main>
             {children}
         </main>
-        <Footer/>
+        <Footer nav={nav}/>
+        <ButtonGradient/>
         </div>
         
     );
