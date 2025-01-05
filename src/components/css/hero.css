@@ -30,3 +30,23 @@
     opacity: 1;
   }
 }
+.glow-filter {
+  position: relative;
+  display: inline-block;
+}
+
+.glow-filter::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: transparent;
+  background: linear-gradient(0deg, #ffffff 0%, #f9c092 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: url(#glow-4);
+  opacity: 1;
+}

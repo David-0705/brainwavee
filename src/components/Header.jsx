@@ -130,10 +130,10 @@ const Header = () => {
         openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"
       }`}
     >
-      <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-          
-          <img className="z-3" src={hysteria} width={50} height={50}  alt="Brainwave" />
-          <a className="block w-[12rem] xl:mr-8 px-5 z-3" href="/">Euphoria </a>
+      <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4 sm:w-full">
+      <a className="block w-[12rem] xl:mr-2 px-5 z-3" href="/">
+          <img className="z-3 -my-5 -mx-8" src={hysteria} width={75} height={75}  alt="Euphoria" />
+      </a>
 
         <nav
           className={`${

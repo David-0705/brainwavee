@@ -3,12 +3,14 @@ import { Gradient } from "../components/design/Services";
 import Section from "../components/Section";
 import { fieldFootball } from "../assets/";
 import { useState, useEffect } from "react";
+import { homeNavigation } from "../constants";
 
 export default function Events({ data }) {
 
     return (
         <>
             <Section id="Events" >
+                <DefaultPage nav={homeNavigation}>
                 <div className="container">
 
                     {/* <div className="relative"> */}
@@ -28,6 +30,7 @@ export default function Events({ data }) {
                     {/* </div> */}
                     <Gradient />
                     </div>
+                    </DefaultPage>
             </Section>
         </>
 

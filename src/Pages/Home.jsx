@@ -4,8 +4,8 @@ import Benefits from "../components/Benefits";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import { homeNavigation } from "../constants";
 import Roadmap from "../components/Roadmap";
-
 import Services from "../components/Services";
 import Grid from "../components/Euphoria/Grid";
 
@@ -43,9 +43,8 @@ export default function Home(){
         {/* <Events data={data?.euphoriaEvents ? data.euphoriaEvents[0] : null}/> */}
         {/* <Collaboration /> */}
         {/* <Pricing /> */}
-        <Roadmap />
+        {/* <Roadmap /> */}
         <Footer />
-
       </div>
 
       <ButtonGradient />

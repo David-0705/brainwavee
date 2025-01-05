@@ -63,6 +63,8 @@ export const navigation = [
   }
 ]
 
+export const pointsnav =[]
+
 export const homeNavigation = [
     {
     id: "0",
@@ -79,6 +81,7 @@ export const homeNavigation = [
     title: "Committee",
     url: "#committee",
   },
+ 
   // {
   //   id: "3",
   //   title: "Roadmap",
