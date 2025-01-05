@@ -90,7 +90,7 @@ const Hero = () => {
           
         </div>
         <BackgroundCircles />
-        <Section className="lg:mt-64 " id='start'>
+        {/* <Section className="lg:mt-64 " id='start'> */}
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
             <div className="relative bg-n-8 rounded-[1rem]">
@@ -144,7 +144,7 @@ const Hero = () => {
         </div>
 
         <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
-        </Section>
+        {/* </Section> */}
       </div>
 
       <BottomLine />

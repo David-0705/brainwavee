@@ -41,7 +41,14 @@ const App = () => {
             </>
           }
         />
-
+        <Route
+          path="/Instruction"
+          element={
+            <>
+              <Events/>
+            </>
+          }
+        />
         </Routes> 
        
       

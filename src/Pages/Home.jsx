@@ -39,12 +39,11 @@ export default function Home(){
         <Services />
         <Grid />
         <Benefits />
-        {data?.euphoriaEvents && <Events data={data.euphoriaEvents[0]} />}
-        {/* <Events data={data?.euphoriaEvents ? data.euphoriaEvents[0] : null}/> */}
+        {/* {data?.euphoriaEvents && <Events data={data.euphoriaEvents[0]} />} */}
         {/* <Collaboration /> */}
         {/* <Pricing /> */}
         {/* <Roadmap /> */}
-        <Footer />
+        <Footer nav={homeNavigation}/>
       </div>
 
       <ButtonGradient />

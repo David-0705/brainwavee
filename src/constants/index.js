@@ -60,6 +60,11 @@ export const navigation = [
     id:"3",
     title:"Departments",
     url:"/department"
+  },
+  {
+    id:"4",
+    title:"Instruction",
+    url:"/event"
   }
 ]
 
