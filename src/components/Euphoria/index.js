@@ -1,0 +1,1 @@
+export const api_endpoint ='https://ap-south-1.cdn.hygraph.com/content/cm5iuzcql01ns07ulj35dkjax/master';
