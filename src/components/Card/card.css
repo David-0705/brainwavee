@@ -11,6 +11,9 @@
     inset: 0;
     /* background: #0005; */
     border-radius: inherit;
+    /* border-radius: 1rem; */
+  background: radial-gradient(circle at 0 0, hsl(27deg 93% 60%), transparent),
+    radial-gradient(circle at 100% 0, #00a6ff, transparent);
   }
   
   .card {
@@ -51,13 +54,13 @@
   .spin-intense {
     inset: -0.125em;
     filter: blur(0.5em) url(#unopaq2);
-    border-radius: 0.75em;
+    border-radius: 1rem;
   }
   
   .spin-inside {
     inset: -2px;
     border-radius: inherit;
-    filter: blur(2px) url(#unopaq3);
+    filter: blur(1rem) url(#unopaq3);
     z-index: 0;
   }
   

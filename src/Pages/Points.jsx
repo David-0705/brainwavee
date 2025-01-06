@@ -8,13 +8,11 @@ import { BackgroundCircles } from "../components/design/Hero";
 
 const Points = () => {
   return (
+    <>
     <DefaultPage nav={pointsnav}>
-      <BackgroundCircles/>
-      <div className="rotate-40">
-                    <Gradient/>
-                    </div>
       <FetchPointsData />
     </DefaultPage>
+    </>
   );
 };
 

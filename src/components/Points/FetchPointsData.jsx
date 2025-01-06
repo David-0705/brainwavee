@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import CardComponent from "../Card/CardComponent";
 import Heading from "../Heading";
 import { Gradient } from "../design/Services";
-
+import { Rings } from "../design/Hero";
+import PointsTable from "./PointsTable";
 import "./points.css";
 import Section from "../Section";
 
@@ -63,13 +64,18 @@ const FetchPointsData = () => {
   const remainingPoints = sortedData.slice(3);
 
   return (
-    <div>
+    <div className="">
+       
       <Section
         className="pt-14 pb-20"
         crosses
-        crossesOffset="lg:translate-y-[5.25rem]"
+        crossesOffset="lg:translate-y-[0rem]"
         customPaddings
       >
+        
+      <div className="rotate-40">
+                    <Gradient/>
+                    </div>
         <div className="relative flex flex-col items-center text-center z-10 px-5">
           <Heading title="Points" />
 
@@ -83,30 +89,11 @@ const FetchPointsData = () => {
               />
             ))}
           </div>
-
+            <PointsTable rows={remainingPoints}/>
           {/* Display remaining points */}
-          <div className="w-full lg:w-[800px] sm:w-[400px] shadow-2xl shadow-indigo-500/50 bg-n-8 border border-n-6 rounded-2xl mx-auto">
-            <ul className="divide-y divide-n-6">
-              {remainingPoints.map((point, index) => (
-                <li
-                  key={index}
-                  className="flex items-center py-4 px-6"
-                >
-                  <img
-                    src={point.image}
-                    width={40}
-                    height={40}
-                    alt="Check"
-                    className="flex-shrink-0 rounded-full"
-                  />
-                  <h1 className="ml-4 text-lg font-medium text-gray-300">
-                    {point.department}
-                  </h1>
-                </li>
-              ))}
-            </ul>
-          </div>
+          
         </div>
+        <Rings/>
       </Section>
     </div>
   );

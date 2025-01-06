@@ -1,0 +1,53 @@
+.pixelcard {
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-areas: "card";
+    place-items: center;
+    aspect-ratio: 4 / 5;
+    border: 1px solid var(--surface-2);
+    isolation: isolate;
+    transition: border-color 200ms var(--ease-out);
+    user-select: none;
+  
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at bottom left, transparent 55%, var(--surface-1));
+      pointer-events: none;
+      box-shadow: var(--bg) -0.5cqi 0.5cqi 2.5cqi inset;
+      transition: opacity 900ms var(--ease-out);
+    }
+  
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      margin: auto;
+      aspect-ratio: 1;
+      background: radial-gradient(circle, var(--bg), transparent 65%);
+      opacity: 0;
+      transition: opacity 800ms var(--ease-out);
+    }
+  
+    > * {
+      grid-area: card;
+    }
+  
+    &:hover,
+    &:focus-within {
+      border-color: var(--active-color, var(--fg));
+    }
+  
+    &:hover::before,
+    &:focus-within::before {
+      opacity: 0;
+    }
+  
+    &:hover::after,
+    &:focus-within::after {
+      opacity: 1;
+    }
+  }
+  

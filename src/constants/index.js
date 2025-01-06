@@ -323,3 +323,54 @@ export const socials = [
     url: "#",
   },
 ];
+
+export const departments = [
+  {
+    id:"0",
+    department:"Comps",
+    url:"comps",
+    color:"#f56",
+  },
+  {
+    id:"1",
+    department:"Mech",
+    url:"mech",
+    color:"#f56",
+  },
+  {
+    id:"2",
+    department:"I.T",
+    url:"it",
+    color:"#f56",
+  },
+  {
+    id:"3",
+    department:"E.X.T.C",
+    url:"extc",
+    color:"#f56",
+  },
+  {
+    id:"4",
+    department:"D.O.M.M.F",
+    url:"dommf",
+    color:"#f56",
+  },
+  {
+    id:"5",
+    department:"I.T.I",
+    url:"iti",
+    color:"#f56",
+  },
+  {
+    id:"6",
+    department:"HS",
+    url:"hs",
+    color:"#f56",
+  },
+  {
+    id:"7",
+    department:"B.M.M",
+    url:"bmm",
+    color:"#ffdc73",
+  },
+]
