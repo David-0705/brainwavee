@@ -4,6 +4,8 @@ import Home from "./Pages/Home";
 import Points from './Pages/Points';
 import Events from './Pages/Events';
 import Departments from './Pages/Departments';
+import { departments } from './constants';
+import Deptinfo from './components/Department/Departmentinfo';
 
 const App = () => {
   return (
@@ -49,9 +51,19 @@ const App = () => {
             </>
           }
         />
+        
+        {departments.map((dept,index)=>(
+          <Route
+          key={index}
+          path={dept.url}
+          element={
+            <>
+              <Deptinfo/>
+            </>
+          }
+        />
+        ))};
         </Routes> 
-       
-      
     
   );
 };

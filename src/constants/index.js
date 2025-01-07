@@ -328,49 +328,168 @@ export const departments = [
   {
     id:"0",
     department:"Comps",
-    url:"comps",
+    url:"/department/comps",
     color:"#f56",
   },
   {
     id:"1",
     department:"Mech",
-    url:"mech",
+    url:"/department/mech",
     color:"#f56",
   },
   {
     id:"2",
     department:"I.T",
-    url:"it",
+    url:"/department/it",
     color:"#f56",
   },
   {
     id:"3",
     department:"E.X.T.C",
-    url:"extc",
+    url:"/department/extc",
     color:"#f56",
   },
   {
     id:"4",
     department:"D.O.M.M.F",
-    url:"dommf",
+    url:"/department/dommf",
     color:"#f56",
   },
   {
     id:"5",
     department:"I.T.I",
-    url:"iti",
+    url:"/department/iti",
     color:"#f56",
   },
   {
     id:"6",
     department:"HS",
-    url:"hs",
+    url:"/department/hs",
     color:"#f56",
   },
   {
     id:"7",
     department:"B.M.M",
-    url:"bmm",
+    url:"/department  /bmm",
     color:"#ffdc73",
   },
+]
+
+export const winners = [
+  {
+    "department":{
+    bms: [
+      { "Event": "Table Tennis Girls Singles", "Place": "1st", "Winner": "Adhira" },
+      { "Event": "Table Tennis Girls Singles", "Place": "2nd", "Winner": "Shonell" },
+      { "Event": "Table Tennis Girls Singles", "Place": "3rd", "Winner": "Vidhyashree" },
+      { "Event": "Table Tennis Girls Doubles", "Place": "1st", "Winner": "Adhira David & Vidyashree" },
+      { "Event": "Table Tennis Doubles", "Place": "3rd", "Winner": "Yashneil & Abdul" },
+      { "Event": "80m Girls", "Place": "1st", "Winner": "Chloe Xaviers" },
+      { "Event": "80m Girls", "Place": "2nd", "Winner": "Sofia Nadar" },
+      { "Event": "80m Girls", "Place": "3rd", "Winner": "Shivani Sawant" },
+      { "Event": "200m Girls", "Place": "1st", "Winner": "Chloe Xaviers" },
+      { "Event": "200m Girls", "Place": "2nd", "Winner": "Shivani Sawant" },
+      { "Event": "200m Girls", "Place": "3rd", "Winner": "Tia Xaviers" },
+      { "Event": "400m Girls", "Place": "1st", "Winner": "Tia Xaviers" },
+      { "Event": "400m Girls", "Place": "2nd", "Winner": "Chloe Xaviers" },
+      { "Event": "400m Girls", "Place": "3rd", "Winner": "Shivani Sawant" },
+      { "Event": "800m Boys", "Place": "2nd", "Winner": "Adrian Soans" },
+      { "Event": "Relay Girls", "Place": "1st", "Winner": "BMS" },
+      { "Event": "Mixed Relay", "Place": "2nd", "Winner": "BMM" },
+      { "Event": "VolleyBall Girls", "Place": "1st", "Winner": "BMS" },
+      { "Event": "Box Cricket Girls", "Place": "3rd", "Winner": "BMS" },
+      { "Event": "Throwball", "Place": "1st", "Winner": "BMS" },
+      { "Event": "Rink Football Girls", "Place": "1st", "Winner": "BMS (Team Kyra)" },
+      { "Event": "Basketball Girls", "Place": "2nd", "Winner": "BMS" },
+      { "Event": "Basketball Boys", "Place": "1st", "Winner": "BMS" },
+      { "Event": "Kabaddi", "Place": "3rd", "Winner": "BMS" },
+      { "Event": "Field Football", "Place": "1st", "Winner": "BMS" }
+    ],
+  
+  
+    comps: [
+      { "Event": "Table Tennis Boys Singles", "Place": "2nd", "Winner": "Nigel" },
+      { "Event": "Table Tennis Girls Doubles", "Place": "3rd", "Winner": "Nicole Saldanha & Janice" },
+      { "Event": "Chess", "Place": "1st", "Winner": "Dhruvin" },
+      { "Event": "Chess", "Place": "2nd", "Winner": "Sujal" },
+      { "Event": "Chess", "Place": "3rd", "Winner": "Jashith" },
+      { "Event": "Discus Throw Boys", "Place": "1st", "Winner": "Pratik Daga" },
+      { "Event": "Discus Throw Girls", "Place": "1st", "Winner": "Verushka Fernandes" },
+      { "Event": "Shot Put Girls", "Place": "2nd", "Winner": "Verushka Fernandes" },
+      { "Event": "Javelin Throw Girls", "Place": "1st", "Winner": "Verushka Fernandes" },
+      { "Event": "Box Cricket Boys", "Place": "1st", "Winner": "IT" },
+      { "Event": "Box Cricket Girls", "Place": "1st", "Winner": "COMPS" },
+      { "Event": "Basketball Girls", "Place": "1st", "Winner": "Comps" }
+    ],
+  
+    mech: [
+      { "Event": "Table Tennis Boys Singles", "Place": "3rd", "Winner": "Shubham" },
+      { "Event": "Table Tennis Doubles", "Place": "1st", "Winner": "Zreh Kotwal & Shubham Palande" },
+      { "Event": "Table Tennis Doubles", "Place": "2nd", "Winner": "Neel Ved & Priyank Panchal" },
+      { "Event": "Table Tennis Doubles", "Place": "3rd", "Winner": "Yashneil & Abdul" },
+      { "Event": "80m Boys", "Place": "1st", "Winner": "Atharva Kadam" },
+      { "Event": "80m Boys", "Place": "2nd", "Winner": "Geden Dsouza" },
+      { "Event": "80m Boys", "Place": "3rd", "Winner": "Tyrelles Paires" },
+      { "Event": "200m Boys", "Place": "1st", "Winner": "Atharva Kadam" },
+      { "Event": "200m Boys", "Place": "2nd", "Winner": "Jaeden" },
+      { "Event": "200m Boys", "Place": "3rd", "Winner": "Adrian Soans" },
+      { "Event": "400m Boys", "Place": "1st", "Winner": "Atharva Kadam" },
+      { "Event": "400m Boys", "Place": "2nd", "Winner": "Prathamesh Parab" },
+      { "Event": "400m Boys", "Place": "3rd", "Winner": "Jaeden D'Souza" },
+      { "Event": "800m Boys", "Place": "1st", "Winner": "Atharva Kadam" },
+      { "Event": "800m Boys", "Place": "3rd", "Winner": "Jaeden D'Souza" },
+      { "Event": "Relay Boys", "Place": "1st", "Winner": "Mech" },
+      { "Event": "Tug of War Boys", "Place": "2nd", "Winner": "Mech" },
+      { "Event": "VolleyBall Boys", "Place": "1st", "Winner": "MECH" },
+      { "Event": "Kabaddi", "Place": "2nd", "Winner": "Mech" },
+      { "Event": "Javelin Throw Boys", "Place": "1st", "Winner": "Vishwanath" },
+      { "Event": "Shot Put Boys", "Place": "1st", "Winner": "Harjinder Singh" }
+    ],
+  
+    extc: [
+      { "Event": "Singles Carrom", "Place": "1st", "Winner": "Anup" },
+      { "Event": "Singles Carrom", "Place": "3rd", "Winner": "Anuj" },
+      { "Event": "Doubles Carrom", "Place": "1st", "Winner": "Rohith" },
+      { "Event": "200m Girls", "Place": "1st", "Winner": "Chloe Xaviers" },
+      { "Event": "400m Girls", "Place": "1st", "Winner": "Tia Xavier's" },
+      { "Event": "Discus Throw Girls", "Place": "2nd", "Winner": "Simran Ahiwale" },
+      { "Event": "Javelin Throw Girls", "Place": "2nd", "Winner": "Nidhi Kamble" },
+      { "Event": "Tug of War Girls", "Place": "1st", "Winner": "EXTC" },
+      { "Event": "VolleyBall Girls", "Place": "2nd", "Winner": "EXTC" },
+      { "Event": "Rink Football Girls", "Place": "2nd", "Winner": "Comps (Team Grace)" }
+    ],
+  
+    dommf: [
+      { "Event": "80m Girls", "Place": "1st", "Winner": "Chloe Xaviers" },
+      { "Event": "80m Girls", "Place": "2nd", "Winner": "Sofia Nadar" },
+      { "Event": "Relay Girls", "Place": "2nd", "Winner": "DOMF" },
+      { "Event": "Mixed Relay", "Place": "1st", "Winner": "DOMF" },
+      { "Event": "Basketball Boys", "Place": "2nd", "Winner": "Extc" },
+      { "Event": "Rink Football Boys", "Place": "3rd", "Winner": "DOMF" }
+    ],
+  
+    it: [
+      { "Event": "Box Cricket Boys", "Place": "1st", "Winner": "It" },
+      { "Event": "Tug of War Boys", "Place": "1st", "Winner": "It" },
+      { "Event": "Relay Girls", "Place": "3rd", "Winner": "IT" },
+      { "Event": "Mixed Relay", "Place": "3rd", "Winner": "IT" },
+      { "Event": "Rink Football Boys", "Place": "1st", "Winner": "It" },
+      { "Event": "Javelin Throw Boys", "Place": "3rd", "Winner": "Soham Patil" }
+    ],
+  
+    hs: [
+      { "Event": "Discus Throw Boys", "Place": "2nd", "Winner": "Raj Thombare" },
+      { "Event": "Kabaddi", "Place": "1st", "Winner": "HS" }
+    ],
+  
+    bmm: [
+      { "Event": "80m Girls", "Place": "3rd", "Winner": "Shivani Sawant" },
+      { "Event": "400m Girls", "Place": "3rd", "Winner": "Shivani Sawant" },
+      { "Event": "Relay Girls", "Place": "1st", "Winner": "BMM" },
+      { "Event": "Box Cricket Girls", "Place": "2nd", "Winner": "BMM" },
+      { "Event": "Throwball", "Place": "2nd", "Winner": "BMM" },
+      { "Event": "Basketball Girls", "Place": "3rd", "Winner": "BMM" }
+    ]
+  }
+  }
 ]
