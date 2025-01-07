@@ -31,8 +31,8 @@ export default function Events({ data }) {
                                 <div>{rulelist}</div>
                             ))
                         } */}
-                        <RichText content={data.rulelist.raw.children}/>
-                        <div  className="p-px" dangerouslySetInnerHTML={{ __html: data?.rulelist }}></div>
+                        {/* <RichText content={data.rulelist.raw.children}/> */}
+                        {/* <div  className="p-px" dangerouslySetInnerHTML={{ __html: data?.rulelist }}></div> */}
                         </div>
                     </div>
                     {/* </div> */}

@@ -118,8 +118,8 @@ function Grid() {
   const navigate = useNavigate();
 
   const handleClick = (title, STitle) => {
-    console.log('Title:', title);
-    console.log('STitle:', STitle);
+    // console.log('Title:', title);
+    // console.log('STitle:', STitle);
     navigate(`/game/${title}`, { state: { STitle } });
   };
   return (

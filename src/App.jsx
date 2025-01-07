@@ -4,8 +4,6 @@ import Home from "./Pages/Home";
 import Points from './Pages/Points';
 import Events from './Pages/Events';
 import EventRule from './components/Euphoria/eventRule';
-import Grid from './components/Euphoria/Grid';
-import GameComponent from './Pages/gameComponent';
 import Departments from './Pages/Departments';
 import { departments } from './constants';
 import Deptinfo from './components/Department/Departmentinfo';
