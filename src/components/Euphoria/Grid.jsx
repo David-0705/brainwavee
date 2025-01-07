@@ -6,6 +6,7 @@ import Container from '@mui/material/Container';
 import Typography from './Typography';
 import Section from "../Section";
 import Heading from '../Heading';
+import { useNavigate, useLocation,} from 'react-router-dom';
 
 const ImageBackdrop = styled('div')(({ theme }) => ({
   position: 'absolute',
@@ -59,52 +60,68 @@ const ImageIconButton = styled(ButtonBase)(({ theme }) => ({
 const images = [
   {
     url: 'https://images.unsplash.com/photo-1722098483852-d2d0446f7754?q=80&w=1596&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    title: 'Baseket Ball',
+    title: 'BASKETBALL',
     width: '40%',
+    STitle:'BASKETBALL(BOYS)'
   },
   {
     url: 'https://preview.redd.it/hi774nzld7471.jpg?auto=webp&s=4d36a8725b03facb2bd972dcdf370db3502f3a41',
     title: 'Chess',
     width: '20%',
+    STitle:''
   },
   {
     url: 'https://www.aljazeera.com/wp-content/uploads/2024/12/GettyImages-2191816878-1735548837.jpg?resize=770%2C513&quality=80',
     title: 'Cricket',
     width: '38%',
+    STitle:'BOX CRICKET'
   },
   {
     url: 'https://www.fivb.com/wp-content/uploads/2024/03/rules-v1.jpg',
     title: 'Volley Ball',
     width: '38%',
+    STitle:'VOLLEYBALL'
   },
   {
     url: 'https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w1460/f_auto/primary/ngdjbafv3twathukjbq2',
-    title: 'Field Football',
+    title: 'FOOTBALL',
     width: '38%',
+    STitle:'FOOTBALL'
   },
   {
     url: 'https://leipglo.com/wp-content/uploads/2024/08/table-tennis-1208377_1280.jpg',
     title: 'Table Tennis',
     width: '22%',
+    STitle:''
   },
   {
     url: 'https://www.prokabaddi.com/static-assets/waf-images/76/9d/2e/16-9/epjAOOvvtN.jpg?v=2.27&w=1200',
     title: 'Kabaddi',
     width: '40%',
+    STitle:'KABADDI'
   },
   {
     url: 'https://nhdsports.com/wp-content/uploads/2024/07/a-mans-hand-resting-on-a-board-game-1-scaled.jpg.webp',
     title: 'Carrom',
     width: '20%',
+    STitle:''
   },
   {
     url: 'https://tugofwar-twif.org/wp-content/uploads/2024/10/7-800x445.jpg',
     title: 'Tug Of War',
     width: '38%',
+    STitle:' TUG OF WAR'
   },
 ];
 
 function Grid() {
+  const navigate = useNavigate();
+
+  const handleClick = (title, STitle) => {
+    console.log('Title:', title);
+    console.log('STitle:', STitle);
+    navigate(`/game/${title}`, { state: { STitle } });
+  };
   return (
     <Section id="event">
     <Container component="section" sx={{ mt: 8, mb: 4, }}>
@@ -130,6 +147,7 @@ function Grid() {
             style={{
               width: image.width,
             }}
+            onClick={() => handleClick(image.title, image.STitle)}
           >
             <Box
               sx={{

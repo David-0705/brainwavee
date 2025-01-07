@@ -4,6 +4,7 @@ import Section from "../components/Section";
 import { fieldFootball } from "../assets/";
 import { useState, useEffect } from "react";
 import { homeNavigation } from "../constants";
+import { RichText } from "@graphcms/rich-text-react-renderer";
 
 export default function Events({ data }) {
 
@@ -24,7 +25,14 @@ export default function Events({ data }) {
                                 
                                 <p key={index} className="p-1 text-lg">{rule}</p>
                             ))}
-
+                        <div>david james eluvathingal</div>
+                        {/* {
+                            data.rulelist.map((rulelist)=>(
+                                <div>{rulelist}</div>
+                            ))
+                        } */}
+                        <RichText content={data.rulelist.raw.children}/>
+                        <div  className="p-px" dangerouslySetInnerHTML={{ __html: data?.rulelist }}></div>
                         </div>
                     </div>
                     {/* </div> */}

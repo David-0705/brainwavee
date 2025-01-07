@@ -3,68 +3,125 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from "./Pages/Home";
 import Points from './Pages/Points';
 import Events from './Pages/Events';
+import EventRule from './components/Euphoria/eventRule';
+import Grid from './components/Euphoria/Grid';
+import GameComponent from './Pages/gameComponent';
 import Departments from './Pages/Departments';
 import { departments } from './constants';
 import Deptinfo from './components/Department/Departmentinfo';
+import { EuphoriaEvent } from "./components/services/index";
+import { useState, useEffect, } from "react";
+import { useParams, useLocation } from 'react-router-dom';
+
+const EventDetail = ({ data }) => {
+  const location = useLocation();
+  const { STitle } = location.state || {}; // Ensure `state` is correctly destructured
+  const { title } = useParams();
+  if (!STitle) {
+    console.log('STitle is missing');
+  }
+  console.log('STitle:', STitle); // Log to confirm if `STitle` is received
+
+  const event = data?.sportRuleBooks.find(event => event.sportTitle === STitle );
+
+  if (!event) {
+    return <div>No Event Found</div>;
+  }
+
+  return <EventRule data={event} title={title} />;
+};
 
 const App = () => {
+  const [data, setdata] = useState();
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    const fetchEuphoriaEventData = async () => {
+      try {
+        const res = await EuphoriaEvent();
+        console.log('EuphoriaEvent data:', res);
+        setdata(res);
+      } catch (error) {
+        console.error('Error fetching EuphoriaEvent data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchEuphoriaEventData();
+  }, []);
+
   return (
-  
-       <Routes>
+
+    <Routes>
+      <Route
+        index
+        element={
+          <>
+            <Home />
+          </>
+        }
+      />
+      <Route
+        path="/points"
+        element={
+          <>
+            <Points />
+          </>
+        }
+      />
+      <Route
+        path="/events"
+        element={
+          <>
+            <Events />
+          </>
+        }
+      />
+      <Route
+        path="/department"
+        element={
+          <>
+            <Departments />
+          </>
+        }
+      />
+      <Route
+        path="/instruction"
+        element={
+          <>
+            <EventRule />
+          </>
+        }
+      />
+
+      {/* <Route path="/" element={<home />} /> */}
+      {/* <Route path="/game/:title" element={data?.euphoriaEvents && <Events data={data.euphoriaEvents[0]} />} /> */}
+      {/* <Route path="/game/:title" element={data?.euphoriaEvents && <EventRule data={data.euphoriaEvents[0]} />} /> */}
+      {/* <Route path="/game/:title" element={
+          loading ? <div>Loading...</div> : 
+          (data?.euphoriaEvents ? <EventRule data={data.euphoriaEvents[0]} /> : <div>No Data Available</div>)
+        } /> */}
+      <Route
+        path="/game/:title"
+        element={
+          loading ? <div>Loading...</div> :
+            <EventDetail data={data} />
+        }
+      />
+
+      {departments.map((dept, index) => (
         <Route
-          index
-          element={
-            <>
-              <Home/>
-            </>
-          }
-        />
-        <Route
-          path="/points"
-          element={
-            <>
-              <Points/>
-            </>
-          }
-        />
-        <Route
-          path="/events"
-          element={
-            <>
-              <Events/>
-            </>
-          }
-        />
-        <Route
-          path="/department"
-          element={
-            <>
-              <Departments/>
-            </>
-          }
-        />
-        <Route
-          path="/Instruction"
-          element={
-            <>
-              <Events/>
-            </>
-          }
-        />
-        
-        {departments.map((dept,index)=>(
-          <Route
           key={index}
           path={dept.url}
           element={
             <>
-              <Deptinfo/>
+              <Deptinfo />
             </>
           }
         />
-        ))};
-        </Routes> 
-    
+      ))};
+    </Routes>
+
   );
 };
 

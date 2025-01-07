@@ -12,6 +12,7 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
+    "@graphcms/rich-text-react-renderer": "^0.6.2",
     "@mui/material": "^6.3.0",
     "@mui/styled-engine-sc": "^6.3.0",
     "graphql": "^16.10.0",
