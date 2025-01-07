@@ -14,22 +14,22 @@ import {EuphoriaEvent}  from "../components/services/index";
 import Events from "./Events";
 
 export default function Home(){
-   const [data, setdata] =useState();
+//    const [data, setdata] =useState();
    
    
-   useEffect(() => {
-    const fetchEuphoriaEventData = async () => {
-        try {
-            const res = await EuphoriaEvent();
-            console.log('EuphoriaEvent data:', res);
-            setdata(res);
-        } catch (error) {
-            console.error('Error fetching EuphoriaEvent data:', error);
-        }
-    };
+//    useEffect(() => {
+//     const fetchEuphoriaEventData = async () => {
+//         try {
+//             const res = await EuphoriaEvent();
+//             console.log('EuphoriaEvent data:', res);
+//             setdata(res);
+//         } catch (error) {
+//             console.error('Error fetching EuphoriaEvent data:', error);
+//         }
+//     };
 
-    fetchEuphoriaEventData();
-}, []);
+//     fetchEuphoriaEventData();
+// }, []);
     
     return(
         <>

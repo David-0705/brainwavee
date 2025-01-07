@@ -121,7 +121,11 @@ export default {
         ".button": {
           "@apply font-code text-xs font-bold uppercase tracking-wider": {},
         },
-      });
+        ".gridboxxx *": {
+          "@apply p-1": {},
+        },
+      }
+    );
       addUtilities({
         ".tap-highlight-color": {
           "-webkit-tap-highlight-color": "rgba(0, 0, 0, 0)",

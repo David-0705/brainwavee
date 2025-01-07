@@ -6,17 +6,36 @@ import { GraphQLClient } from 'graphql-request';
 const graphqlClient = new GraphQLClient(api_endpoint);
 
 export const EuphoriaEvent = async () => {
-    const query = gql`
-        query EuphoriaEvent {
-        euphoriaEvents {
-            heading
-            ruleBook
-            image {
+    // const query = gql`
+    //     query EuphoriaEvent {
+    //     euphoriaEvents {
+    //         heading
+    //         ruleBook
+    //         image {
+    //         url
+    //         }
+    //         rulelist{
+    //           html
+    //         }
+    //         keyPoint
+    //     }
+    //     }
+    // `;
+    const query2 =gql`
+        query MyQuery {
+        sportRuleBooks{
+            sportTitle
+            sportImage{
             url
             }
+            sportRule{
+            html
+            }
+            keyPoint
+            
         }
         }
-    `;
+  `;
     // try {
     //     const response = await graphqlClient.request(query);
 
@@ -31,7 +50,7 @@ export const EuphoriaEvent = async () => {
     // } catch (error) {
     //     console.error('Error collecting data:', error);
     // }
-    const response = await graphqlClient.request(query);
+    const response = await graphqlClient.request(query2);
     console.log('Data collected successfully:', response.euphoriaEvents);
     return response
 };
