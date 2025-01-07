@@ -98,6 +98,8 @@ const PixelCanvas = ({
   width = 500,
   height = 500,
   text,
+  url,
+  department,
 }) => {
   const canvasRef = useRef(null);
   const [pixels, setPixels] = useState([]);
@@ -193,10 +195,13 @@ const PixelCanvas = ({
       onClick={!noFocus ? onClick : null}
       style={{ display: "grid", width: "100%", height: "100%", overflow: "hidden",  }}
     >  
-    <main> 
-    <h1>{text}</h1>
-    </main>
+    <a
+                href={`${url}?department=${department}`} 
+              > 
+    
       <canvas ref={canvasRef}></canvas>
+      
+    </a>
     </div>
   );
 };

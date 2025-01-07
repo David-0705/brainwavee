@@ -10,7 +10,7 @@
     transition: border-color 200ms var(--ease-out);
     user-select: none;
   
-    &::before {
+&::before {
       content: "";
       position: absolute;
       inset: 0;
