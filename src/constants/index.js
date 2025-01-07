@@ -329,13 +329,15 @@ export const departments = [
     id:"0",
     department:"Comps",
     url:"/department/comps",
-    color:"#f56",
+    color1:"#F6EED8",
+    color2:"#F6EED8"
   },
   {
     id:"1",
     department:"Mech",
     url:"/department/mech",
-    color:"#f56",
+    color1:"#A020F0",
+    color2:"#000"
   },
   {
     id:"2",
@@ -347,31 +349,36 @@ export const departments = [
     id:"3",
     department:"E.X.T.C",
     url:"/department/extc",
-    color:"#f56",
+    color1:"#FF0000",
+    color2:"#000"
   },
   {
     id:"4",
     department:"D.O.M.M.F",
     url:"/department/dommf",
-    color:"#f56",
+    color1:"#008080",
+    color2:"#FFF"
   },
   {
     id:"5",
     department:"I.T.I",
     url:"/department/iti",
-    color:"#f56",
+    color1:"	#FFC0CB",
+    color2:"#FFF"
   },
   {
     id:"6",
     department:"HS",
     url:"/department/hs",
-    color:"#f56",
+    color1:"#800080",
+    color2:"#000"
   },
   {
     id:"7",
-    department:"B.M.M",
-    url:"/department  /bmm",
-    color:"#ffdc73",
+    department:"B.M.S",
+    url:"/department/bms",
+    color1:"	#0096FF",
+    color2:"#FFF"
   },
 ]
 
@@ -469,7 +476,7 @@ export const winners = [
     ],
   
     it: [
-      { "Event": "Box Cricket Boys", "Place": "1st", "Winner": "It" },
+      { "Event": "Box Cricket Boys", "Place": "1st", "Winner": "It  " },
       { "Event": "Tug of War Boys", "Place": "1st", "Winner": "It" },
       { "Event": "Relay Girls", "Place": "3rd", "Winner": "IT" },
       { "Event": "Mixed Relay", "Place": "3rd", "Winner": "IT" },
