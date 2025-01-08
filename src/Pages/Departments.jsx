@@ -1,13 +1,18 @@
 import DefaultPage from "../components/DefaultPage";
 import { departments } from "../constants";
-import SelectDept from "../components/Department/SelectDept";
 
-const Departments =()=>{
-    return(
+import Departmentsdesign from "../components/design/Department";
+
+const Departments = () => {
+    return (
+      <div>
         <DefaultPage nav={departments}>
-           <SelectDept/>
+    
+          <Departmentsdesign/>
         </DefaultPage>
+      </div>
     );
-};
+  };
+  
 
 export default Departments;

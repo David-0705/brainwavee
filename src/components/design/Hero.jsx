@@ -35,6 +35,19 @@ export const BottomLine = () => {
   );
 };
 
+export const Diamonds = ({ w, h }) => {
+  return (
+    <div style={{ width: `${w}`, height: `${h}` }} className="relative overflow-hidden">
+      <div className="absolute top-1/2 left-1/2 w-[100%] h-[100%] bg-transparent border border-n-2/10 rotate-45 -translate-x-1/2 -translate-y-1/2" />
+      <div className="absolute top-1/2 left-1/2 w-[75%] h-[75%] bg-transparent border border-n-2/10 rotate-45 -translate-x-1/2 -translate-y-1/2" />
+      <div className="absolute top-1/2 left-1/2 w-[50%] h-[50%] bg-transparent border border-n-2/10 rotate-45 -translate-x-1/2 -translate-y-1/2" />
+      <div className="absolute top-1/2 left-1/2 w-[25%] h-[25%] bg-transparent border border-n-2/10 rotate-45 -translate-x-1/2 -translate-y-1/2" />
+    </div>
+  );
+};
+
+
+
 export const BackgroundCircles = ({ parallaxRef }) => {
   const [mounted, setMounted] = useState(false);
   

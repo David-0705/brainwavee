@@ -343,7 +343,8 @@ export const departments = [
     id:"2",
     department:"I.T",
     url:"/department/it",
-    color:"#f56",
+    color1:"#008000",
+    color2:"#00FF00"
   },
   {
     id:"3",

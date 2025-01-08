@@ -2,42 +2,53 @@ import React, { useState } from "react";
 import PixelCanvas from "./Pixel";
 import Section from "../Section";
 import { departments } from "../../constants";
+import Heading from "../Heading";
+import GlowingText from "../design/Glowingtext";
 
 const SelectDept = () => {
-  const [hoveredIndex, setHoveredIndex] = useState(null); // Track the index of the hovered department
+  const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
     <Section
-      className="pt-14 pb-20"
+      className="pt-0 pb-20 px-15"
       crosses
       crossesOffset="lg:translate-y-[0rem]"
       customPaddings
     >
-      <div className="relative pl-64 pr-[1.5625rem] xl:pl-[35px] xl:pr-[35px]">
-        <div className="pl-[20px] pr-[20px] gap-5 grid grid-cols-4 pb-7">
+      {/* Center the GlowingText horizontally */}
+      <div className="flex relative top-10 justify-center mb-10">
+        <GlowingText text="Departments" fs="48px" />
+      </div>
+
+      <div className="relative scroll-pt-96 px-4 lg:pl-64 lg:pr-[1.5625rem] xl:pl-[35px] xl:pr-[35px]">
+        <div className="grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 pb-7">
           {departments.map((department, index) => (
             <div
-              className="border-2 rounded-2xl relative flex items-center justify-center" // Use flexbox to center content
+              className="border-2 rounded-2xl relative flex items-center justify-center"
               key={index}
               style={{
-                borderColor: hoveredIndex === index ? department.color1: "",
+                borderColor: hoveredIndex === index ? department.color1 : "",
               }}
-              onMouseEnter={() => setHoveredIndex(index)} // Set hovered index on mouse enter
-              onMouseLeave={() => setHoveredIndex(null)} // Reset hovered index on mouse leave
+              onMouseEnter={() => setHoveredIndex(index)}
+              onMouseLeave={() => setHoveredIndex(null)}
             >
               <PixelCanvas
-                colors={["#f8fafc", "#f1f5f9", "#cbd5e1"]}
-                hoverColors={[department.color1,department.color2]} // Wrap department.color in an array
+                colors={["#808080", "#5a5a5a", "#cbd5e1"]}
+                hoverColors={[department.color1, department.color2]}
                 gap={10}
                 speed={25}
                 noFocus={false}
                 url={department.url}
                 department={department.department}
               />
-
-           
-                <p style={{color: hoveredIndex === index ? department.color1 : "",}} className="absolute">{department.department}</p>
-              
+              <p
+                style={{
+                  color: hoveredIndex === index ? department.color1 : "",
+                }}
+                className="absolute text-sm md:text-base text-center"
+              >
+                {department.department}
+              </p>
             </div>
           ))}
         </div>

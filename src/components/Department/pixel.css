@@ -28,7 +28,7 @@
       aspect-ratio: 1;
       background: radial-gradient(circle, var(--bg), transparent 65%);
       opacity: 0;
-      transition: opacity 800ms var(--ease-out);
+      transition: opacity 10ms var(--ease-out);
     }
   
     > * {

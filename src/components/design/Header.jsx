@@ -1,4 +1,5 @@
 import { background } from "../../assets";
+import { hysteria } from "../../assets";
 
 export const Rings = () => {
   return (
@@ -24,6 +25,19 @@ export const BackgroundCircles = () => {
       <div className="absolute top-[4.4rem] left-16 w-3 h-3 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full"></div>
       <div className="absolute top-[12.6rem] right-16 w-3 h-3 bg-gradient-to-b from-[#B9AEDF] to-[#1A1A32] rounded-full"></div>
       <div className="absolute top-[26.8rem] left-12 w-6 h-6 bg-gradient-to-b from-[#88E5BE] to-[#1A1A32] rounded-full"></div>
+    </>
+  );
+};
+
+export const Backimg =()=>{
+  return(
+    <>
+     <img 
+  className="z-0 absolute flex justify-center items-center left-1/2 top-1/2 w-[500px] h-[500px] transform -translate-x-1/2 -translate-y-1/2" 
+  src={hysteria} 
+  style={{ filter: 'blur(5px)' }} 
+/>
+
     </>
   );
 };

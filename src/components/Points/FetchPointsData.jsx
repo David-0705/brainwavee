@@ -6,6 +6,7 @@ import { Rings } from "../design/Hero";
 import PointsTable from "./PointsTable";
 import "./points.css";
 import Section from "../Section";
+import GlowingText from "../design/Glowingtext";
 
 const FetchPointsData = () => {
   const [data, setData] = useState([]);
@@ -76,8 +77,9 @@ const FetchPointsData = () => {
       <div className="rotate-40">
                     <Gradient/>
                     </div>
-        <div className="relative flex flex-col items-center text-center z-10 px-5">
-          <Heading title="Points" />
+        <div className="relative flex flex-col items-center text-center z-10 px-5I">
+          
+          <GlowingText text="Points" fs="56px" />
 
           {/* Display top 3 points */}
           <div className="flex flex-wrap gap-8 justify-center mb-12">

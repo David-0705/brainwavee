@@ -6,7 +6,7 @@ import Events from './Pages/Events';
 import EventRule from './components/Euphoria/eventRule';
 import Departments from './Pages/Departments';
 import { departments } from './constants';
-import Deptinfo from './components/Department/Departmentinfo';
+import DisplayDept from './components/Department/DisplayDept';
 import { EuphoriaEvent } from "./components/services/index";
 import { useState, useEffect, } from "react";
 import { useParams, useLocation } from 'react-router-dom';
@@ -113,7 +113,7 @@ const App = () => {
           path={dept.url}
           element={
             <>
-              <Deptinfo />
+              <DisplayDept/>
             </>
           }
         />
