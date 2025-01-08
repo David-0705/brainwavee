@@ -158,14 +158,15 @@ const Header = () => {
               </a>
             ))}
             
-            <BackgroundCircles/>
+            
           </div>
             
           <HamburgerMenu />
+          <BackgroundCircles/>
           
             <SideLines/>
             <Rings/>
-            <Backimg/>
+            {/* <Backimg/> */}
             
         </nav>
 

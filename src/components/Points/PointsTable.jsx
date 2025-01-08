@@ -1,4 +1,5 @@
 import"./points.css"
+import '../Card/card.css'
 
 const PointsTable = ({rows}) =>{
   return(
@@ -7,16 +8,9 @@ const PointsTable = ({rows}) =>{
               {rows.map((point, index) => (
                 <li
                   key={index}
-                  className="flex items-center py-4 px-6"
+                  className="flex items-center justify-center py-4 px-6"
                 >
-                  <img
-                    src={point.image}
-                    width={40}
-                    height={40}
-                    alt="Check"
-                    className="flex-shrink-0 rounded-full"
-                  />
-                  <h1 className="ml-4 text-lg font-medium text-gray-300">
+                  <h1 className="ml-4 text-lg font-medium text-gray-300 neon6 text-[28px]">
                     {point.department}
                   </h1>
                 </li>

@@ -1,8 +1,8 @@
 import React from "react";
-import './card.css'
+import './card.css';
 
 // React component
-const CardComponent = ({department,image}) => {
+const CardComponent = ({ department, image }) => {
   return (
     <div className="card-container">
       <div className="spin spin-blur"></div>
@@ -12,9 +12,8 @@ const CardComponent = ({department,image}) => {
         <div className="spin spin-inside"></div>
       </div>
       <div className="card">
-        <div className="body">
-         <h1>{department}</h1>
-         <img src={image} alt={department} />
+        <div className="card-body">
+          <h1 className="card-font h1 ">{department}</h1>
         </div>
       </div>
     </div>

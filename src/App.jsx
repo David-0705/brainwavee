@@ -10,6 +10,7 @@ import DisplayDept from './components/Department/DisplayDept';
 import { EuphoriaEvent } from "./components/services/index";
 import { useState, useEffect, } from "react";
 import { useParams, useLocation } from 'react-router-dom';
+import Instruction from './Pages/Instruction';
 
 const EventDetail = ({ data }) => {
   const location = useLocation();
@@ -87,7 +88,7 @@ const App = () => {
         path="/instruction"
         element={
           <>
-            <EventRule />
+            <Instruction/>
           </>
         }
       />

@@ -2,6 +2,7 @@ import { fieldFootball } from "../../assets";
 import DefaultPage from "../DefaultPage";
 import { homeNavigation } from "../../constants";
 import { RichText } from "@graphcms/rich-text-react-renderer";
+import BackButton from "./BackButton/BackButton";
 
 export default function eventRule({data}) {
     console.log(data);
@@ -46,6 +47,9 @@ export default function eventRule({data}) {
         <section className="flex flex-col gap-4 px-8 py-10 max-w-[800px]">
             {/* <CategoryCard categoryId={post.categoryId} /> */}
             <h1 className="text-2xl font-bold">{data.sportTitle}</h1>
+            <div className="">
+            <BackButton/>
+            </div>
             <img className="w-full object-cover" src={data.sportImage.url} alt="Football Event" />
             {/* <div className="flex justify-between items-center">
                 <AuthorCard authorId={post.authorId} />

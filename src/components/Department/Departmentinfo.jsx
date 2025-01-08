@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import { winners } from '../../constants';  // Import winners array from constants
 import GlowingText from '../design/Glowingtext';
 import Section from '../Section';
-
+import GridLayout from '../SportImg/ImgGrid';
 const Deptinfo = ({departmentName}) => {
         
     if (departmentName) {
@@ -37,6 +37,9 @@ const Deptinfo = ({departmentName}) => {
             </li>
           ))}
         </ul> */}
+
+        {/* <LayoutComponent/> */}
+        <GridLayout/>
         </Section>
       </div>
     );

@@ -1,0 +1,651 @@
+/*** Color Palettes ***/
+
+/* Red Panda */
+$green: #91b83f;
+$black: #202020;
+$brown: #4c2f2e; 
+$red: #aa5042;
+$tan: #d5997a;
+$white: #fff;
+
+/* Giant Panda */
+$green: #91b83f;
+$dark-green: #2e8b57;
+$gold: #b8860b;
+$black: #202020;
+$white: #fff;
+  
+/*** Fonts ***/
+
+/*** Page Normalization ***/
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+/*** Desktop Settings ***/
+body{
+  background-color: #202020;
+  overflow: hidden;
+}
+
+.message{
+  display: none;
+}
+
+/*** Images ***/
+/* Layout 1 */
+.grid--layout1 .grid__item:nth-child(1){
+  background: $black url(https://images.pexels.com/photos/148182/pexels-photo-148182.jpeg?auto=compress&cs=tinysrgb&h=650&w=940) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout1 .grid__item:nth-child(2){
+  background: $black url(https://images.pexels.com/photos/146080/pexels-photo-146080.jpeg?auto=compress&cs=tinysrgb&h=650&w=940) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout1 .grid__item:nth-child(3){
+  background: $black url(https://images.pexels.com/photos/145985/pexels-photo-145985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout1 .grid__item:nth-child(4){
+  background: $black url(https://images.pexels.com/photos/1217595/pexels-photo-1217595.jpeg?auto=compress&cs=tinysrgb&h=650&w=940) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout1 .grid__item:nth-child(5){
+  background: $black url(https://images.pexels.com/photos/146069/pexels-photo-146069.jpeg?auto=compress&cs=tinysrgb&h=650&w=940) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout1 .grid__item:nth-child(6){
+  background: $black url(https://images.pexels.com/photos/146290/pexels-photo-146290.jpeg?auto=compress&cs=tinysrgb&h=650&w=940) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout1 .grid__item:nth-child(7){
+  background: $black url(https://images.pexels.com/photos/851940/pexels-photo-851940.jpeg?auto=compress&cs=tinysrgb&h=650&w=940) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout1 .grid__item:nth-child(8){
+  background: $black url(https://images.pexels.com/photos/145994/pexels-photo-145994.jpeg?auto=compress&cs=tinysrgb&h=650&w=940) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout1 .grid__item:nth-child(9){
+  background: $black url(https://images.pexels.com/photos/148119/pexels-photo-148119.jpeg?auto=compress&cs=tinysrgb&h=650&w=940) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout1 .grid__item:nth-child(10){
+  background: $black url(https://images.pexels.com/photos/146102/pexels-photo-146102.jpeg?auto=compress&cs=tinysrgb&h=650&w=940) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout1 .grid__item:nth-child(11){
+  background: $black url(https://images.pexels.com/photos/145902/pexels-photo-145902.jpeg?auto=compress&cs=tinysrgb&h=650&w=940) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout1 .grid__item:nth-child(12){
+  background: $black url(https://images.pexels.com/photos/146230/pexels-photo-146230.jpeg?auto=compress&cs=tinysrgb&h=650&w=940) no-repeat center;
+  background-size: 150%;
+}
+.grid--layout1 .grid__item:nth-child(13){
+  background: $black url(https://images.pexels.com/photos/146227/pexels-photo-146227.jpeg?auto=compress&cs=tinysrgb&h=650&w=940) no-repeat center;
+  background-size: 150%;
+}
+
+/* Layout 2 */
+.grid--layout2 .grid__item:nth-child(1){
+  background: $black url(https://images.pexels.com/photos/1123765/pexels-photo-1123765.jpeg?auto=compress&cs=tinysrgb&h=650&w=940) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout2 .grid__item:nth-child(2){
+  background: $black url(https://marketplace.canva.com/MACZWNI1b6g/1/screen/canva-panda%2C-endangered%2C-rare%2C-protected%2C-bamboo-MACZWNI1b6g.jpg) no-repeat 20% 50%;
+  background-size: 170%;
+}
+.grid--layout2 .grid__item:nth-child(3){
+  background: $black url(https://marketplace.canva.com/MACZh3Ee4aE/1/screen/canva-bear%2C-panda%2C-black-and-white%2C-animals-MACZh3Ee4aE.jpg) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout2 .grid__item:nth-child(4){
+  background: $black url(https://marketplace.canva.com/MACWPj9n87Y/1/screen/canva-panda%2C-cub%2C-wildlife%2C-zoo%2C-cute%2C-china%2C-mammal%2C-nature-MACWPj9n87Y.jpg) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout2 .grid__item:nth-child(5){
+  background: $black url(https://marketplace.canva.com/MACZWRk2Meg/1/screen/canva-giant-panda%2C-young%2C-animal%2C-china-MACZWRk2Meg.jpg) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout2 .grid__item:nth-child(6){
+  background: $black url(https://marketplace.canva.com/MACVjLbJFQk/1/screen/canva-panda%2C-animal%2C-endangered%2C-rare%2C-protected%2C-bamboo-MACVjLbJFQk.jpg) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout2 .grid__item:nth-child(7){
+  background: $black url(https://marketplace.canva.com/MACVi2tNjvc/1/screen/canva-black-and-white%2C-adorable%2C-national-animal%2C-panda-MACVi2tNjvc.jpg) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout2 .grid__item:nth-child(8){
+  background: $black url(https://marketplace.canva.com/MACVjN9vYsE/1/screen/canva-panda%2C-endangered%2C-rare%2C-protected%2C-bamboo-MACVjN9vYsE.jpg) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout2 .grid__item:nth-child(9){
+  background: $black url(https://marketplace.canva.com/MACVjAITrsw/1/screen/canva-panda%2C-endangered%2C-rare%2C-protected%2C-bamboo-MACVjAITrsw.jpg) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout2 .grid__item:nth-child(10){
+  background: $black url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Chengdu-pandas-d10.jpg/800px-Chengdu-pandas-d10.jpg) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout2 .grid__item:nth-child(11){
+  background: $black url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Panda_Cub_from_Wolong%2C_Sichuan%2C_China.JPG/800px-Panda_Cub_from_Wolong%2C_Sichuan%2C_China.JPG) no-repeat center;
+  background-size: 105%;
+}
+.grid--layout2 .grid__item:nth-child(12){
+  background: $black url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Panda_ChiangMaiZoo_humarkus.jpg/400px-Panda_ChiangMaiZoo_humarkus.jpg) no-repeat 90% 50%;
+  background-size: 150%;
+}
+.grid--layout2 .grid__item:nth-child(13){
+  background: $black url(https://upload.wikimedia.org/wikipedia/commons/e/e1/Panda_at_ChiangMai_zoo-KayEss-1.jpeg) no-repeat top;
+  background-size: 150%;
+}
+/*-- END IMAGES --*/
+
+/*** Previous and Next Buttons ***/
+/* Layout 1*/
+.grid--layout1 .grid__item--prev{
+  color: $brown;
+  background-color: $green;
+  cursor: pointer;
+  
+  span{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 4.3em;
+  }
+  :hover{
+    color: $brown;
+    background-color: $tan;
+  }
+}
+.grid--layout1 .grid__item--next{
+  color: $brown;
+  background-color: $green;
+  cursor: pointer;
+  
+  span{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 25px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 5em;
+  }
+  :hover{
+    color: $brown;
+    background-color: $tan;
+  }
+}
+/* Layout 2 */
+.grid--layout2 .grid__item--prev{
+  color: $brown;
+  background-color: $gold;
+  cursor: pointer;
+  
+  span{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 4.3em;
+  }
+  :hover{
+    color: $brown;
+    background-color: $dark-green;
+  }
+}
+.grid--layout2 .grid__item--next{
+  color: $brown;
+  background-color: $gold;
+  cursor: pointer;
+  
+  span{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 25px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 5em;
+  }
+  :hover{
+    color: $brown;
+    background-color: $dark-green;
+  }
+}
+
+/*** Grid Text ***/
+.grid__item.grid__item--text{
+  color: $red;
+  font-family: 'Kanit', sans-serif;
+  font-weight: bold;
+  
+}
+.grid__item.grid__item--text1{
+  font-size: 8em; 
+  line-height: 90%;
+}
+.grid__item.grid__item--text2{
+  font-size: 2em; 
+  line-height: 90%;
+  -webkit-transform: rotateZ(-90deg) !important;
+  transform: rotateZ(-90deg) !important;
+  -webkit-transform-origin: 50% !important;
+  transform-origin: 50% !important;  
+}
+.grid__item.grid__item--text3{
+  color: $green;
+  font-size: 2em; 
+  line-height: 90%;
+  -webkit-transform: rotateZ(-90deg) !important;
+  transform: rotateZ(-90deg) !important;
+  -webkit-transform-origin: 50% !important;
+  transform-origin: 50% !important;
+}
+.grid__item.grid__item--text4{
+  color: $tan;
+  font-size: 2em; 
+  line-height: 90%;
+}
+.grid__item.grid__item--text5{
+  color: $white;
+  font-size: 2em; 
+  line-height: 90%;
+  -webkit-transform: rotateZ(90deg) !important;
+  transform: rotateZ(90deg) !important;
+  -webkit-transform-origin: 50% !important;
+  transform-origin: 50% !important;
+}
+.grid__item.grid__item--text6{
+  color: $green;
+  font-size: 8em; 
+  line-height: 90%;
+}
+.grid__item.grid__item--text7{
+  color: $dark-green;
+  font-size: 2em; 
+  line-height: 90%;
+}
+.grid__item.grid__item--text8{
+  color: $white;
+  font-size: 2em; 
+  line-height: 90%;
+  -webkit-transform: rotateZ(-90deg) !important;
+  transform: rotateZ(-90deg) !important;
+  -webkit-transform-origin: 50% !important;
+  transform-origin: 50% !important;
+}
+
+/*** Grid Setup ***/
+.grid{
+  max-width: 1250px;
+  height: 800px;
+  margin: 0 auto;  
+  display: grid;
+  grid-template-columns: repeat(30, 40px);
+  grid-template-rows: repeat(30, 25px);
+  align-content: center;
+  grid-gap: 8px;
+}
+
+/*** Layout 1 ***/
+.grid--layout1 .grid__item:nth-child(1){
+  grid-area: 17 / 7 / span 8 / span 9;
+}
+.grid--layout1 .grid__item:nth-child(2){
+  grid-area: 13 / 16 / span 6 / span 9;
+}
+.grid--layout1 .grid__item:nth-child(3){
+  grid-area: 19 / 16 / span 4 / span 5;
+}
+.grid--layout1 .grid__item:nth-child(4){
+  grid-area: 12 / 3 / span 5 / span 8;
+}
+.grid--layout1 .grid__item:nth-child(5){
+  grid-area: 23 / 16 / span 3 / span 3;
+}
+.grid--layout1 .grid__item:nth-child(6){
+  grid-area: 8 / 16 / span 5 / span 5;
+}
+.grid--layout1 .grid__item:nth-child(7){
+  grid-area: 23 / 19 / span 4 / span 5;
+}
+.grid--layout1 .grid__item:nth-child(8){
+  grid-area: 8 / 7 / span 4 / span 4;
+}
+.grid--layout1 .grid__item:nth-child(9){
+  grid-area: 5 / 16 / span 3 / span 3;
+}
+.grid--layout1 .grid__item:nth-child(10){
+  grid-area: 10 / 21 / span 3 / span 3;
+}
+.grid--layout1 .grid__item:nth-child(11){
+  grid-area: 6 / 11 / span 11 / span 5;
+}
+.grid--layout1 .grid__item:nth-child(12){
+  grid-area: 17 / 5 / span 6 / span 2;
+}
+.grid--layout1 .grid__item:nth-child(13){
+  grid-area: 6 / 4 / span 6 / span 3;
+}
+.grid--layout1 .grid__item--prev{
+  grid-area: 5 / 7 / span 3 / span 4;
+}
+.grid--layout1 .grid__item--next{
+  grid-area: 19 / 21 / span 4 / span 5;
+}
+.grid__item.grid__item--text1{
+  grid-area: 12 / 9 / span 5/ span 5;
+  z-index: 999;
+}
+.grid__item.grid__item--text2{
+  grid-area: 17 / 2 / span 2 / span 4;
+  z-index: 999;
+}
+.grid__item.grid__item--text3{
+  grid-area: 10 / 3 / span 1 / span 1;
+  z-index: 999;
+}
+.grid__item.grid__item--text4{
+  grid-area: 9 / 21 / span 2 / span 4;
+  z-index: 999;
+}
+.grid__item.grid__item--text5{
+  grid-area: 16 / 23 / span 2 / span 4;
+  z-index: 999;
+}
+/*-- End Layout 1 --*/
+
+/*** Layout 2 ***/
+.grid--layout2 .grid__item:nth-child(1){
+  grid-area: 8 / 17 / span 4 / span 5;
+  /*display: none;*/
+}
+.grid--layout2 .grid__item:nth-child(2){
+  grid-area: 12 / 8 / span 16 / span 5;
+}
+.grid--layout2 .grid__item:nth-child(3){
+  grid-area: 20 / 1 / span 7 / span 7;
+}
+.grid--layout2 .grid__item:nth-child(4){
+  grid-area: 21 / 16 / span 7 / span 7;
+}
+.grid--layout2 .grid__item:nth-child(5){
+  grid-area: 5 / 8 / span 7 / span 9;
+}
+.grid--layout2 .grid__item:nth-child(6){
+  grid-area: 6 / 3 / span 4 / span 5;
+}
+.grid--layout2 .grid__item:nth-child(7){
+  grid-area: 16 / 4 / span 4 / span 4;
+}
+.grid--layout2 .grid__item:nth-child(8){
+  grid-area: 21 / 13 / span 5 / span 3;
+}
+.grid--layout2 .grid__item:nth-child(9){
+  grid-area: 6 / 17 / span 2 / span 3;
+}
+.grid--layout2 .grid__item:nth-child(10){
+  grid-area: 12 / 23 / span 3 / span 4;
+}
+.grid--layout2 .grid__item:nth-child(11){
+  grid-area: 12 / 13 / span 9 / span 10;
+}
+.grid--layout2 .grid__item:nth-child(12){
+  grid-area: 15 / 23 / span 9 / span 4;
+}
+.grid--layout2 .grid__item:nth-child(13){
+  grid-area: 10 / 1 / span 6 / span 7;
+}
+.grid--layout2 .grid__item--prev{
+  grid-area: 16 / 1 / span 4 / span 3;
+}
+.grid--layout2 .grid__item--next{
+  grid-area: 9 / 22 / span 3 / span 4;
+}
+.grid__item.grid__item--text6{
+  grid-area: 8 / 8 / span 5/ span 5;
+  z-index: 999;
+}
+.grid__item.grid__item--text7{
+  grid-area: 24 / 23 / span 5/ span 5;
+  z-index: 999;
+}
+.grid__item.grid__item--text8{
+  grid-area: 8 / 2 / span 1 / span 1;
+  z-index: 999;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+/*-- End Layout 2 --*/
+
+/*** Flexbox for mobile/smaller screens ***/
+@media (max-width: 992px){
+  body {
+    background-color: $tan; 
+    overflow: visible;
+  }
+  
+  /* Toggle for hidden message */
+  .hidden{
+    display: visible;
+  }
+  .message{
+    display: flex; 
+    width: 100%;
+    height: auto;
+    padding: 15px 50px;
+    background-color: $brown;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+    
+    .msg-text{
+      color: $green; 
+      font-family: 'Kanit', sans-serif;
+      letter-spacing: 1px;
+      font-size: 1.5em;
+      text-transform: uppercase;
+    }
+  }
+  .grid{
+    display: flex;
+    flex-flow: row wrap;
+    width: 98%;
+    min-width: 0;
+    height: 100%;
+  }
+  
+  .grid__item{ 
+    order: 2;
+    width: 80vw;
+    height: 0;
+    padding-top: 55%;
+    margin: 15px auto;
+  }
+  /* Image Readjustments */
+  .grid--layout1 .grid__item:nth-child(12){
+    background-position: top;
+    background-size: 105%;
+  }
+  .grid--layout1 .grid__item:nth-child(13){
+    background-position: 0 -75px;
+    background-size: 105%;
+  }
+  .grid__item.grid__item--prev{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: $black;
+    color: #FFF;
+    width: 80vw;
+    height: 50px;
+    padding-top: 0;
+    span{  
+      font-size: 2em;
+    }
+    :hover{
+      cursor: pointer;
+      background-color: $dark-green;
+    }
+  } 
+  .grid__item.grid__item--next {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background-color: $black;
+    color: #FFF;
+    width: 80vw;
+    height: 50px;
+    padding-top: 0;  
+    
+    span{  
+      font-size: 2em;
+    }
+    :hover{
+      cursor: pointer;
+      background-color: $dark-green;
+    }
+  }
+  
+  .grid__item.grid__item--text1{
+    order: 0;
+    padding: 0;
+    width: 80vw;
+    height: auto;
+    text-align: center;      
+  }
+  .grid__item.grid__item--text2{
+    order: 1;
+    padding: 0;
+    padding-bottom: 25px;
+    font-size: 2em; 
+    line-height: 90%;
+    color: $white;
+    text-align: center;     
+    -webkit-transform: rotateZ(0deg) !important;
+    transform: rotateZ(0deg) !important;
+    -webkit-transform-origin: 50% !important;
+    transform-origin: 50% !important;  
+  }
+  .grid__item.grid__item--text3{
+    display: none;
+  }
+  .grid__item.grid__item--text4{
+    display: none;
+  }
+  .grid__item.grid__item--text5{
+    display: none;
+  }
+  .grid__item.grid__item--text6{
+    width: 80vw;
+    height: auto;
+    order: 0;
+    padding: 0;
+    color: $white;
+    text-align: center;
+  }
+  .grid__item.grid__item--text7{
+    order: 1;
+    padding: 0;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+  .grid__item.grid__item--text8{
+    display: none;
+  }  
+}
+
+/*** Hide Class for Toggle ***/
+.hide{
+  display: none;
+}
+
+/*** Animations ***/
+/* Classes */
+.hide-right{
+  animation: hide 1500ms cubic-bezier(0.7,0,0.3,1) forwards;
+  transform-origin: 100%;
+}
+.show-right{
+  animation: show 1500ms cubic-bezier(0.7,0,0.3,1) forwards;
+  transform-origin: 0%
+}
+.hide-left{
+  animation: hide 1500ms cubic-bezier(0.7,0,0.3,1) forwards;
+  transform-origin: 0%;
+}
+.show-left{
+  animation: show 1500ms cubic-bezier(0.7,0,0.3,1) forwards;
+  transform-origin: 100%
+}
+
+/* Keyframes */
+@keyframes hide {
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(0);
+  }
+  100%{
+    transform: scale(0);
+  }
+}
+    
+@keyframes show {
+  0%{
+    transform: scale(0);
+  }
+  50% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes showTextNegRotate {
+  0%{
+    -webkit-transform: rotate(-90deg) scale(0);
+    transform: rotate(-90deg) scale(0);
+  }
+  50% {
+    -webkit-transform: rotate(-90deg) scale(0);
+    transform: rotate(-90deg) scale(0);
+  }
+  100% {
+    -webkit-transform: rotate(-90deg) scale(1);
+    transform: rotate(-90deg) scale(1);
+  }  
+}
+
+@keyframes showTextPosRotate {
+  0%{
+    -webkit-transform: rotate(90deg) scale(0);
+    transform: rotate(90deg) scale(0);
+  }
+  50% {
+    -webkit-transform: rotate(90deg) scale(0);
+    transform: rotate(90deg) scale(0);
+  }
+  100% {
+    -webkit-transform: rotate(-90deg) scale(1);
+    transform: rotate(-90deg) scale(1);
+  }  
+}

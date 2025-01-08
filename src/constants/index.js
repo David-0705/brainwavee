@@ -46,11 +46,7 @@ export const navigation = [
     title: "Home",
     url: "/",
   },
-  {
-    id: "1",
-    title: "Events",
-    url: "/events",
-  },
+ 
   {
     id: "2",
     title: "Points",
@@ -64,8 +60,13 @@ export const navigation = [
   {
     id:"4",
     title:"Instruction",
-    url:"/event"
-  }
+    url:"/instruction"
+  },
+  // {
+  //   id: "1",
+  //   title: "Events",
+  //   url: "#events",
+  // },
 ]
 
 export const pointsnav =[]
