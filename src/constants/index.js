@@ -1,3 +1,4 @@
+import { light } from "@mui/material/styles/createPalette";
 import {
   benefitIcon1,
   benefitIcon2,
@@ -15,6 +16,7 @@ import {
   dbc,
   dbiti,
   dbit,
+  dbcl,
   homeSmile,
   instagram,
   notification2,
@@ -111,7 +113,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [dbit, dbc, dbiti];
+export const companyLogos = [dbit, dbc,dbcl, dbiti];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -280,20 +282,30 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Co-Ordinators",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "MANAGEMENT",
+    text: " ",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
+    iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
+    light:true,
   },
   {
     id: "1",
-    title: "Dept. Captains",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "DEPT. CAPTAINS",
+    text: " ",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
-    // light: true,
+    light: true,
+  },
+  {
+    id: "2",
+    title: "CO-ORDINATORS",
+    text: " ",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    iconUrl: benefitIcon2,
+    imageUrl: benefitImage2,
+    light: true,
   },
 
 ];
@@ -328,14 +340,14 @@ export const socials = [
 export const departments = [
   {
     id:"0",
-    department:"Comps",
+    department:"COMPS",
     url:"/department/comps",
     color1:"#F6EED8",
     color2:"#F6EED8"
   },
   {
     id:"1",
-    department:"Mech",
+    department:"MECH",
     url:"/department/mech",
     color1:"#A020F0",
     color2:"#000"

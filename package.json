@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node --trace-deprecation ./node_modules/http-server/bin/http-server -s"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -17,6 +18,7 @@
     "@mui/styled-engine-sc": "^6.3.0",
     "graphql": "^16.10.0",
     "graphql-request": "^7.1.2",
+    "http-server": "^14.1.1",
     "react-dom": "^18.2.0",
     "react-just-parallax": "^3.1.16",
     "react-router-dom": "^6.28.1",

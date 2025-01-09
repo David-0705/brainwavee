@@ -84,7 +84,7 @@ import youtube from "./socials/youtube.png";
 import dbc from "./college/DBCL-logo-DBC.png";
 import dbit from "./college/DBIT.jpg";
 import dbiti from "./college/DBiti.png";
-
+import dbcl from "./college/dbcl.png";
 
 export {
   brainwave,
@@ -101,6 +101,7 @@ export {
   dbc,
   dbit,
   dbiti,
+  dbcl,
   homeSmile,
   file02,
   searchMd,
