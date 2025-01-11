@@ -288,6 +288,7 @@ export const benefits = [
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light:true,
+    link:"https://www.instagram.com/euphoriadbcl/",
   },
   {
     id: "1",
@@ -297,6 +298,7 @@ export const benefits = [
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
+    link:"/department",
   },
   {
     id: "2",
@@ -306,6 +308,7 @@ export const benefits = [
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
+    link:"https://www.instagram.com/euphoriadbcl/",
   },
 
 ];
