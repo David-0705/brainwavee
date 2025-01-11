@@ -133,9 +133,9 @@ const Hero = () => {
                     <li className="text-5xl text-white/80 pl-2">&lt;</li>
                     <li className="text-5xl text-white/80 pl-5">&lt;</li>
                     <li className="text-5xl text-white/80 pl-5">&lt;</li>
-                    <li className="text-5xl text-white/80 pl-5">></li>
-                    <li className="text-5xl text-white/80 pl-5">></li>
-                    <li className="text-5xl text-white/80 pl-5">></li>
+                    <li className="text-5xl text-white/80 pl-5">&gt;</li>
+                    <li className="text-5xl text-white/80 pl-5">&gt;</li>
+                    <li className="text-5xl text-white/80 pl-5">&gt;</li>
                   </ul>
                 </ScrollParallax>
               </div>

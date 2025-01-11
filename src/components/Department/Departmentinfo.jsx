@@ -1,21 +1,22 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import { winners } from '../../constants';  // Import winners array from constants
+// import { winners } from '../../constants';  // Import winners array from constants
 import GlowingText from '../design/Glowingtext';
 import Section from '../Section';
 import GridLayout from '../SportImg/ImgGrid';
+import FutPlayerCard from '../FutCard/FutCard';
 const Deptinfo = ({departmentName}) => {
         
     if (departmentName) {
         departmentName = departmentName.replace(/\./g, ''); // Replace all periods with empty string
     }
 
-    // Access the department data from the winners array
-    const departmentData = winners[0].department[departmentName]; // Accessing the department from the department object
-    console.log(winners)
-    if (!departmentData) {
-      return <p>{departmentName}: Department not found!</p>;
-    }
+    // // Access the department data from the winners array
+    // const departmentData = winners[0].department[departmentName]; // Accessing the department from the department object
+    // console.log(winners)
+    // if (!departmentData) {
+    //   return <p>{departmentName}: Department not found!</p>;
+    // }
   
     return (
       <div>
@@ -39,6 +40,7 @@ const Deptinfo = ({departmentName}) => {
         </ul> */}
 
         {/* <LayoutComponent/> */}
+        <FutPlayerCard deptName={departmentName.toUpperCase()}/>
         <GridLayout/>
         </Section>
       </div>
