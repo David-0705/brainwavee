@@ -1,0 +1,48 @@
+.match-container{
+    background: linear-gradient(10deg, #41555d, #59708e, #5151aa);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    height: 100px;
+  width: 100%;   
+  transition: transform 0.5s ease;
+  }
+  
+  .match-container:hover{
+    transform: translateY(-10px);
+  }
+  
+  .flag1{
+    width: auto;
+    height: 100%;
+    margin: 0 5px;
+    /* margin-right: 100px; */
+    transition: transform 0.5s ease;
+  }
+  .flag1:hover{
+    transform: scale(1.4);
+  }
+  
+  .flag{
+    width:auto;
+    height: 100%;
+    margin: 0 5px;
+    /* margin-left: 100px; */
+    transition: transform 0.5s ease;
+  }
+  .flag:hover{
+    transform: scale(1.4);
+  }
+  
+  .match-details{
+    text-align: center;
+  }
+  .vs{
+    font-size: 16px;
+  
+  }
+  .time {
+    font-size: 24px;
+  }

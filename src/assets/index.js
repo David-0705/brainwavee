@@ -79,12 +79,14 @@ import twitter from "./socials/twitter.svg";
 
 import fieldFootball from "./Gride/fieldFootball.avif";
 import baseketBall from "./Gride/baseketBall.jpg";
+import comps from "./Gride/comps.png";
 
 import youtube from "./socials/youtube.png";
 import dbc from "./college/DBCL-logo-DBC.png";
 import dbit from "./college/DBIT.jpg";
 import dbiti from "./college/DBiti.png";
 import dbcl from "./college/dbcl.png";
+
 
 export {
   brainwave,
@@ -164,4 +166,5 @@ export {
   youtube,
   fieldFootball,
   baseketBall,
+  comps,
 };
