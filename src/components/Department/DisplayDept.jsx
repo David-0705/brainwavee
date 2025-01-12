@@ -1,7 +1,7 @@
 import DefaultPage from "../DefaultPage";
 import Deptinfo from "./Departmentinfo";
 import { useLocation } from 'react-router-dom';
-import { departments } from "../../constants";
+import { departments ,dptpg } from "../../constants";
 
 const DisplayDept = () => {
   const location = useLocation(); // Get the current location object
@@ -13,7 +13,7 @@ const DisplayDept = () => {
   }
 
   return (
-    <DefaultPage nav={departments} >
+    <DefaultPage nav={dptpg} >
       <Deptinfo departmentName={departmentName} />
     </DefaultPage>
   );

@@ -50,6 +50,14 @@ import {
   img7,
 } from "../assets";
 
+export const dptpg =[
+  {
+    id: "0",
+    title: "Points",
+    url: "/points",
+  }
+]
+
 export const navigation = [
   {
     id: "0",
