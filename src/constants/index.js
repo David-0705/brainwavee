@@ -78,7 +78,7 @@ export const navigation = [
   {
     id: "4",
     title: "Instruction",
-    url: "/instruction",
+    url: "http://192.168.0.15:8080/instruction",
   },
   // {
   //   id: "1",
