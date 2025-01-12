@@ -1,4 +1,4 @@
-import { brainwaveWhiteSymbol, gradient, play } from "../../assets";
+import { brainwaveWhiteSymbol, gradient, play ,pause} from "../../assets";
 import ChatBubbleWing from "../../assets/svg/ChatBubbleWing";
 
 export const Gradient = () => {
@@ -47,19 +47,23 @@ export const VideoChatMessage = () => {
   );
 };
 
-export const VideoBar = () => {
+export const VideoBar = ({ isPlaying, progress, onPlayPause }) => {
   return (
     <div className="absolute left-0 bottom-0 w-full flex items-center p-6">
       <img
-        src={play}
+        src={isPlaying ? pause : play}
         width={24}
         height={24}
-        alt="Play"
-        className="object-contain mr-3"
+        alt={isPlaying ? "Pause" : "Play"}
+        className="object-contain mr-3 cursor-pointer"
+        onClick={onPlayPause}
       />
 
-      <div className="flex-1 bg-[#D9D9D9]">
-        <div className="w-1/2 h-0.5 bg-color-1"></div>
+      <div className="flex-1 bg-[#D9D9D9] h-1 rounded-full overflow-hidden">
+        <div
+          className="bg-color-1 h-full"
+          style={{ width: `${progress}%` }}
+        ></div>
       </div>
     </div>
   );
