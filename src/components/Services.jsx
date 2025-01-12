@@ -8,7 +8,7 @@ import { Gradient, VideoBar } from "./design/Services";
 
 const Services = () => {
   const videoRef = useRef(null); // Reference to the video element
-  const [isPlaying, setIsPlaying] = useState(false); // Video play state
+  const [isPlaying, setIsPlaying] = useState(true); // Video play state
   const [progress, setProgress] = useState(0); // Video progress state
 
   const handlePlayPause = () => {
