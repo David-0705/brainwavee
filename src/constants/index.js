@@ -40,6 +40,14 @@ import {
   twitter,
   yourlogo,
   youtube,
+  img0,
+  img3,
+  img1,
+  img2,
+  img4,
+  img5,
+  img6,
+  img7,
 } from "../assets";
 
 export const navigation = [
@@ -48,33 +56,35 @@ export const navigation = [
     title: "Home",
     url: "/",
   },
- 
+
   {
     id: "2",
     title: "Points",
     url: "/points",
   },
   {
-    id:"3",
-    title:"Departments",
-    url:"/department"
+    id: "3",
+    title: "Departments",
+    url: "/department",
   },
   {
-    id:"4",
-    title:"Instruction",
-    url:"/instruction"
+    id: "4",
+    title: "Instruction",
+    url: "/instruction",
   },
   // {
   //   id: "1",
   //   title: "Events",
   //   url: "#events",
   // },
-]
+];
 
-export const pointsnav =[]
+export const pointsnav = [];
+
+export const capimg = [img0, img1, img2, img3, img4, img5, img6, img7];
 
 export const homeNavigation = [
-    {
+  {
     id: "0",
     title: "Home",
     url: "#home",
@@ -89,7 +99,7 @@ export const homeNavigation = [
     title: "Committee",
     url: "#committee",
   },
- 
+
   // {
   //   id: "3",
   //   title: "Roadmap",
@@ -113,7 +123,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [dbit, dbc,dbcl, dbiti];
+export const companyLogos = [dbit, dbc, dbcl, dbiti];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -287,8 +297,8 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
-    light:true,
-    link:"https://www.instagram.com/euphoriadbcl/",
+    light: true,
+    link: "https://www.instagram.com/euphoriadbcl/",
   },
   {
     id: "1",
@@ -298,7 +308,7 @@ export const benefits = [
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
-    link:"/department",
+    link: "/department",
   },
   {
     id: "2",
@@ -308,9 +318,8 @@ export const benefits = [
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
-    link:"https://www.instagram.com/euphoriadbcl/",
+    link: "https://www.instagram.com/euphoriadbcl/",
   },
-
 ];
 
 export const socials = [
@@ -342,80 +351,80 @@ export const socials = [
 
 export const departments = [
   {
-    id:"0",
-    department:"COMPS",
-    url:"/department/comps",
-    color1:"#F6EED8",
-    color2:"#F6EED8",
-    captain: "Shubham Keluskar"
+    id: "0",
+    department: "COMPS",
+    url: "/department/comps",
+    color1: "#F6EED8",
+    color2: "#F6EED8",
+    captain: "Shubham Keluskar",
   },
   {
-    id:"1",
-    department:"MECH",
-    url:"/department/mech",
-    color1:"#A020F0",
-    color2:"#000",
-    captain: "Tyrell Pires"
+    id: "1",
+    department: "MECH",
+    url: "/department/mech",
+    color1: "#A020F0",
+    color2: "#000",
+    captain: "Tyrell Pires",
   },
   {
-    id:"2",
-    department:"I.T",
-    url:"/department/it",
-    color1:"#008000",
-    color2:"#00FF00",
-    captain: "Ashish Varghese" 
+    id: "2",
+    department: "I.T",
+    url: "/department/it",
+    color1: "#008000",
+    color2: "#00FF00",
+    captain: "Ashish Varghese",
   },
   {
-    id:"3",
-    department:"E.X.T.C",
-    url:"/department/extc",
-    color1:"#FF0000",
-    color2:"#000",
-    captain: "Prathamesh Tadas" 
+    id: "3",
+    department: "E.X.T.C",
+    url: "/department/extc",
+    color1: "#FF0000",
+    color2: "#000",
+    captain: "Prathamesh Tadas",
   },
   {
-    id:"4",
-    department:"D.O.M.M.F",
-    url:"/department/dommf",
-    color1:"#008080",
-    color2:"#FFF",
-    captain: "Zuriel Fernandes"
+    id: "4",
+    department: "D.O.M.M.F",
+    url: "/department/dommf",
+    color1: "#008080",
+    color2: "#FFF",
+    captain: "Zuriel Fernandes",
   },
   {
-    id:"5",
-    department:"I.T.I",
-    url:"/department/iti",
-    color1:"	#FFC0CB",
-    color2:"#FFF",
-    captain: "Pradeep Epili"
+    id: "5",
+    department: "I.T.I",
+    url: "/department/iti",
+    color1: "	#FFC0CB",
+    color2: "#FFF",
+    captain: "Pradeep Epili",
   },
   {
-    id:"6",
-    department:"H.S",
-    url:"/department/hs",
-    color1:"#800080",
-    color2:"#000",
-    captain: "Vishaka Acharya"
+    id: "6",
+    department: "H.S",
+    url: "/department/hs",
+    color1: "#800080",
+    color2: "#000",
+    captain: "Vishaka Acharya",
   },
   {
-    id:"7",
-    department:"B.M.S",
-    url:"/department/bms",
-    color1:"	#0096FF",
-    color2:"#FFF",
-    captain: "Aishwarya Shetty"
+    id: "7",
+    department: "B.M.S",
+    url: "/department/bms",
+    color1: "	#0096FF",
+    color2: "#FFF",
+    captain: "Aishwarya Shetty",
   },
-]
+];
 
 export const captainsData = [
-  { department: "MECH",  },
-  { department: "COMPS",  },
-  { department: "E.X.T.C", },
-  { department: "I.T", },
-  { department: "H.S",  },
-  { department: "B.M.S",  },
-  { department: "D.O.M.M.F",  },
-  { department: "I.T.I",  }
+  { department: "MECH" },
+  { department: "COMPS" },
+  { department: "E.X.T.C" },
+  { department: "I.T" },
+  { department: "H.S" },
+  { department: "B.M.S" },
+  { department: "D.O.M.M.F" },
+  { department: "I.T.I" },
 ];
 
 // export const winners = [
@@ -448,8 +457,7 @@ export const captainsData = [
 //       { "Event": "Kabaddi", "Place": "3rd", "Winner": "BMS" },
 //       { "Event": "Field Football", "Place": "1st", "Winner": "BMS" }
 //     ],
-  
-  
+
 //     comps: [
 //       { "Event": "Table Tennis Boys Singles", "Place": "2nd", "Winner": "Nigel" },
 //       { "Event": "Table Tennis Girls Doubles", "Place": "3rd", "Winner": "Nicole Saldanha & Janice" },
@@ -464,7 +472,7 @@ export const captainsData = [
 //       { "Event": "Box Cricket Girls", "Place": "1st", "Winner": "COMPS" },
 //       { "Event": "Basketball Girls", "Place": "1st", "Winner": "Comps" }
 //     ],
-  
+
 //     mech: [
 //       { "Event": "Table Tennis Boys Singles", "Place": "3rd", "Winner": "Shubham" },
 //       { "Event": "Table Tennis Doubles", "Place": "1st", "Winner": "Zreh Kotwal & Shubham Palande" },
@@ -488,7 +496,7 @@ export const captainsData = [
 //       { "Event": "Javelin Throw Boys", "Place": "1st", "Winner": "Vishwanath" },
 //       { "Event": "Shot Put Boys", "Place": "1st", "Winner": "Harjinder Singh" }
 //     ],
-  
+
 //     extc: [
 //       { "Event": "Singles Carrom", "Place": "1st", "Winner": "Anup" },
 //       { "Event": "Singles Carrom", "Place": "3rd", "Winner": "Anuj" },
@@ -501,7 +509,7 @@ export const captainsData = [
 //       { "Event": "VolleyBall Girls", "Place": "2nd", "Winner": "EXTC" },
 //       { "Event": "Rink Football Girls", "Place": "2nd", "Winner": "Comps (Team Grace)" }
 //     ],
-  
+
 //     dommf: [
 //       { "Event": "80m Girls", "Place": "1st", "Winner": "Chloe Xaviers" },
 //       { "Event": "80m Girls", "Place": "2nd", "Winner": "Sofia Nadar" },
@@ -510,7 +518,7 @@ export const captainsData = [
 //       { "Event": "Basketball Boys", "Place": "2nd", "Winner": "Extc" },
 //       { "Event": "Rink Football Boys", "Place": "3rd", "Winner": "DOMF" }
 //     ],
-  
+
 //     it: [
 //       { "Event": "Box Cricket Boys", "Place": "1st", "Winner": "It  " },
 //       { "Event": "Tug of War Boys", "Place": "1st", "Winner": "It" },
@@ -519,12 +527,12 @@ export const captainsData = [
 //       { "Event": "Rink Football Boys", "Place": "1st", "Winner": "It" },
 //       { "Event": "Javelin Throw Boys", "Place": "3rd", "Winner": "Soham Patil" }
 //     ],
-  
+
 //     hs: [
 //       { "Event": "Discus Throw Boys", "Place": "2nd", "Winner": "Raj Thombare" },
 //       { "Event": "Kabaddi", "Place": "1st", "Winner": "HS" }
 //     ],
-  
+
 //     bmm: [
 //       { "Event": "80m Girls", "Place": "3rd", "Winner": "Shivani Sawant" },
 //       { "Event": "400m Girls", "Place": "3rd", "Winner": "Shivani Sawant" },
@@ -536,5 +544,3 @@ export const captainsData = [
 //   }
 //   }
 // ]
-
-

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import image1 from "../../assets/card/1.webp";
 import Logo from "../../assets/card/cardLogo.webp";
 import "./futcard.css";
-import { departments } from "../../constants";
+import { departments , capimg} from "../../constants";
 import '../Card/card.css';
 
 const FutPlayercard = ({ deptName }) => {
@@ -11,6 +11,7 @@ const FutPlayercard = ({ deptName }) => {
   const [DepartmentName, setDepartmentName] = useState("");
   const [color1, setColor1] = useState("#000000");
   const [color2, setColor2] = useState("#000000");
+  const [img,setImg] = useState("");
 
   const getDept = () => {
     const currDept = departments.find(checkdept);
@@ -19,6 +20,7 @@ const FutPlayercard = ({ deptName }) => {
       setDepartmentName(currDept.department);
       setColor1(currDept.color1 || "#000000");  // Default to black if color1 is not available
       setColor2(currDept.color2 || "#000000");  // Default to black if color2 is not available
+      setImg(capimg[currDept.id]);
     } else {
       setCaptainName("Not Found");
       setDepartmentName("Not Found");
@@ -81,7 +83,7 @@ const FutPlayercard = ({ deptName }) => {
           <p className="text-white relative top-1/3 font-bold text-[37px] tracking-[0.1em] fon text-center px-2">
             {DepartmentName}
           </p>
-          <img src={image1} alt="Player" />
+          <img src={img} alt="Player" />
         </div>
         <div style={{background:color1}} className="bottom">
           <div className="content">
