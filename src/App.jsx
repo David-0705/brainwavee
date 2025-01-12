@@ -21,7 +21,12 @@ const EventDetail = ({ data }) => {
   }
   console.log('STitle:', STitle); // Log to confirm if `STitle` is received
 
-  const event = data?.sportRuleBooks.find(event => event.sportTitle === STitle );
+  const event = data?.sportRuleBooks.find(event => event.sportCheck === STitle ) ||
+                data?.paEvents.find(event => event.paCheck === STitle );
+
+  console.log(data?.paEvents.find(event => event.paTitle === STitle ));
+
+  // console.log(event.paTitle);
 
   if (!event) {
     return <div>No Event Found</div>;

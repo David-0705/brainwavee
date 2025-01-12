@@ -1,5 +1,5 @@
 {
-    "FOOTBALL":[
+    "FIELDFOOTBALL":[
      {
       "MATCH NO.": "M1",
       "DEPARTMENT ": "BMS vs MECH",
@@ -97,7 +97,7 @@
       "TIME": "17:00"
      }
     ],
-    "BASKETBALL(BOYS)":[
+    "BASEKETBALL(B)":[
      {
       "MATCH NO.": "M17",
       "DEPARTMENT ": "BMS vs IT",
@@ -195,8 +195,7 @@
       "TIME": "13:00"
      }
     ],
-    "Volleyball (B)":[
-     null,
+    "Volleyball(B)":[
      {
       "MATCH NO.": "M33",
       "DEPARTMENT ": "MECH vs BMM",
@@ -294,8 +293,8 @@
       "TIME": "15:30"
      }
     ],
-    "Box Cricket (B)":[
-     null,
+    "BOXCRICKET(B)":[
+
      {
       "MATCH NO.": "M49",
       "DEPARTMENT ": "IT vs ITI",
@@ -393,8 +392,8 @@
       "TIME": "10:00"
      }
     ],
-    "Kabbadi (B)":[
-     null,
+    "KABADDI":[
+
      {
       "MATCH NO.": "M57",
       "DEPARTMENT ": "HS vs IT",
@@ -444,8 +443,8 @@
       "TIME": "14:00"
      }
     ],
-    "  TUG OF WAR (B)":[
-     null,
+    "TUGOFWAR(B)":[
+
      {
       "MATCH NO.": "M65",
       "DEPARTMENT ": "IT vs BMS",
@@ -544,7 +543,7 @@
      }
     ],
     "BASKETBALL(GIRLS)":[
-     null,
+
      {
       "MATCH NO.": "M1",
       "DEPARTMENT ": "COMPS vs EXTC",
@@ -594,8 +593,8 @@
       "TIME": "13:30"
      }
     ],
-    "Volleyball (G)":[
-     null,
+    "Volleyball(G)":[
+
      {
       "MATCH NO.": "M9",
       "DEPARTMENT ": "BMS vs IT",
@@ -645,8 +644,7 @@
       "TIME": "14:30"
      }
     ],
-    "Throwball (G)":[
-     null,
+    "THROWBALL(G)":[
      {
       "MATCH NO.": "M17",
       "DEPARTMENT ": "BMS vs MECH",
@@ -744,8 +742,7 @@
       "TIME": "12:30"
      }
     ],
-    "Box Cricket (G)":[
-     null,
+    "BOXCRICKET(G)":[
      {
       "MATCH NO.": "M33",
       "DEPARTMENT ": "COMPS vs HS",
@@ -795,8 +792,7 @@
       "TIME": "11:00"
      }
     ],
-    "Tug of War (G)":[
-     null,
+    "TUGOFWAR(G)":[
      {
       "MATCH NO.": "M56",
       "DEPARTMENT ": "EXTC vs COMPS",
@@ -894,8 +890,7 @@
       "TIME": "12:00"
      }
     ],
-    "Rink Football (G)":[
-     null,
+    "RINKFOOTBALL(G)":[
      {
       "MATCH NO.": "M41",
       "DATE": "23rd Jan",
