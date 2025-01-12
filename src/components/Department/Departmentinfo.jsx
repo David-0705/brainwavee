@@ -21,7 +21,7 @@ const Deptinfo = ({departmentName}) => {
     return (
       <div>
         <Section
-        className="pt-[10rem] -mt-[5.25rem]"
+        className="pt-[10rem] -mt-[5.25rem] pb-[10rem]"
         crosses
         crossesOffset="lg:translate-y-[5.25rem]"
         customPaddings
