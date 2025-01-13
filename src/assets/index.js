@@ -80,7 +80,6 @@ import twitter from "./socials/twitter.svg";
 
 import fieldFootball from "./Gride/fieldFootball.avif";
 import baseketBall from "./Gride/baseketBall.jpg";
-import comps from "./Gride/comps.png";
 
 import youtube from "./socials/youtube.png";
 import dbc from "./college/DBCL-logo-DBC.png";
@@ -191,7 +190,6 @@ export {
   youtube,
   fieldFootball,
   baseketBall,
-  comps,
   img0,
   img3,
   img1,
