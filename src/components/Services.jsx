@@ -107,12 +107,6 @@ const Services = () => {
                     <div className="match-container relative ">
                       <img src={comps} alt="West-Indies Flag" class="flag1" />
                       <div class="match-details relative flex flex-col gap-2">
-                        {/* <div className="flex flex-col m-0">
-                                        <p>country1</p>
-                                        <p>VS</p>
-                                        <p>Country2</p>
-                                    </div> */}
-                        {/* <p>28 Aug <span class="time">12:30</span></p> */}
                         <p>{match["DEPARTMENT "]}</p>
                         <p>{match["DATE"]} at <span className="time">{match["TIME"]}</span></p>
                       </div>
@@ -130,6 +124,7 @@ const Services = () => {
                   onTimeUpdate={handleProgress}
                   width={520}
                   height={400}
+                  muted
                   autoPlay
                   loop
                   playsInline
