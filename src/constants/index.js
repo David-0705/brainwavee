@@ -376,7 +376,7 @@ export const departments = [
   },
   {
     id: "2",
-    department: "I.T",
+    department: "IT",
     url: "/department/it",
     color1: "#008000",
     color2: "#00FF00",
@@ -384,7 +384,7 @@ export const departments = [
   },
   {
     id: "3",
-    department: "E.X.T.C",
+    department: "EXTC",
     url: "/department/extc",
     color1: "#FF0000",
     color2: "#000",
@@ -392,7 +392,7 @@ export const departments = [
   },
   {
     id: "4",
-    department: "D.O.M.M.F",
+    department: "DOMMF",
     url: "/department/dommf",
     color1: "#008080",
     color2: "#FFF",
@@ -400,7 +400,7 @@ export const departments = [
   },
   {
     id: "5",
-    department: "I.T.I",
+    department: "ITI",
     url: "/department/iti",
     color1: "	#FFC0CB",
     color2: "#FFF",
@@ -408,7 +408,7 @@ export const departments = [
   },
   {
     id: "6",
-    department: "H.S",
+    department: "HS",
     url: "/department/hs",
     color1: "#800080",
     color2: "#000",
@@ -416,7 +416,7 @@ export const departments = [
   },
   {
     id: "7",
-    department: "B.M.S",
+    department: "BMS",
     url: "/department/bms",
     color1: "	#0096FF",
     color2: "#FFF",

@@ -9,8 +9,9 @@ const DisplayDept = () => {
   let departmentName = params.get('department')?.toLowerCase(); // Get the value of the 'department' query parameter
 
   if (!departmentName) {
-    return <p>No department selected!</p>; // Handle missing query parameter
+    return <p>No department sel ected!</p>; // Handle missing query parameter
   }
+  
 
   return (
     <DefaultPage nav={dptpg} >

@@ -39,7 +39,7 @@ const SelectDept = () => {
                 speed={25}
                 noFocus={false}
                 url={department.url}
-                department={department.department}
+                department={department.department.toLowerCase()}
               />
               <p
                 style={{
