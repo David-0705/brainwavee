@@ -3,19 +3,19 @@
         
          {
           "MATCH NO.": "M1",
-          "DEPARTMENT ": "BMS vs MECH",
-          "DATE": "13th Jan",
-          "TIME": "16:15",
-          "Player1": "BMS",
-          "Player2": "MECH"
-         },
-         {
-          "MATCH NO.": "M2",
           "DEPARTMENT ": "BMM vs IT",
-          "DATE": "14th Jan",
+          "DATE": "13th Jan",
           "TIME": "16:15",
           "Player1": "BMM",
           "Player2": "IT"
+         },
+         {
+          "MATCH NO.": "M2",
+          "DEPARTMENT ": "BMS vs MECH",
+          "DATE": "14th Jan",
+          "TIME": "16:15",
+          "Player1": "BMS",
+          "Player2": "MECH"
          },
          {
           "MATCH NO.": "M3",

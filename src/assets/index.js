@@ -102,13 +102,18 @@ import BMS from "../assets/Gride/BMS.png";
 import EXTC from "../assets/Gride/EXTC.jpeg";
 import ITI from "../assets/Gride/ITI.png";
 import MECH from "../assets/Gride/MECH.png";
+import COMPS from "../assets/Gride/COMPS.png";
+
+import DebateDUO from "../assets/Gride/DebateDUO.png";
 
 export {
+  DebateDUO,
   HS,
   BMM,
   BMS,
   EXTC,
   ITI,
+  COMPS,
   MECH,
   brainwave,
   check,

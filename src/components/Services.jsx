@@ -12,38 +12,49 @@ import {
 } from "./design/Services";
 import Data from './Euphoria/fixture.json'
 import './Euphoria/fixture.css';
-import { HS } from "../assets";
+import { COMPS, HS, BMM, BMS, EXTC, MECH, ITI  } from "../assets";
 
-import Generating from "./Generating";
+
 
 const eventDay = [
   {
     "MATCH NO.": "M1",
-    "DEPARTMENT ": "BMS vs MECH",
+    "DEPARTMENT ": "BMM vs IT",
     "DATE": "13th Jan",
-    "TIME": "16:15"
+    "TIME": "16:15",
+    "Player1": "BMM",
+    "Player2": "IT"
    },
    {
     "MATCH NO.": "M2",
-    "DEPARTMENT ": "BMM vs IT",
+    "DEPARTMENT ": "BMS vs MECH",
     "DATE": "14th Jan",
-    "TIME": "16:15"
+    "TIME": "16:15",
+    "Player1": "BMS",
+    "Player2": "MECH"
    },
    {
     "MATCH NO.": "M3",
     "DEPARTMENT ": "EXTC vs COMPS",
     "DATE": "15th Jan",
-    "TIME": "16:15"
+    "TIME": "16:15",
+    "Player1": "EXTC",
+    "Player2": "COMPS"
    },
    {
     "MATCH NO.": "M4",
     "DEPARTMENT ": "IT vs HS",
     "DATE": "16th Jan",
-    "TIME": "16:30"
+    "TIME": "16:30",
+    "Player1": "IT",
+    "Player2": "HS"
    },
 ];
 
 // import Generating from "./Generating";
+const Jersey = {
+  COMPS, HS, BMM, BMS, EXTC, MECH, ITI,
+};
 
 const Services = () => {
   const videoRef = useRef(null); // Reference to the video element
@@ -104,13 +115,13 @@ const Services = () => {
                 <h4 className="h4 mb-4">Match Fixtures</h4>
                 <div className="flex flex-col items-center gap-2 m-4">
                   {eventDay.map((match, index) => (
-                    <div className="match-container relative ">
-                      <img src={HS} alt="West-Indies Flag" class="flag1" />
+                    <div className="match-container relative h-24	 ">
+                      <img src={Jersey[match["Player1"]]}  class="flag1" />
                       <div class="match-details relative flex flex-col gap-2">
                         <p>{match["DEPARTMENT "]}</p>
                         <p>{match["DATE"]} at <span className="time">{match["TIME"]}</span></p>
                       </div>
-                      <img src="https://city-png.b-cdn.net/preview/preview_public/uploads/preview/hd-india-national-cricket-team-logo-transparent-png-701751712500401nel3jkkg04.png" alt="South-Africa flag" class="flag" />
+                      <img src={Jersey[match["Player2"]]}  class="flag" />
                     </div>
                   ))}
                 </div>
