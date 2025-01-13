@@ -1,970 +1,1229 @@
-{
-    "FIELDFOOTBALL":[
-     {
-      "MATCH NO.": "M1",
-      "DEPARTMENT ": "BMS vs MECH",
-      "DATE": "13th Jan",
-      "TIME": "16:15"
-     },
-     {
-      "MATCH NO.": "M2",
-      "DEPARTMENT ": "BMM vs IT",
-      "DATE": "14th Jan",
-      "TIME": "16:15"
-     },
-     {
-      "MATCH NO.": "M3",
-      "DEPARTMENT ": "EXTC vs COMPS",
-      "DATE": "15th Jan",
-      "TIME": "16:15"
-     },
-     {
-      "MATCH NO.": "M4",
-      "DEPARTMENT ": "IT vs HS",
-      "DATE": "16th Jan",
-      "TIME": "16:30"
-     },
-     {
-      "MATCH NO.": "M5",
-      "DEPARTMENT ": "MECH vs EXTC",
-      "DATE": "24th Jan",
-      "TIME": "16:30"
-     },
-     {
-      "MATCH NO.": "M6",
-      "DEPARTMENT ": "ITI vs IT",
-      "DATE": "18th Jan",
-      "TIME": "16:30"
-     },
-     {
-      "MATCH NO.": "M7",
-      "DEPARTMENT ": "BMS vs COMPS",
-      "DATE": "17th Jan",
-      "TIME": "16:30"
-     },
-     {
-      "MATCH NO.": "M8",
-      "DEPARTMENT ": "BMM vs HS",
-      "DATE": "21st Jan",
-      "TIME": "16:30"
-     },
-     {
-      "MATCH NO.": "M9",
-      "DEPARTMENT ": "BMS vs EXTC",
-      "DATE": "22nd Jan",
-      "TIME": "16:30"
-     },
-     {
-      "MATCH NO.": "M10",
-      "DEPARTMENT ": "BMM vs ITI",
-      "DATE": "23rd Jan",
-      "TIME": "16:30"
-     },
-     {
-      "MATCH NO.": "M11",
-      "DEPARTMENT ": "MECH vs COMPS",
-      "DATE": "20th Jan",
-      "TIME": "16:30"
-     },
-     {
-      "MATCH NO.": "M12",
-      "DEPARTMENT ": "HS vs ITI",
-      "DATE": "25th Jan",
-      "TIME": "16:30"
-     },
-     {
-      "MATCH NO.": "M13",
-      "DEPARTMENT ": "SEMI 1",
-      "DATE": "27th Jan",
-      "TIME": "16:30"
-     },
-     {
-      "MATCH NO.": "M14",
-      "DEPARTMENT ": "SEMI 2",
-      "DATE": "28th Jan",
-      "TIME": "16:30"
-     },
-     {
-      "MATCH NO.": "M15",
-      "DEPARTMENT ": "THIRD",
-      "DATE": "30th Jan",
-      "TIME": "17:00"
-     },
-     {
-      "MATCH NO.": "M16",
-      "DEPARTMENT ": "FINAL",
-      "DATE": "31st Jan",
-      "TIME": "17:00"
-     }
-    ],
-    "BASEKETBALL(B)":[
-     {
-      "MATCH NO.": "M17",
-      "DEPARTMENT ": "BMS vs IT",
-      "DATE": "16th Jan",
-      "TIME": "13:00"
-     },
-     {
-      "MATCH NO.": "M18",
-      "DEPARTMENT ": "COMPS vs EXTC",
-      "DATE": "16th Jan",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M19",
-      "DEPARTMENT ": "HS vs MECH",
-      "DATE": "17th Jan",
-      "TIME": "13:00"
-     },
-     {
-      "MATCH NO.": "M20",
-      "DEPARTMENT ": "ITI vs BMM",
-      "DATE": "17th Jan",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M21",
-      "DEPARTMENT ": "BMS vs HS",
-      "DATE": "18th Jan",
-      "TIME": "13:00"
-     },
-     {
-      "MATCH NO.": "M22",
-      "DEPARTMENT ": "EXTC vs ITI",
-      "DATE": "18th Jan",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M23",
-      "DEPARTMENT ": "IT vs MECH",
-      "DATE": "20th Jan",
-      "TIME": "13:00"
-     },
-     {
-      "MATCH NO.": "M24",
-      "DEPARTMENT ": "COMPS vs BMM",
-      "DATE": "20th Jan",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M25",
-      "DEPARTMENT ": "BMS vs MECH",
-      "DATE": "21st Jan",
-      "TIME": "13:00"
-     },
-     {
-      "MATCH NO.": "M26",
-      "DEPARTMENT ": "EXTC vs BMM",
-      "DATE": "21st Jan",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M27",
-      "DEPARTMENT ": "IT vs HS",
-      "DATE": "22nd Jan",
-      "TIME": "13:00"
-     },
-     {
-      "MATCH NO.": "M28",
-      "DEPARTMENT ": "COMPS vs ITI",
-      "DATE": "22nd Jan",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M29",
-      "DEPARTMENT ": "Pool A (1) vs Pool B (2)",
-      "DATE": "28th Jan",
-      "TIME": "13:00"
-     },
-     {
-      "MATCH NO.": "M30",
-      "DEPARTMENT ": "Pool B (1) vs Pool A (2)",
-      "DATE": "29th Jan",
-      "TIME": "12:00"
-     },
-     {
-      "MATCH NO.": "M31",
-      "DEPARTMENT ": "THIRD",
-      "DATE": "30th Jan",
-      "TIME": "13:00"
-     },
-     {
-      "MATCH NO.": "M32",
-      "DEPARTMENT ": "FINAL",
-      "DATE": "31st Jan",
-      "TIME": "13:00"
-     }
-    ],
-    "Volleyball(B)":[
-     {
-      "MATCH NO.": "M33",
-      "DEPARTMENT ": "MECH vs BMM",
-      "DATE": "16th Jan",
-      "TIME": "16:00"
-     },
-     {
-      "MATCH NO.": "M34",
-      "DEPARTMENT ": "BMS vs COMPS",
-      "DATE": "22nd Jan",
-      "TIME": "16:00"
-     },
-     {
-      "MATCH NO.": "M35",
-      "DEPARTMENT ": "IT vs ITI",
-      "DATE": "17th Jan",
-      "TIME": "16:00"
-     },
-     {
-      "MATCH NO.": "M36",
-      "DEPARTMENT ": "EXTC vs HS",
-      "DATE": "16th Jan",
-      "TIME": "15:00"
-     },
-     {
-      "MATCH NO.": "M37",
-      "DEPARTMENT ": "BMM vs ITI",
-      "DATE": "23rd Jan",
-      "TIME": "15:00"
-     },
-     {
-      "MATCH NO.": "M38",
-      "DEPARTMENT ": "COMPS vs EXTC",
-      "DATE": "18th Jan",
-      "TIME": "16:00"
-     },
-     {
-      "MATCH NO.": "M39",
-      "DEPARTMENT ": "MECH vs IT",
-      "DATE": "21st Jan",
-      "TIME": "16:00"
-     },
-     {
-      "MATCH NO.": "M40",
-      "DEPARTMENT ": "BMS vs HS",
-      "DATE": "20th Jan",
-      "TIME": "16:00"
-     },
-     {
-      "MATCH NO.": "M41",
-      "DEPARTMENT ": "BMM vs IT ",
-      "DATE": "20th Jan",
-      "TIME": "15:00"
-     },
-     {
-      "MATCH NO.": "M42",
-      "DEPARTMENT ": "COMPS vs HS",
-      "DATE": "23rd Jan",
-      "TIME": "16:00"
-     },
-     {
-      "MATCH NO.": "M43",
-      "DEPARTMENT ": "MECH vs ITI",
-      "DATE": "27th Jan",
-      "TIME": "16:00"
-     },
-     {
-      "MATCH NO.": "M44",
-      "DEPARTMENT ": "BMS vs EXTC",
-      "DATE": "27th Jan",
-      "TIME": "15:00"
-     },
-     {
-      "MATCH NO.": "M45",
-      "DEPARTMENT ": "SEMI 1",
-      "DATE": "28th Jan",
-      "TIME": "16:00"
-     },
-     {
-      "MATCH NO.": "M46",
-      "DEPARTMENT ": "SEMI 2",
-      "DATE": "29th Jan ",
-      "TIME": "15:30"
-     },
-     {
-      "MATCH NO.": "M47",
-      "DEPARTMENT ": "THIRD",
-      "DATE": "30th Jan",
-      "TIME": "15:30"
-     },
-     {
-      "MATCH NO.": "M48",
-      "DEPARTMENT ": "FINAL",
-      "DATE": "31st Jan",
-      "TIME": "15:30"
-     }
-    ],
-    "BOXCRICKET(B)":[
-
-     {
-      "MATCH NO.": "M49",
-      "DEPARTMENT ": "IT vs ITI",
-      "DATE": "16th Jan",
-      "TIME": "14:30"
-     },
-     {
-      "MATCH NO.": "M50",
-      "DEPARTMENT ": "BMS vs MECH",
-      "DATE": "17th Jan",
-      "TIME": "13:30"
-     },
-     {
-      "MATCH NO.": "M51",
-      "DEPARTMENT ": "MECH vs BMM ",
-      "DATE": "20th Jan",
-      "TIME": "13:30"
-     },
-     {
-      "MATCH NO.": "M52",
-      "DEPARTMENT ": "COMPS vs HS",
-      "DATE": "21st Jan",
-      "TIME": "13:30"
-     },
-     {
-      "MATCH NO.": "M53",
-      "DEPARTMENT ": "EXTC vs BMM",
-      "DATE": "22nd Jan",
-      "TIME": "13:30"
-     },
-     {
-      "MATCH NO.": "M54",
-      "DEPARTMENT ": "BMS vs BMM",
-      "DATE": "23rd Jan",
-      "TIME": "13:30"
-     },
-     {
-      "MATCH NO.": "M55",
-      "DEPARTMENT ": "ITI vs COMPS",
-      "DATE": "24th Jan",
-      "TIME": "13:00"
-     },
-     {
-      "MATCH NO.": "M56",
-      "DEPARTMENT ": "EXTC vs MECH",
-      "DATE": "24th Jan",
-      "TIME": "13:45"
-     },
-     {
-      "MATCH NO.": "M56.1",
-      "DEPARTMENT ": "IT vs COMPS",
-      "DATE": "24th Jan",
-      "TIME": "14:30"
-     },
-     {
-      "MATCH NO.": "M56.2",
-      "DEPARTMENT ": "BMS vs MECH",
-      "DATE": "24th Jan",
-      "TIME": "15:15"
-     },
-     {
-      "MATCH NO.": "M56.3",
-      "DEPARTMENT ": "ITI vs HS",
-      "DATE": "24th Jan",
-      "TIME": "16:00"
-     },
-     {
-      "MATCH NO.": "M56.4",
-      "DEPARTMENT ": "IT vs HS",
-      "DATE": "27th Jan",
-      "TIME": "13:30"
-     },
-     {
-      "MATCH NO.": "M56.5",
-      "DEPARTMENT ": "SEMI 1",
-      "DATE": "28th Jan",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M56.6",
-      "DEPARTMENT ": "SEMI 2",
-      "DATE": "29th Jan",
-      "TIME": "10:00"
-     },
-     {
-      "MATCH NO.": "M56.7",
-      "DEPARTMENT ": "THIRD",
-      "DATE": "30th Jan",
-      "TIME": "10:00"
-     },
-     {
-      "MATCH NO.": "M56.8",
-      "DEPARTMENT ": "FINAL",
-      "DATE": "31st Jan",
-      "TIME": "10:00"
-     }
-    ],
-    "KABADDI":[
-
-     {
-      "MATCH NO.": "M57",
-      "DEPARTMENT ": "HS vs IT",
-      "DATE": "23rd Jan",
-      "TIME": "13:00"
-     },
-     {
-      "MATCH NO.": "M58",
-      "DEPARTMENT ": "MECH vs BMS",
-      "DATE": "23rd Jan",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M59",
-      "DEPARTMENT ": "COMPS vs EXTC",
-      "DATE": "27th Jan",
-      "TIME": "13:00"
-     },
-     {
-      "MATCH NO.": "M60",
-      "DEPARTMENT ": "BMM vs ITI",
-      "DATE": "27th Jan",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M61",
-      "DEPARTMENT ": "M1 vs M3",
-      "DATE": "29th Jan",
-      "TIME": "11:00"
-     },
-     {
-      "MATCH NO.": "M62",
-      "DEPARTMENT ": "M2 vs M4",
-      "DATE": "29th Jan",
-      "TIME": "12:30"
-     },
-     {
-      "MATCH NO.": "M63",
-      "DEPARTMENT ": "THIRD",
-      "DATE": "30th Jan",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M64",
-      "DEPARTMENT ": "FINAL",
-      "DATE": "31st Jan",
-      "TIME": "14:00"
-     }
-    ],
-    "TUGOFWAR(B)":[
-
-     {
-      "MATCH NO.": "M65",
-      "DEPARTMENT ": "IT vs BMS",
-      "DATE": "18th Jan",
-      "TIME": "14:30"
-     },
-     {
-      "MATCH NO.": "M66",
-      "DEPARTMENT ": "MECH vs COMPS",
-      "DATE": "17th Jan",
-      "TIME": "15:00"
-     },
-     {
-      "MATCH NO.": "M67",
-      "DEPARTMENT ": "HS vs BMM",
-      "DATE": "18th Jan",
-      "TIME": "15:00"
-     },
-     {
-      "MATCH NO.": "M68",
-      "DEPARTMENT ": "EXTC vs ITI",
-      "DATE": "22nd Jan",
-      "TIME": "15:00"
-     },
-     {
-      "MATCH NO.": "M69",
-      "DEPARTMENT ": "IT vs BMM",
-      "DATE": "22nd Jan ",
-      "TIME": "14:30"
-     },
-     {
-      "MATCH NO.": "M70",
-      "DEPARTMENT ": "ITI vs MECH",
-      "DATE": "20th Jan",
-      "TIME": "14:30"
-     },
-     {
-      "MATCH NO.": "M71",
-      "DEPARTMENT ": "BMS vs HS",
-      "DATE": "18th Jan",
-      "TIME": "15:00"
-     },
-     {
-      "MATCH NO.": "M72",
-      "DEPARTMENT ": "COMPS vs EXTC",
-      "DATE": "21st Jan",
-      "TIME": "14:30"
-     },
-     {
-      "MATCH NO.": "M73",
-      "DEPARTMENT ": "IT vs HS",
-      "DATE": "17th Jan",
-      "TIME": "14:30"
-     },
-     {
-      "MATCH NO.": "M74",
-      "DEPARTMENT ": "MECH vs EXTC",
-      "DATE": "28th Jan",
-      "TIME": "14:30"
-     },
-     {
-      "MATCH NO.": "M75",
-      "DEPARTMENT ": "BMS vs BMM",
-      "DATE": "27th Jan",
-      "TIME": "14:30"
-     },
-     {
-      "MATCH NO.": "M76",
-      "DEPARTMENT ": "COMPS vs ITI",
-      "DATE": "28th Jan",
-      "TIME": "15:00"
-     },
-     {
-      "MATCH NO.": "M77",
-      "DEPARTMENT ": "SEMI 1",
-      "DATE": "29th Jan",
-      "TIME": "13:30"
-     },
-     {
-      "MATCH NO.": "M78",
-      "DEPARTMENT ": "SEMI 2",
-      "DATE": "29th Jan",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M79",
-      "DEPARTMENT ": "THIRD",
-      "DATE": "30th Jan",
-      "TIME": "11:30"
-     },
-     {
-      "MATCH NO.": "M80",
-      "DEPARTMENT ": "FINAL",
-      "DATE": "31st Jan",
-      "TIME": "11:30"
-     }
-    ],
-    "BASKETBALL(GIRLS)":[
-
-     {
-      "MATCH NO.": "M1",
-      "DEPARTMENT ": "COMPS vs EXTC",
-      "DATE": "16th Jan",
-      "TIME": "15:30"
-     },
-     {
-      "MATCH NO.": "M2",
-      "DEPARTMENT ": "BMS vs MECH",
-      "DATE": "16th Jan",
-      "TIME": "14:30"
-     },
-     {
-      "MATCH NO.": "M3",
-      "DEPARTMENT ": "BMM vs ITI",
-      "DATE": "17th Jan ",
-      "TIME": "15:30"
-     },
-     {
-      "MATCH NO.": "M4",
-      "DEPARTMENT ": "IT vs HS",
-      "DATE": "18th Jan",
-      "TIME": "15:30"
-     },
-     {
-      "MATCH NO.": "M5",
-      "DEPARTMENT ": "M1 vs M3",
-      "DATE": "29th Jan",
-      "TIME": "13:00"
-     },
-     {
-      "MATCH NO.": "M6",
-      "DEPARTMENT ": "M2 vs M4",
-      "DATE": "29th Jan",
-      "TIME": "10:30"
-     },
-     {
-      "MATCH NO.": "M7",
-      "DEPARTMENT ": "THIRD",
-      "DATE": "30th Jan",
-      "TIME": "13:30"
-     },
-     {
-      "MATCH NO.": "M8",
-      "DEPARTMENT ": "FINAL",
-      "DATE": "31st Jan",
-      "TIME": "13:30"
-     }
-    ],
-    "Volleyball(G)":[
-
-     {
-      "MATCH NO.": "M9",
-      "DEPARTMENT ": "BMS vs IT",
-      "DATE": "22nd Jan",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M10",
-      "DEPARTMENT ": "EXTC vs BMM",
-      "DATE": "20th Jan ",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M11",
-      "DEPARTMENT ": "ITI vs COMPS",
-      "DATE": "24th Jan",
-      "TIME": "13:30"
-     },
-     {
-      "MATCH NO.": "M12",
-      "DEPARTMENT ": "HS vs MECH",
-      "DATE": "16th Jan",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M13",
-      "DEPARTMENT ": "M9 vs M11",
-      "DATE": "29th Jan",
-      "TIME": "12:30"
-     },
-     {
-      "MATCH NO.": "M14",
-      "DEPARTMENT ": "M10 vs M12",
-      "DATE": "27th Jan",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M15",
-      "DEPARTMENT ": "THIRD",
-      "DATE": "30th Jan",
-      "TIME": "14:30"
-     },
-     {
-      "MATCH NO.": "M16",
-      "DEPARTMENT ": "FINAL",
-      "DATE": "31st Jan",
-      "TIME": "14:30"
-     }
-    ],
-    "THROWBALL(G)":[
-     {
-      "MATCH NO.": "M17",
-      "DEPARTMENT ": "BMS vs MECH",
-      "DATE": "17th Jan ",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M18",
-      "DEPARTMENT ": "BMM vs EXTC",
-      "DATE": "16th Jan ",
-      "TIME": "13:00"
-     },
-     {
-      "MATCH NO.": "M19",
-      "DEPARTMENT ": "COMPS vs ITI",
-      "DATE": "18th Jan",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M20",
-      "DEPARTMENT ": "HS vs IT",
-      "DATE": "17th Jan",
-      "TIME": "13:00"
-     },
-     {
-      "MATCH NO.": "M21",
-      "DEPARTMENT ": "MECH vs COMPS",
-      "DATE": "18th Jan",
-      "TIME": "13:00"
-     },
-     {
-      "MATCH NO.": "M22",
-      "DEPARTMENT ": "EXTC vs HS",
-      "DATE": "22nd Jan",
-      "TIME": "13:00"
-     },
-     {
-      "MATCH NO.": "M23",
-      "DEPARTMENT ": "BMS vs ITI",
-      "DATE": "20th Jan",
-      "TIME": "13:00"
-     },
-     {
-      "MATCH NO.": "M24",
-      "DEPARTMENT ": "BMM vs IT",
-      "DATE": "21st Jan",
-      "TIME": "13:00"
-     },
-     {
-      "MATCH NO.": "M25",
-      "DEPARTMENT ": "BMS vs COMPS",
-      "DATE": "21st Jan",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M26",
-      "DEPARTMENT ": "BMM vs HS",
-      "DATE": "23rd Jan",
-      "TIME": "14:30"
-     },
-     {
-      "MATCH NO.": "M27",
-      "DEPARTMENT ": "MECH vs ITI",
-      "DATE": "27th Jan",
-      "TIME": "13:30"
-     },
-     {
-      "MATCH NO.": "M28",
-      "DEPARTMENT ": "EXTC vs IT",
-      "DATE": "28th Jan",
-      "TIME": "13:30"
-     },
-     {
-      "MATCH NO.": "M29",
-      "DEPARTMENT ": "SEMI 1",
-      "DATE": "29th Jan",
-      "TIME": "10:00"
-     },
-     {
-      "MATCH NO.": "M30",
-      "DEPARTMENT ": "SEMI 2",
-      "DATE": "29th Jan",
-      "TIME": "11:00"
-     },
-     {
-      "MATCH NO.": "M31",
-      "DEPARTMENT ": "THIRD ",
-      "DATE": "30th Jan",
-      "TIME": "12:30"
-     },
-     {
-      "MATCH NO.": "M32",
-      "DEPARTMENT ": "FINAL",
-      "DATE": "31st Jan",
-      "TIME": "12:30"
-     }
-    ],
-    "BOXCRICKET(G)":[
-     {
-      "MATCH NO.": "M33",
-      "DEPARTMENT ": "COMPS vs HS",
-      "DATE": "17th Jan",
-      "TIME": "16:00"
-     },
-     {
-      "MATCH NO.": "M34",
-      "DEPARTMENT ": "BMM vs EXTC",
-      "DATE": "20th Jan",
-      "TIME": "15:30"
-     },
-     {
-      "MATCH NO.": "M35",
-      "DEPARTMENT ": "ITI vs BMS",
-      "DATE": "21st Jan",
-      "TIME": "15:30"
-     },
-     {
-      "MATCH NO.": "M36",
-      "DEPARTMENT ": "MECH vs IT",
-      "DATE": "22nd Jan",
-      "TIME": "15:30"
-     },
-     {
-      "MATCH NO.": "M37",
-      "DEPARTMENT ": "M1 vs M3",
-      "DATE": "27th Jan",
-      "TIME": "16:00"
-     },
-     {
-      "MATCH NO.": "M38",
-      "DEPARTMENT ": "M2 vs M4",
-      "DATE": "28th Jan",
-      "TIME": "15:30"
-     },
-     {
-      "MATCH NO.": "M39",
-      "DEPARTMENT ": "THIRD",
-      "DATE": "30th Jan",
-      "TIME": "11:00"
-     },
-     {
-      "MATCH NO.": "M40",
-      "DEPARTMENT ": "FINAL",
-      "DATE": "31st Jan",
-      "TIME": "11:00"
-     }
-    ],
-    "TUGOFWAR(G)":[
-     {
-      "MATCH NO.": "M56",
-      "DEPARTMENT ": "EXTC vs COMPS",
-      "DATE": "17th Jan",
-      "TIME": "14:30"
-     },
-     {
-      "MATCH NO.": "M57",
-      "DEPARTMENT ": "BMS vs IT",
-      "DATE": "17th Jan",
-      "TIME": "15:00"
-     },
-     {
-      "MATCH NO.": "M58",
-      "DEPARTMENT ": "BMM vs HS",
-      "DATE": "18th Jan",
-      "TIME": "14:30"
-     },
-     {
-      "MATCH NO.": "M59",
-      "DEPARTMENT ": "ITI vs MECH",
-      "DATE": "18th Jan",
-      "TIME": "15:00"
-     },
-     {
-      "MATCH NO.": "M60",
-      "DEPARTMENT ": "COMPS vs BMM",
-      "DATE": "27th Jan",
-      "TIME": "14:30"
-     },
-     {
-      "MATCH NO.": "M61",
-      "DEPARTMENT ": "IT vs ITI",
-      "DATE": "21st Jan",
-      "TIME": "14:30"
-     },
-     {
-      "MATCH NO.": "M62",
-      "DEPARTMENT ": "EXTC vs HS",
-      "DATE": "21st Jan",
-      "TIME": "15:00"
-     },
-     {
-      "MATCH NO.": "M63",
-      "DEPARTMENT ": "BMS vs MECH",
-      "DATE": "22nd Jan",
-      "TIME": "14:30"
-     },
-     {
-      "MATCH NO.": "M64",
-      "DEPARTMENT ": "EXTC vs BMM",
-      "DATE": "22nd Jan",
-      "TIME": "15:00"
-     },
-     {
-      "MATCH NO.": "M65",
-      "DEPARTMENT ": "BMS vs ITI",
-      "DATE": "20th Jan",
-      "TIME": "14:30"
-     },
-     {
-      "MATCH NO.": "M66",
-      "DEPARTMENT ": "COMPS vs HS",
-      "DATE": "28th Jan",
-      "TIME": "14:30"
-     },
-     {
-      "MATCH NO.": "M67",
-      "DEPARTMENT ": "IT vs MECH",
-      "DATE": "28th Jan",
-      "TIME": "15:00"
-     },
-     {
-      "MATCH NO.": "M68",
-      "DEPARTMENT ": "SEMI 1",
-      "DATE": "29th Jan",
-      "TIME": "13:30"
-     },
-     {
-      "MATCH NO.": "M69",
-      "DEPARTMENT ": "SEMI 2",
-      "DATE": "29th Jan",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M70",
-      "DEPARTMENT ": "THIRD",
-      "DATE": "30th Jan",
-      "TIME": "12:00"
-     },
-     {
-      "MATCH NO.": "M71",
-      "DEPARTMENT ": "FINAL",
-      "DATE": "31st Jan",
-      "TIME": "12:00"
-     }
-    ],
-    "RINKFOOTBALL(G)":[
-     {
-      "MATCH NO.": "M41",
-      "DATE": "23rd Jan",
-      "TIME": "13:00"
-     },
-     {
-      "MATCH NO.": "M42",
-      "DATE": "23rd Jan",
-      "TIME": "13:30"
-     },
-     {
-      "MATCH NO.": "M43",
-      "DATE": "23rd Jan",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M44",
-      "DATE": "23rd Jan",
-      "TIME": "14:30"
-     },
-     {
-      "MATCH NO.": "M45",
-      "DATE": "23rd Jan",
-      "TIME": "15:00"
-     },
-     {
-      "MATCH NO.": "M46",
-      "DATE": "23rd Jan",
-      "TIME": "15:30"
-     },
-     {
-      "MATCH NO.": "M47",
-      "DATE": "27th Jan",
-      "TIME": "13:00"
-     },
-     {
-      "MATCH NO.": "M48",
-      "DATE": "27th Jan",
-      "TIME": "13:30"
-     },
-     {
-      "MATCH NO.": "M49",
-      "DATE": "27th Jan",
-      "TIME": "15:00"
-     },
-     {
-      "MATCH NO.": "M50",
-      "DATE": "23rd Jan",
-      "TIME": "16:00"
-     },
-     {
-      "MATCH NO.": "M51",
-      "DATE": "23rd Jan",
-      "TIME": "16:15"
-     },
-     {
-      "MATCH NO.": "M52",
-      "DATE": "27th Jan",
-      "TIME": "15:30"
-     },
-     {
-      "MATCH NO.": "M53",
-      "DATE": "28th Jan",
-      "TIME": "14:00"
-     },
-     {
-      "MATCH NO.": "M54",
-      "DATE": "30th Jan",
-      "TIME": "10:30"
-     },
-     {
-      "MATCH NO.": "M55",
-      "DATE": "31st Jan",
-      "TIME": "10:30"
-     }
-    ]
-    }
+    {
+        "FIELDFOOTBALL":[
+        
+         {
+          "MATCH NO.": "M1",
+          "DEPARTMENT ": "BMS vs MECH",
+          "DATE": "13th Jan",
+          "TIME": "16:15",
+          "Player1": "BMS",
+          "Player2": "MECH"
+         },
+         {
+          "MATCH NO.": "M2",
+          "DEPARTMENT ": "BMM vs IT",
+          "DATE": "14th Jan",
+          "TIME": "16:15",
+          "Player1": "BMM",
+          "Player2": "IT"
+         },
+         {
+          "MATCH NO.": "M3",
+          "DEPARTMENT ": "EXTC vs COMPS",
+          "DATE": "15th Jan",
+          "TIME": "16:15",
+          "Player1": "EXTC",
+          "Player2": "COMPS"
+         },
+         {
+          "MATCH NO.": "M4",
+          "DEPARTMENT ": "IT vs HS",
+          "DATE": "16th Jan",
+          "TIME": "16:30",
+          "Player1": "IT",
+          "Player2": "HS"
+         },
+         {
+          "MATCH NO.": "M5",
+          "DEPARTMENT ": "MECH vs EXTC",
+          "DATE": "24th Jan",
+          "TIME": "16:30",
+          "Player1": "MECH",
+          "Player2": "EXTC"
+         },
+         {
+          "MATCH NO.": "M6",
+          "DEPARTMENT ": "ITI vs IT",
+          "DATE": "18th Jan",
+          "TIME": "16:30",
+          "Player1": "ITI",
+          "Player2": "IT"
+         },
+         {
+          "MATCH NO.": "M7",
+          "DEPARTMENT ": "BMS vs COMPS",
+          "DATE": "17th Jan",
+          "TIME": "16:30",
+          "Player1": "BMS",
+          "Player2": "COMPS"
+         },
+         {
+          "MATCH NO.": "M8",
+          "DEPARTMENT ": "BMM vs HS",
+          "DATE": "21st Jan",
+          "TIME": "16:30",
+          "Player1": "BMM",
+          "Player2": "HS"
+         },
+         {
+          "MATCH NO.": "M9",
+          "DEPARTMENT ": "BMS vs EXTC",
+          "DATE": "22nd Jan",
+          "TIME": "16:30",
+          "Player1": "BMS",
+          "Player2": "EXTC"
+         },
+         {
+          "MATCH NO.": "M10",
+          "DEPARTMENT ": "BMM vs ITI",
+          "DATE": "23rd Jan",
+          "TIME": "16:30",
+          "Player1": "BMM",
+          "Player2": "ITI"
+         },
+         {
+          "MATCH NO.": "M11",
+          "DEPARTMENT ": "MECH vs COMPS",
+          "DATE": "20th Jan",
+          "TIME": "16:30",
+          "Player1": "MECH",
+          "Player2": "COMPS"
+         },
+         {
+          "MATCH NO.": "M12",
+          "DEPARTMENT ": "HS vs ITI",
+          "DATE": "25th Jan",
+          "TIME": "16:30",
+          "Player1": "HS",
+          "Player2": "ITI"
+         },
+         {
+          "MATCH NO.": "M13",
+          "DEPARTMENT ": "SEMI 1",
+          "DATE": "27th Jan",
+          "TIME": "16:30",
+          "Player1": "SEMI"
+         },
+         {
+          "MATCH NO.": "M14",
+          "DEPARTMENT ": "SEMI 2",
+          "DATE": "28th Jan",
+          "TIME": "16:30",
+          "Player1": "SEMI"
+         },
+         {
+          "MATCH NO.": "M15",
+          "DEPARTMENT ": "THIRD",
+          "DATE": "30th Jan",
+          "TIME": "17:00",
+          "Player1": "THIRD"
+         },
+         {
+          "MATCH NO.": "M16",
+          "DEPARTMENT ": "FINAL",
+          "DATE": "31st Jan",
+          "TIME": "17:00",
+          "Player1": "FINAL"
+         }
+        ],
+        "BASEKETBALL(B)":[
+        
+         {
+          "MATCH NO.": "M17",
+          "DEPARTMENT ": "BMS vs IT",
+          "DATE": "16th Jan",
+          "TIME": "13:00",
+          "Player1": "BMS",
+          "Player2": "IT"
+         },
+         {
+          "MATCH NO.": "M18",
+          "DEPARTMENT ": "COMPS vs EXTC",
+          "DATE": "16th Jan",
+          "TIME": "14:00",
+          "Player1": "COMPS",
+          "Player2": "EXTC"
+         },
+         {
+          "MATCH NO.": "M19",
+          "DEPARTMENT ": "HS vs MECH",
+          "DATE": "17th Jan",
+          "TIME": "13:00",
+          "Player1": "HS",
+          "Player2": "MECH"
+         },
+         {
+          "MATCH NO.": "M20",
+          "DEPARTMENT ": "ITI vs BMM",
+          "DATE": "17th Jan",
+          "TIME": "14:00",
+          "Player1": "ITI",
+          "Player2": "BMM"
+         },
+         {
+          "MATCH NO.": "M21",
+          "DEPARTMENT ": "BMS vs HS",
+          "DATE": "18th Jan",
+          "TIME": "13:00",
+          "Player1": "BMS",
+          "Player2": "HS"
+         },
+         {
+          "MATCH NO.": "M22",
+          "DEPARTMENT ": "EXTC vs ITI",
+          "DATE": "18th Jan",
+          "TIME": "14:00",
+          "Player1": "EXTC",
+          "Player2": "ITI"
+         },
+         {
+          "MATCH NO.": "M23",
+          "DEPARTMENT ": "IT vs MECH",
+          "DATE": "20th Jan",
+          "TIME": "13:00",
+          "Player1": "IT",
+          "Player2": "MECH"
+         },
+         {
+          "MATCH NO.": "M24",
+          "DEPARTMENT ": "COMPS vs BMM",
+          "DATE": "20th Jan",
+          "TIME": "14:00",
+          "Player1": "COMPS",
+          "Player2": "BMM"
+         },
+         {
+          "MATCH NO.": "M25",
+          "DEPARTMENT ": "BMS vs MECH",
+          "DATE": "21st Jan",
+          "TIME": "13:00",
+          "Player1": "BMS",
+          "Player2": "MECH"
+         },
+         {
+          "MATCH NO.": "M26",
+          "DEPARTMENT ": "EXTC vs BMM",
+          "DATE": "21st Jan",
+          "TIME": "14:00",
+          "Player1": "EXTC",
+          "Player2": "BMM"
+         },
+         {
+          "MATCH NO.": "M27",
+          "DEPARTMENT ": "IT vs HS",
+          "DATE": "22nd Jan",
+          "TIME": "13:00",
+          "Player1": "IT",
+          "Player2": "HS"
+         },
+         {
+          "MATCH NO.": "M28",
+          "DEPARTMENT ": "COMPS vs ITI",
+          "DATE": "22nd Jan",
+          "TIME": "14:00",
+          "Player1": "COMPS",
+          "Player2": "ITI"
+         },
+         {
+          "MATCH NO.": "M29",
+          "DEPARTMENT ": "Pool A (1) vs Pool B (2)",
+          "DATE": "28th Jan",
+          "TIME": "13:00",
+          "Player1": "Pool"
+         },
+         {
+          "MATCH NO.": "M30",
+          "DEPARTMENT ": "Pool B (1) vs Pool A (2)",
+          "DATE": "29th Jan",
+          "TIME": "12:00",
+          "Player1": "Pool"
+         },
+         {
+          "MATCH NO.": "M31",
+          "DEPARTMENT ": "THIRD",
+          "DATE": "30th Jan",
+          "TIME": "13:00",
+          "Player1": "THIRD"
+         },
+         {
+          "MATCH NO.": "M32",
+          "DEPARTMENT ": "FINAL",
+          "DATE": "31st Jan",
+          "TIME": "13:00",
+          "Player1": "FINAL"
+         }
+        ],
+        "Volleyball(B)":[
+        
+         {
+          "MATCH NO.": "M33",
+          "DEPARTMENT ": "MECH vs BMM",
+          "DATE": "16th Jan",
+          "TIME": "16:00",
+          "Player1": "MECH",
+          "Player2": "BMM"
+         },
+         {
+          "MATCH NO.": "M34",
+          "DEPARTMENT ": "BMS vs COMPS",
+          "DATE": "22nd Jan",
+          "TIME": "16:00",
+          "Player1": "BMS",
+          "Player2": "COMPS"
+         },
+         {
+          "MATCH NO.": "M35",
+          "DEPARTMENT ": "IT vs ITI",
+          "DATE": "17th Jan",
+          "TIME": "16:00",
+          "Player1": "IT",
+          "Player2": "ITI"
+         },
+         {
+          "MATCH NO.": "M36",
+          "DEPARTMENT ": "EXTC vs HS",
+          "DATE": "16th Jan",
+          "TIME": "15:00",
+          "Player1": "EXTC",
+          "Player2": "HS"
+         },
+         {
+          "MATCH NO.": "M37",
+          "DEPARTMENT ": "BMM vs ITI",
+          "DATE": "23rd Jan",
+          "TIME": "15:00",
+          "Player1": "BMM",
+          "Player2": "ITI"
+         },
+         {
+          "MATCH NO.": "M38",
+          "DEPARTMENT ": "COMPS vs EXTC",
+          "DATE": "18th Jan",
+          "TIME": "16:00",
+          "Player1": "COMPS",
+          "Player2": "EXTC"
+         },
+         {
+          "MATCH NO.": "M39",
+          "DEPARTMENT ": "MECH vs IT",
+          "DATE": "21st Jan",
+          "TIME": "16:00",
+          "Player1": "MECH",
+          "Player2": "IT"
+         },
+         {
+          "MATCH NO.": "M40",
+          "DEPARTMENT ": "BMS vs HS",
+          "DATE": "20th Jan",
+          "TIME": "16:00",
+          "Player1": "BMS",
+          "Player2": "HS"
+         },
+         {
+          "MATCH NO.": "M41",
+          "DEPARTMENT ": "BMM vs IT ",
+          "DATE": "20th Jan",
+          "TIME": "15:00",
+          "Player1": "BMM",
+          "Player2": "IT"
+         },
+         {
+          "MATCH NO.": "M42",
+          "DEPARTMENT ": "COMPS vs HS",
+          "DATE": "23rd Jan",
+          "TIME": "16:00",
+          "Player1": "COMPS",
+          "Player2": "HS"
+         },
+         {
+          "MATCH NO.": "M43",
+          "DEPARTMENT ": "MECH vs ITI",
+          "DATE": "27th Jan",
+          "TIME": "16:00",
+          "Player1": "MECH",
+          "Player2": "ITI"
+         },
+         {
+          "MATCH NO.": "M44",
+          "DEPARTMENT ": "BMS vs EXTC",
+          "DATE": "27th Jan",
+          "TIME": "15:00",
+          "Player1": "BMS",
+          "Player2": "EXTC"
+         },
+         {
+          "MATCH NO.": "M45",
+          "DEPARTMENT ": "SEMI 1",
+          "DATE": "28th Jan",
+          "TIME": "16:00",
+          "Player1": "SEMI"
+         },
+         {
+          "MATCH NO.": "M46",
+          "DEPARTMENT ": "SEMI 2",
+          "DATE": "29th Jan ",
+          "TIME": "15:30",
+          "Player1": "SEMI"
+         },
+         {
+          "MATCH NO.": "M47",
+          "DEPARTMENT ": "THIRD",
+          "DATE": "30th Jan",
+          "TIME": "15:30",
+          "Player1": "THIRD"
+         },
+         {
+          "MATCH NO.": "M48",
+          "DEPARTMENT ": "FINAL",
+          "DATE": "31st Jan",
+          "TIME": "15:30",
+          "Player1": "FINAL"
+         }
+        ],
+        "BOXCRICKET(B)":[
+        
+         {
+          "MATCH NO.": "M49",
+          "DEPARTMENT ": "IT vs ITI",
+          "DATE": "16th Jan",
+          "TIME": "14:30",
+          "Player1": "IT",
+          "Player2": "ITI"
+         },
+         {
+          "MATCH NO.": "M50",
+          "DEPARTMENT ": "BMS vs MECH",
+          "DATE": "17th Jan",
+          "TIME": "13:30",
+          "Player1": "BMS",
+          "Player2": "MECH"
+         },
+         {
+          "MATCH NO.": "M51",
+          "DEPARTMENT ": "MECH vs BMM ",
+          "DATE": "20th Jan",
+          "TIME": "13:30",
+          "Player1": "MECH",
+          "Player2": "BMM"
+         },
+         {
+          "MATCH NO.": "M52",
+          "DEPARTMENT ": "COMPS vs HS",
+          "DATE": "21st Jan",
+          "TIME": "13:30",
+          "Player1": "COMPS",
+          "Player2": "HS"
+         },
+         {
+          "MATCH NO.": "M53",
+          "DEPARTMENT ": "EXTC vs BMM",
+          "DATE": "22nd Jan",
+          "TIME": "13:30",
+          "Player1": "EXTC",
+          "Player2": "BMM"
+         },
+         {
+          "MATCH NO.": "M54",
+          "DEPARTMENT ": "BMS vs BMM",
+          "DATE": "23rd Jan",
+          "TIME": "13:30",
+          "Player1": "BMS",
+          "Player2": "BMM"
+         },
+         {
+          "MATCH NO.": "M55",
+          "DEPARTMENT ": "ITI vs COMPS",
+          "DATE": "24th Jan",
+          "TIME": "13:00",
+          "Player1": "ITI",
+          "Player2": "COMPS"
+         },
+         {
+          "MATCH NO.": "M56",
+          "DEPARTMENT ": "EXTC vs MECH",
+          "DATE": "24th Jan",
+          "TIME": "13:45",
+          "Player1": "EXTC",
+          "Player2": "MECH"
+         },
+         {
+          "MATCH NO.": "M56.1",
+          "DEPARTMENT ": "IT vs COMPS",
+          "DATE": "24th Jan",
+          "TIME": "14:30",
+          "Player1": "IT",
+          "Player2": "COMPS"
+         },
+         {
+          "MATCH NO.": "M56.2",
+          "DEPARTMENT ": "BMS vs MECH",
+          "DATE": "24th Jan",
+          "TIME": "15:15",
+          "Player1": "BMS",
+          "Player2": "MECH"
+         },
+         {
+          "MATCH NO.": "M56.3",
+          "DEPARTMENT ": "ITI vs HS",
+          "DATE": "24th Jan",
+          "TIME": "16:00",
+          "Player1": "ITI",
+          "Player2": "HS"
+         },
+         {
+          "MATCH NO.": "M56.4",
+          "DEPARTMENT ": "IT vs HS",
+          "DATE": "27th Jan",
+          "TIME": "13:30",
+          "Player1": "IT",
+          "Player2": "HS"
+         },
+         {
+          "MATCH NO.": "M56.5",
+          "DEPARTMENT ": "SEMI 1",
+          "DATE": "28th Jan",
+          "TIME": "14:00",
+          "Player1": "SEMI"
+         },
+         {
+          "MATCH NO.": "M56.6",
+          "DEPARTMENT ": "SEMI 2",
+          "DATE": "29th Jan",
+          "TIME": "10:00",
+          "Player1": "SEMI"
+         },
+         {
+          "MATCH NO.": "M56.7",
+          "DEPARTMENT ": "THIRD",
+          "DATE": "30th Jan",
+          "TIME": "10:00",
+          "Player1": "THIRD"
+         },
+         {
+          "MATCH NO.": "M56.8",
+          "DEPARTMENT ": "FINAL",
+          "DATE": "31st Jan",
+          "TIME": "10:00",
+          "Player1": "FINAL"
+         }
+        ],
+        "KABADDI":[
+        
+         {
+          "MATCH NO.": "M57",
+          "DEPARTMENT ": "HS vs IT",
+          "DATE": "23rd Jan",
+          "TIME": "13:00",
+          "Player1": "HS",
+          "Player2": "IT"
+         },
+         {
+          "MATCH NO.": "M58",
+          "DEPARTMENT ": "MECH vs BMS",
+          "DATE": "23rd Jan",
+          "TIME": "14:00",
+          "Player1": "MECH",
+          "Player2": "BMS"
+         },
+         {
+          "MATCH NO.": "M59",
+          "DEPARTMENT ": "COMPS vs EXTC",
+          "DATE": "27th Jan",
+          "TIME": "13:00",
+          "Player1": "COMPS",
+          "Player2": "EXTC"
+         },
+         {
+          "MATCH NO.": "M60",
+          "DEPARTMENT ": "BMM vs ITI",
+          "DATE": "27th Jan",
+          "TIME": "14:00",
+          "Player1": "BMM",
+          "Player2": "ITI"
+         },
+         {
+          "MATCH NO.": "M61",
+          "DEPARTMENT ": "M1 vs M3",
+          "DATE": "29th Jan",
+          "TIME": "11:00",
+          "Player1": "M1",
+          "Player2": "M3"
+         },
+         {
+          "MATCH NO.": "M62",
+          "DEPARTMENT ": "M2 vs M4",
+          "DATE": "29th Jan",
+          "TIME": "12:30",
+          "Player1": "M2",
+          "Player2": "M4"
+         },
+         {
+          "MATCH NO.": "M63",
+          "DEPARTMENT ": "THIRD",
+          "DATE": "30th Jan",
+          "TIME": "14:00",
+          "Player1": "THIRD"
+         },
+         {
+          "MATCH NO.": "M64",
+          "DEPARTMENT ": "FINAL",
+          "DATE": "31st Jan",
+          "TIME": "14:00",
+          "Player1": "FINAL"
+         }
+        ],
+        "TUGOFWAR(B)":[
+        
+         {
+          "MATCH NO.": "M65",
+          "DEPARTMENT ": "IT vs BMS",
+          "DATE": "18th Jan",
+          "TIME": "14:30",
+          "Player1": "IT",
+          "Player2": "BMS"
+         },
+         {
+          "MATCH NO.": "M66",
+          "DEPARTMENT ": "MECH vs COMPS",
+          "DATE": "17th Jan",
+          "TIME": "15:00",
+          "Player1": "MECH",
+          "Player2": "COMPS"
+         },
+         {
+          "MATCH NO.": "M67",
+          "DEPARTMENT ": "HS vs BMM",
+          "DATE": "18th Jan",
+          "TIME": "15:00",
+          "Player1": "HS",
+          "Player2": "BMM"
+         },
+         {
+          "MATCH NO.": "M68",
+          "DEPARTMENT ": "EXTC vs ITI",
+          "DATE": "22nd Jan",
+          "TIME": "15:00",
+          "Player1": "EXTC",
+          "Player2": "ITI"
+         },
+         {
+          "MATCH NO.": "M69",
+          "DEPARTMENT ": "IT vs BMM",
+          "DATE": "22nd Jan ",
+          "TIME": "14:30",
+          "Player1": "IT",
+          "Player2": "BMM"
+         },
+         {
+          "MATCH NO.": "M70",
+          "DEPARTMENT ": "ITI vs MECH",
+          "DATE": "20th Jan",
+          "TIME": "14:30",
+          "Player1": "ITI",
+          "Player2": "MECH"
+         },
+         {
+          "MATCH NO.": "M71",
+          "DEPARTMENT ": "BMS vs HS",
+          "DATE": "18th Jan",
+          "TIME": "15:00",
+          "Player1": "BMS",
+          "Player2": "HS"
+         },
+         {
+          "MATCH NO.": "M72",
+          "DEPARTMENT ": "COMPS vs EXTC",
+          "DATE": "21st Jan",
+          "TIME": "14:30",
+          "Player1": "COMPS",
+          "Player2": "EXTC"
+         },
+         {
+          "MATCH NO.": "M73",
+          "DEPARTMENT ": "IT vs HS",
+          "DATE": "17th Jan",
+          "TIME": "14:30",
+          "Player1": "IT",
+          "Player2": "HS"
+         },
+         {
+          "MATCH NO.": "M74",
+          "DEPARTMENT ": "MECH vs EXTC",
+          "DATE": "28th Jan",
+          "TIME": "14:30",
+          "Player1": "MECH",
+          "Player2": "EXTC"
+         },
+         {
+          "MATCH NO.": "M75",
+          "DEPARTMENT ": "BMS vs BMM",
+          "DATE": "27th Jan",
+          "TIME": "14:30",
+          "Player1": "BMS",
+          "Player2": "BMM"
+         },
+         {
+          "MATCH NO.": "M76",
+          "DEPARTMENT ": "COMPS vs ITI",
+          "DATE": "28th Jan",
+          "TIME": "15:00",
+          "Player1": "COMPS",
+          "Player2": "ITI"
+         },
+         {
+          "MATCH NO.": "M77",
+          "DEPARTMENT ": "SEMI 1",
+          "DATE": "29th Jan",
+          "TIME": "13:30",
+          "Player1": "SEMI"
+         },
+         {
+          "MATCH NO.": "M78",
+          "DEPARTMENT ": "SEMI 2",
+          "DATE": "29th Jan",
+          "TIME": "14:00",
+          "Player1": "SEMI"
+         },
+         {
+          "MATCH NO.": "M79",
+          "DEPARTMENT ": "THIRD",
+          "DATE": "30th Jan",
+          "TIME": "11:30",
+          "Player1": "THIRD"
+         },
+         {
+          "MATCH NO.": "M80",
+          "DEPARTMENT ": "FINAL",
+          "DATE": "31st Jan",
+          "TIME": "11:30",
+          "Player1": "FINAL"
+         }
+        ],
+        "BASKETBALL(GIRLS)":[
+        
+         {
+          "MATCH NO.": "M1",
+          "DEPARTMENT ": "COMPS vs EXTC",
+          "DATE": "16th Jan",
+          "TIME": "15:30",
+          "Player1": "COMPS",
+          "Player2": "EXTC"
+         },
+         {
+          "MATCH NO.": "M2",
+          "DEPARTMENT ": "BMS vs MECH",
+          "DATE": "16th Jan",
+          "TIME": "14:30",
+          "Player1": "BMS",
+          "Player2": "MECH"
+         },
+         {
+          "MATCH NO.": "M3",
+          "DEPARTMENT ": "BMM vs ITI",
+          "DATE": "17th Jan ",
+          "TIME": "15:30",
+          "Player1": "BMM",
+          "Player2": "ITI"
+         },
+         {
+          "MATCH NO.": "M4",
+          "DEPARTMENT ": "IT vs HS",
+          "DATE": "18th Jan",
+          "TIME": "15:30",
+          "Player1": "IT",
+          "Player2": "HS"
+         },
+         {
+          "MATCH NO.": "M5",
+          "DEPARTMENT ": "M1 vs M3",
+          "DATE": "29th Jan",
+          "TIME": "13:00",
+          "Player1": "M1",
+          "Player2": "M3"
+         },
+         {
+          "MATCH NO.": "M6",
+          "DEPARTMENT ": "M2 vs M4",
+          "DATE": "29th Jan",
+          "TIME": "10:30",
+          "Player1": "M2",
+          "Player2": "M4"
+         },
+         {
+          "MATCH NO.": "M7",
+          "DEPARTMENT ": "THIRD",
+          "DATE": "30th Jan",
+          "TIME": "13:30",
+          "Player1": "THIRD"
+         },
+         {
+          "MATCH NO.": "M8",
+          "DEPARTMENT ": "FINAL",
+          "DATE": "31st Jan",
+          "TIME": "13:30",
+          "Player1": "FINAL"
+         }
+        ],
+        "Volleyball(G)":[
+        
+         {
+          "MATCH NO.": "M9",
+          "DEPARTMENT ": "BMS vs IT",
+          "DATE": "22nd Jan",
+          "TIME": "14:00",
+          "Player1": "BMS",
+          "Player2": "IT"
+         },
+         {
+          "MATCH NO.": "M10",
+          "DEPARTMENT ": "EXTC vs BMM",
+          "DATE": "20th Jan ",
+          "TIME": "14:00",
+          "Player1": "EXTC",
+          "Player2": "BMM"
+         },
+         {
+          "MATCH NO.": "M11",
+          "DEPARTMENT ": "ITI vs COMPS",
+          "DATE": "24th Jan",
+          "TIME": "13:30",
+          "Player1": "ITI",
+          "Player2": "COMPS"
+         },
+         {
+          "MATCH NO.": "M12",
+          "DEPARTMENT ": "HS vs MECH",
+          "DATE": "16th Jan",
+          "TIME": "14:00",
+          "Player1": "HS",
+          "Player2": "MECH"
+         },
+         {
+          "MATCH NO.": "M13",
+          "DEPARTMENT ": "M9 vs M11",
+          "DATE": "29th Jan",
+          "TIME": "12:30",
+          "Player1": "M9",
+          "Player2": "M11"
+         },
+         {
+          "MATCH NO.": "M14",
+          "DEPARTMENT ": "M10 vs M12",
+          "DATE": "27th Jan",
+          "TIME": "14:00",
+          "Player1": "M10",
+          "Player2": "M12"
+         },
+         {
+          "MATCH NO.": "M15",
+          "DEPARTMENT ": "THIRD",
+          "DATE": "30th Jan",
+          "TIME": "14:30",
+          "Player1": "THIRD"
+         },
+         {
+          "MATCH NO.": "M16",
+          "DEPARTMENT ": "FINAL",
+          "DATE": "31st Jan",
+          "TIME": "14:30",
+          "Player1": "FINAL"
+         }
+        ],
+        "THROWBALL(G)":[
+        
+         {
+          "MATCH NO.": "M17",
+          "DEPARTMENT ": "BMS vs MECH",
+          "DATE": "17th Jan ",
+          "TIME": "14:00",
+          "Player1": "BMS",
+          "Player2": "MECH"
+         },
+         {
+          "MATCH NO.": "M18",
+          "DEPARTMENT ": "BMM vs EXTC",
+          "DATE": "16th Jan ",
+          "TIME": "13:00",
+          "Player1": "BMM",
+          "Player2": "EXTC"
+         },
+         {
+          "MATCH NO.": "M19",
+          "DEPARTMENT ": "COMPS vs ITI",
+          "DATE": "18th Jan",
+          "TIME": "14:00",
+          "Player1": "COMPS",
+          "Player2": "ITI"
+         },
+         {
+          "MATCH NO.": "M20",
+          "DEPARTMENT ": "HS vs IT",
+          "DATE": "17th Jan",
+          "TIME": "13:00",
+          "Player1": "HS",
+          "Player2": "IT"
+         },
+         {
+          "MATCH NO.": "M21",
+          "DEPARTMENT ": "MECH vs COMPS",
+          "DATE": "18th Jan",
+          "TIME": "13:00",
+          "Player1": "MECH",
+          "Player2": "COMPS"
+         },
+         {
+          "MATCH NO.": "M22",
+          "DEPARTMENT ": "EXTC vs HS",
+          "DATE": "22nd Jan",
+          "TIME": "13:00",
+          "Player1": "EXTC",
+          "Player2": "HS"
+         },
+         {
+          "MATCH NO.": "M23",
+          "DEPARTMENT ": "BMS vs ITI",
+          "DATE": "20th Jan",
+          "TIME": "13:00",
+          "Player1": "BMS",
+          "Player2": "ITI"
+         },
+         {
+          "MATCH NO.": "M24",
+          "DEPARTMENT ": "BMM vs IT",
+          "DATE": "21st Jan",
+          "TIME": "13:00",
+          "Player1": "BMM",
+          "Player2": "IT"
+         },
+         {
+          "MATCH NO.": "M25",
+          "DEPARTMENT ": "BMS vs COMPS",
+          "DATE": "21st Jan",
+          "TIME": "14:00",
+          "Player1": "BMS",
+          "Player2": "COMPS"
+         },
+         {
+          "MATCH NO.": "M26",
+          "DEPARTMENT ": "BMM vs HS",
+          "DATE": "23rd Jan",
+          "TIME": "14:30",
+          "Player1": "BMM",
+          "Player2": "HS"
+         },
+         {
+          "MATCH NO.": "M27",
+          "DEPARTMENT ": "MECH vs ITI",
+          "DATE": "27th Jan",
+          "TIME": "13:30",
+          "Player1": "MECH",
+          "Player2": "ITI"
+         },
+         {
+          "MATCH NO.": "M28",
+          "DEPARTMENT ": "EXTC vs IT",
+          "DATE": "28th Jan",
+          "TIME": "13:30",
+          "Player1": "EXTC",
+          "Player2": "IT"
+         },
+         {
+          "MATCH NO.": "M29",
+          "DEPARTMENT ": "SEMI 1",
+          "DATE": "29th Jan",
+          "TIME": "10:00",
+          "Player1": "SEMI"
+         },
+         {
+          "MATCH NO.": "M30",
+          "DEPARTMENT ": "SEMI 2",
+          "DATE": "29th Jan",
+          "TIME": "11:00",
+          "Player1": "SEMI"
+         },
+         {
+          "MATCH NO.": "M31",
+          "DEPARTMENT ": "THIRD ",
+          "DATE": "30th Jan",
+          "TIME": "12:30",
+          "Player1": "THIRD"
+         },
+         {
+          "MATCH NO.": "M32",
+          "DEPARTMENT ": "FINAL",
+          "DATE": "31st Jan",
+          "TIME": "12:30",
+          "Player1": "FINAL"
+         }
+        ],
+        "BOXCRICKET(G)":[
+        
+         {
+          "MATCH NO.": "M33",
+          "DEPARTMENT ": "COMPS vs HS",
+          "DATE": "17th Jan",
+          "TIME": "16:00",
+          "Player1": "COMPS",
+          "Player2": "HS"
+         },
+         {
+          "MATCH NO.": "M34",
+          "DEPARTMENT ": "BMM vs EXTC",
+          "DATE": "20th Jan",
+          "TIME": "15:30",
+          "Player1": "BMM",
+          "Player2": "EXTC"
+         },
+         {
+          "MATCH NO.": "M35",
+          "DEPARTMENT ": "ITI vs BMS",
+          "DATE": "21st Jan",
+          "TIME": "15:30",
+          "Player1": "ITI",
+          "Player2": "BMS"
+         },
+         {
+          "MATCH NO.": "M36",
+          "DEPARTMENT ": "MECH vs IT",
+          "DATE": "22nd Jan",
+          "TIME": "15:30",
+          "Player1": "MECH",
+          "Player2": "IT"
+         },
+         {
+          "MATCH NO.": "M37",
+          "DEPARTMENT ": "M1 vs M3",
+          "DATE": "27th Jan",
+          "TIME": "16:00",
+          "Player1": "M1",
+          "Player2": "M3"
+         },
+         {
+          "MATCH NO.": "M38",
+          "DEPARTMENT ": "M2 vs M4",
+          "DATE": "28th Jan",
+          "TIME": "15:30",
+          "Player1": "M2",
+          "Player2": "M4"
+         },
+         {
+          "MATCH NO.": "M39",
+          "DEPARTMENT ": "THIRD",
+          "DATE": "30th Jan",
+          "TIME": "11:00",
+          "Player1": "THIRD"
+         },
+         {
+          "MATCH NO.": "M40",
+          "DEPARTMENT ": "FINAL",
+          "DATE": "31st Jan",
+          "TIME": "11:00",
+          "Player1": "FINAL"
+         }
+        ],
+        "TUGOFWAR(G)":[
+        
+         {
+          "MATCH NO.": "M56",
+          "DEPARTMENT ": "EXTC vs COMPS",
+          "DATE": "17th Jan",
+          "TIME": "14:30",
+          "Player1": "EXTC",
+          "Player2": "COMPS"
+         },
+         {
+          "MATCH NO.": "M57",
+          "DEPARTMENT ": "BMS vs IT",
+          "DATE": "17th Jan",
+          "TIME": "15:00",
+          "Player1": "BMS",
+          "Player2": "IT"
+         },
+         {
+          "MATCH NO.": "M58",
+          "DEPARTMENT ": "BMM vs HS",
+          "DATE": "18th Jan",
+          "TIME": "14:30",
+          "Player1": "BMM",
+          "Player2": "HS"
+         },
+         {
+          "MATCH NO.": "M59",
+          "DEPARTMENT ": "ITI vs MECH",
+          "DATE": "18th Jan",
+          "TIME": "15:00",
+          "Player1": "ITI",
+          "Player2": "MECH"
+         },
+         {
+          "MATCH NO.": "M60",
+          "DEPARTMENT ": "COMPS vs BMM",
+          "DATE": "27th Jan",
+          "TIME": "14:30",
+          "Player1": "COMPS",
+          "Player2": "BMM"
+         },
+         {
+          "MATCH NO.": "M61",
+          "DEPARTMENT ": "IT vs ITI",
+          "DATE": "21st Jan",
+          "TIME": "14:30",
+          "Player1": "IT",
+          "Player2": "ITI"
+         },
+         {
+          "MATCH NO.": "M62",
+          "DEPARTMENT ": "EXTC vs HS",
+          "DATE": "21st Jan",
+          "TIME": "15:00",
+          "Player1": "EXTC",
+          "Player2": "HS"
+         },
+         {
+          "MATCH NO.": "M63",
+          "DEPARTMENT ": "BMS vs MECH",
+          "DATE": "22nd Jan",
+          "TIME": "14:30",
+          "Player1": "BMS",
+          "Player2": "MECH"
+         },
+         {
+          "MATCH NO.": "M64",
+          "DEPARTMENT ": "EXTC vs BMM",
+          "DATE": "22nd Jan",
+          "TIME": "15:00",
+          "Player1": "EXTC",
+          "Player2": "BMM"
+         },
+         {
+          "MATCH NO.": "M65",
+          "DEPARTMENT ": "BMS vs ITI",
+          "DATE": "20th Jan",
+          "TIME": "14:30",
+          "Player1": "BMS",
+          "Player2": "ITI"
+         },
+         {
+          "MATCH NO.": "M66",
+          "DEPARTMENT ": "COMPS vs HS",
+          "DATE": "28th Jan",
+          "TIME": "14:30",
+          "Player1": "COMPS",
+          "Player2": "HS"
+         },
+         {
+          "MATCH NO.": "M67",
+          "DEPARTMENT ": "IT vs MECH",
+          "DATE": "28th Jan",
+          "TIME": "15:00",
+          "Player1": "IT",
+          "Player2": "MECH"
+         },
+         {
+          "MATCH NO.": "M68",
+          "DEPARTMENT ": "SEMI 1",
+          "DATE": "29th Jan",
+          "TIME": "13:30",
+          "Player1": "SEMI"
+         },
+         {
+          "MATCH NO.": "M69",
+          "DEPARTMENT ": "SEMI 2",
+          "DATE": "29th Jan",
+          "TIME": "14:00",
+          "Player1": "SEMI"
+         },
+         {
+          "MATCH NO.": "M70",
+          "DEPARTMENT ": "THIRD",
+          "DATE": "30th Jan",
+          "TIME": "12:00",
+          "Player1": "THIRD"
+         },
+         {
+          "MATCH NO.": "M71",
+          "DEPARTMENT ": "FINAL",
+          "DATE": "31st Jan",
+          "TIME": "12:00",
+          "Player1": "FINAL"
+         }
+        ],
+        "RINKFOOTBALL(G)":[
+        
+         {
+          "MATCH NO.": "M41",
+          "DATE": "23rd Jan",
+          "TIME": "13:00"
+         },
+         {
+          "MATCH NO.": "M42",
+          "DATE": "23rd Jan",
+          "TIME": "13:30"
+         },
+         {
+          "MATCH NO.": "M43",
+          "DATE": "23rd Jan",
+          "TIME": "14:00"
+         },
+         {
+          "MATCH NO.": "M44",
+          "DATE": "23rd Jan",
+          "TIME": "14:30"
+         },
+         {
+          "MATCH NO.": "M45",
+          "DATE": "23rd Jan",
+          "TIME": "15:00"
+         },
+         {
+          "MATCH NO.": "M46",
+          "DATE": "23rd Jan",
+          "TIME": "15:30"
+         },
+         {
+          "MATCH NO.": "M47",
+          "DATE": "27th Jan",
+          "TIME": "13:00"
+         },
+         {
+          "MATCH NO.": "M48",
+          "DATE": "27th Jan",
+          "TIME": "13:30"
+         },
+         {
+          "MATCH NO.": "M49",
+          "DATE": "27th Jan",
+          "TIME": "15:00"
+         },
+         {
+          "MATCH NO.": "M50",
+          "DATE": "23rd Jan",
+          "TIME": "16:00"
+         },
+         {
+          "MATCH NO.": "M51",
+          "DATE": "23rd Jan",
+          "TIME": "16:15"
+         },
+         {
+          "MATCH NO.": "M52",
+          "DATE": "27th Jan",
+          "TIME": "15:30"
+         },
+         {
+          "MATCH NO.": "M53",
+          "DATE": "28th Jan",
+          "TIME": "14:00"
+         },
+         {
+          "MATCH NO.": "M54",
+          "DATE": "30th Jan",
+          "TIME": "10:30"
+         },
+         {
+          "MATCH NO.": "M55",
+          "DATE": "31st Jan",
+          "TIME": "10:30"
+         }
+        ]
+        }

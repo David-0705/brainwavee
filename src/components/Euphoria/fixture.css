@@ -1,5 +1,6 @@
 .match-container{
-    background: linear-gradient(10deg, #41555d, #59708e, #5151aa);
+  background-color: #663dff;
+  background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);  
   padding: 10px;
   border-radius: 10px;
   display: flex;

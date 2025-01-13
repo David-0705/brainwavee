@@ -80,15 +80,15 @@ const images = [
   },
   {
     url: 'https://www.aljazeera.com/wp-content/uploads/2024/12/GettyImages-2191816878-1735548837.jpg?resize=770%2C513&quality=80',
-    title: 'BOX CRICKET',
+    title: 'BOX CRICKET (B)',
     width: '38%',
-    STitle: 'BOXCRICKET'
+    STitle: 'BOXCRICKET(B)'
   },
   {
     url: 'https://www.fivb.com/wp-content/uploads/2024/03/rules-v1.jpg',
-    title: 'Volley Ball',
+    title: 'Volley Ball (B)',
     width: '38%',
-    STitle: 'VOLLEYBALL'
+    STitle: 'VOLLEYBALL(B)'
   },
   {
     url: 'https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w1460/f_auto/primary/ngdjbafv3twathukjbq2',
@@ -103,22 +103,40 @@ const images = [
     STitle: 'THROWBALL(G)'
   },
   {
-    url: 'https://www.prokabaddi.com/static-assets/waf-images/76/9d/2e/16-9/epjAOOvvtN.jpg?v=2.27&w=1200',
-    title: 'Kabaddi',
-    width: '40%',
-    STitle: 'KABADDI'
-  },
-  {
     url: 'https://nhdsports.com/wp-content/uploads/2024/07/a-mans-hand-resting-on-a-board-game-1-scaled.jpg.webp',
     title: ' RINK FOOTBALL (G)',
     width: '20%',
     STitle: 'RINKFOOTBALL(G)'
   },
   {
+    url: 'https://www.fivb.com/wp-content/uploads/2024/03/rules-v1.jpg',
+    title: 'Volley Ball (G)',
+    width: '38%',
+    STitle: 'VOLLEYBALL(G)'
+  },
+  {
+    url: 'https://www.prokabaddi.com/static-assets/waf-images/76/9d/2e/16-9/epjAOOvvtN.jpg?v=2.27&w=1200',
+    title: 'Kabaddi',
+    width: '40%',
+    STitle: 'KABADDI'
+  },
+  {
     url: 'https://tugofwar-twif.org/wp-content/uploads/2024/10/7-800x445.jpg',
-    title: 'Tug Of War',
+    title: 'Tug Of War (B)',
     width: '38%',
     STitle: 'TUGOFWAR(B)'
+  },
+  {
+    url: 'https://tugofwar-twif.org/wp-content/uploads/2024/10/7-800x445.jpg',
+    title: 'BOX CRICKET (G)',
+    width: '22%',
+    STitle: 'BOXCRICKET(B)'
+  },
+  {
+    url: 'https://tugofwar-twif.org/wp-content/uploads/2024/10/7-800x445.jpg',
+    title: 'Tug Of War(G)',
+    width: '38%',
+    STitle: 'TUGOFWAR(G)'
   },
 ];
 
@@ -148,22 +166,16 @@ const paEvent = [
     STitle: 'Instrumental'
   },
   {
-    url: 'https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w1460/f_auto/primary/ngdjbafv3twathukjbq2',
-    title: 'FOOTBALL',
+    url: 'https://www.prokabaddi.com/static-assets/waf-images/76/9d/2e/16-9/epjAOOvvtN.jpg?v=2.27&w=1200',
+    title: 'Solo Dancing (regional)',
     width: '38%',
-    STitle: 'FOOTBALL'
+    STitle: 'SoloDancing(Regional)'
   },
   {
     url: 'https://leipglo.com/wp-content/uploads/2024/08/table-tennis-1208377_1280.jpg',
     title: 'Solo Dancing (western)',
     width: '22%',
     STitle: 'SoloDancing(Western)'
-  },
-  {
-    url: 'https://www.prokabaddi.com/static-assets/waf-images/76/9d/2e/16-9/epjAOOvvtN.jpg?v=2.27&w=1200',
-    title: 'Solo Dancing (regional)',
-    width: '40%',
-    STitle: 'SoloDancing(Regional)'
   },
   {
     url: 'https://nhdsports.com/wp-content/uploads/2024/07/a-mans-hand-resting-on-a-board-game-1-scaled.jpg.webp',
@@ -194,69 +206,69 @@ const paEvent = [
 const laEvent = [
   {
     url: 'https://images.unsplash.com/photo-1722098483852-d2d0446f7754?q=80&w=1596&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    title: 'Solo singing (western)',
+    title: 'SHORT FILM',
     width: '40%',
-    STitle: 'SoloSinging(western)'
+    STitle: 'SHORTFILM'
   },
   {
     url: 'https://preview.redd.it/hi774nzld7471.jpg?auto=webp&s=4d36a8725b03facb2bd972dcdf370db3502f3a41',
-    title: 'Solo singing (regional)',
+    title: 'CANDID Photography',
     width: '20%',
-    STitle: 'Solosinging{regional} '
+    STitle: 'CANDIDPhotography'
   },
   {
     url: 'https://www.aljazeera.com/wp-content/uploads/2024/12/GettyImages-2191816878-1735548837.jpg?resize=770%2C513&quality=80',
-    title: 'Duet Singing',
+    title: 'Euphoria through my lens',
     width: '38%',
-    STitle: 'DuetSinging'
+    STitle: 'Euphoriathroughmylens'
   },
   {
     url: 'https://www.fivb.com/wp-content/uploads/2024/03/rules-v1.jpg',
-    title: 'Instrumental',
+    title: 'Flag Painting',
     width: '38%',
-    STitle: 'Instrumental'
+    STitle: 'FlagPainting'
   },
   {
     url: 'https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w1460/f_auto/primary/ngdjbafv3twathukjbq2',
-    title: 'FOOTBALL',
+    title: 'Pot Painting',
     width: '38%',
-    STitle: 'FOOTBALL'
+    STitle: 'PotPainting'
   },
   {
     url: 'https://leipglo.com/wp-content/uploads/2024/08/table-tennis-1208377_1280.jpg',
-    title: 'Solo Dancing (western)',
+    title: 'Shutter Painting',
     width: '22%',
-    STitle: 'SoloDancing(Western)'
+    STitle: 'ShutterPainting'
   },
   {
     url: 'https://www.prokabaddi.com/static-assets/waf-images/76/9d/2e/16-9/epjAOOvvtN.jpg?v=2.27&w=1200',
-    title: 'Solo Dancing (regional)',
+    title: 'Book Quest',
     width: '40%',
-    STitle: 'SoloDancing(Regional)'
+    STitle: 'BookQuest'
   },
   {
     url: 'https://nhdsports.com/wp-content/uploads/2024/07/a-mans-hand-resting-on-a-board-game-1-scaled.jpg.webp',
-    title: 'Solo Dance Battle',
+    title: 'Open Mic Competition',
     width: '20%',
-    STitle: 'SoloDanceBattle'
+    STitle: 'OpenMicCompetition'
   },
   {
     url: 'https://tugofwar-twif.org/wp-content/uploads/2024/10/7-800x445.jpg',
-    title: 'Group Dance',
+    title: 'Debate Competition (Group)',
     width: '38%',
-    STitle: 'GroupDance'
+    STitle: 'DebateCompetition(Group)'
   },
   {
     url: 'https://tugofwar-twif.org/wp-content/uploads/2024/10/7-800x445.jpg',
-    title: 'Fashion Show',
+    title: 'Debate Competition (duo)',
     width: '38%',
-    STitle: 'FashionShow'
+    STitle: 'DebateCompetition(duo)'
   },
   {
     url: 'https://tugofwar-twif.org/wp-content/uploads/2024/10/7-800x445.jpg',
-    title: 'Duet Dancing',
+    title: 'Elocution Competition',
     width: '38%',
-    STitle: 'DuetDancing'
+    STitle: 'ElocutionCompetition'
   },
 ];
 
@@ -409,7 +421,7 @@ function Grid() {
 
 
             <Box className='gridContainer' sx={{ mt: 8, display: 'flex', flexWrap: 'wrap', gap: 1, }}>
-              {paEvent.map((image) => (
+              {laEvent.map((image) => (
                 <ImageIconButton
                   key={image.title}
                   style={{

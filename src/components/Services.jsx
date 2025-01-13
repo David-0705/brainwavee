@@ -41,21 +41,9 @@ const eventDay = [
     "DATE": "16th Jan",
     "TIME": "16:30"
    },
-   {
-    "MATCH NO.": "M5",
-    "DEPARTMENT ": "MECH vs EXTC",
-    "DATE": "24th Jan",
-    "TIME": "16:30"
-   },
-   {
-    "MATCH NO.": "M6",
-    "DEPARTMENT ": "ITI vs IT",
-    "DATE": "18th Jan",
-    "TIME": "16:30"
-   },
 ];
 
-import Generating from "./Generating";
+// import Generating from "./Generating";
 
 const Services = () => {
   const videoRef = useRef(null); // Reference to the video element
