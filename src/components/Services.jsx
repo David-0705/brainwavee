@@ -12,7 +12,7 @@ import {
 } from "./design/Services";
 import Data from './Euphoria/fixture.json'
 import './Euphoria/fixture.css';
-import { comps } from "../assets";
+import { HS } from "../assets";
 
 import Generating from "./Generating";
 
@@ -105,7 +105,7 @@ const Services = () => {
                 <div className="flex flex-col items-center gap-2 m-4">
                   {eventDay.map((match, index) => (
                     <div className="match-container relative ">
-                      <img src={comps} alt="West-Indies Flag" class="flag1" />
+                      <img src={HS} alt="West-Indies Flag" class="flag1" />
                       <div class="match-details relative flex flex-col gap-2">
                         <p>{match["DEPARTMENT "]}</p>
                         <p>{match["DATE"]} at <span className="time">{match["TIME"]}</span></p>
