@@ -5,7 +5,7 @@ import { homeNavigation } from "../../constants";
 import { RichText } from "@graphcms/rich-text-react-renderer";
 import BackButton from "./BackButton/BackButton";
 import './fixture.css';
-import { COMPS, HS, BMM, BMS, EXTC, MECH, ITI } from "../../assets";
+import {  HS, BMM, BMS, EXTC, MECH, ITI } from "../../assets";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
@@ -76,7 +76,7 @@ export default function eventRule({ data }) {
                                     <div className="h4">Match Fixtures</div>
                                     {matchData.map((match, index) => (
                                         <div key={index} className="match-container relative">
-                                            <img src={COMPS} alt="West-Indies Flag" className="flag1" />
+                                            <img src={BMM} alt="West-Indies Flag" className="flag1" />
                                             <div className="match-details relative flex flex-col gap-2">
                                                 <p>{match["DEPARTMENT "]}</p>
                                                 <p>{match["DATE"]} at <span className="time">{match["TIME"]}</span></p>
