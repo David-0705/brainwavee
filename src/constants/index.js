@@ -54,7 +54,7 @@ export const dptpg =[
   {
     id: "0",
     title: "Points",
-    url: "/points",
+    url: "/#/points",
   }
 ]
 
@@ -68,17 +68,17 @@ export const navigation = [
   {
     id: "2",
     title: "Points",
-    url: "/points",
+    url: "/#/points",
   },
   {
     id: "3",
     title: "Departments",
-    url: "/department",
+    url: "/#/department",
   },
   {
     id: "4",
     title: "Instruction",
-    url: "/instruction",
+    url: "/#/instruction",
   },
   // {
   //   id: "1",
