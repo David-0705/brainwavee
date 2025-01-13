@@ -195,13 +195,9 @@ const PixelCanvas = ({
       onClick={!noFocus ? onClick : null}
       style={{ display: "grid", width: "100%", height: "100%", overflow: "hidden",  }}
     >  
-    <a
-                href={`${url}?department=${department}`} 
-              > 
-    
-      <canvas ref={canvasRef}></canvas>
-      
-    </a>
+    <a href={`/#/department/${department}?department=${department}`}>
+  <canvas ref={canvasRef}></canvas>
+</a>
     </div>
   );
 };
