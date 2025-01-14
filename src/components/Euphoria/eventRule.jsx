@@ -5,7 +5,7 @@ import { homeNavigation } from "../../constants";
 import { RichText } from "@graphcms/rich-text-react-renderer";
 import BackButton from "./BackButton/BackButton";
 import './fixture.css';
-import { COMPS, HS, BMM, BMS, EXTC, MECH, ITI } from "../../assets";
+import {  HS, BMM, BMS, EXTC, MECH, ITI } from "../../assets";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
