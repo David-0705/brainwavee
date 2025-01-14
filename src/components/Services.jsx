@@ -12,7 +12,7 @@ import {
 } from "./design/Services";
 import Data from './Euphoria/fixture.json'
 import './Euphoria/fixture.css';
-import { COMPS, HS, BMM, BMS, EXTC, MECH, ITI  } from "../assets";
+import {  HS, BMM, BMS, EXTC, MECH, ITI  } from "../assets";
 
 
 
