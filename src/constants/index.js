@@ -316,7 +316,7 @@ export const benefits = [
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
-    link: "/department",
+    link: "/#/department",
   },
   {
     id: "2",

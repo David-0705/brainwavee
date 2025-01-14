@@ -4,7 +4,7 @@ import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
-
+import light from '../assets/light.png';
 
 const Benefits = () => {
   return (
@@ -48,10 +48,10 @@ const Benefits = () => {
              className="absolute inset-0.5 bg-n-8"
              style={{ clipPath: "url(#benefits)" }}
            >
-             <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
+             <div className="absolute inset-0 opacity-10 transition-opacity ">
                {item.imageUrl && (
                  <img
-                   src={item.imageUrl}
+                   src={light}
                    width={380}
                    height={362}
                    alt={item.title}
