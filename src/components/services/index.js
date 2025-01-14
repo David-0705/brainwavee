@@ -7,33 +7,43 @@ const graphqlClient = new GraphQLClient(api_endpoint);
 
 export const EuphoriaEvent = async () => {
     const query2 = gql`
-        query MyQuery {
-        sportRuleBooks{
-            sportTitle
-            sportImage{
-            url
-            }
-            sportRule{
-            html
-            }
-            keyPoint
-            sportCheck
-            
-        },
-
-        paEvents{
-            paTitle
-            paPhrase
-            paKeypoint
-            paRule{
-            html
-            }
-            paImage{
-            url
-            }
-            paCheck
-        }
-        },
+query MyQuery {
+    sportRuleBooks {
+      sportTitle
+      sportImage {
+        url
+      }
+      sportRule {
+        html
+      }
+      keyPoint
+      sportCheck
+    }
+    paEvents {
+      paTitle
+      paPhrase
+      paKeypoint
+      paRule {
+        html
+      }
+      paImage {
+        url
+      }
+      paCheck
+    }
+    laEvents {
+      laTitle
+      laKeypoint
+      laRule {
+        html
+      }
+      laCheck
+      laDescription
+      laImage {
+        url
+      }
+    }
+}
        
   `;
     // try {
