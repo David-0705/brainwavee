@@ -17,7 +17,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 const Jersey = {
-    COMPS, HS, BMM, BMS, EXTC, MECH, ITI,
+     HS, BMM, BMS, EXTC, MECH, ITI,
 };
 
 

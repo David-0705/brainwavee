@@ -53,7 +53,7 @@ const eventDay = [
 
 // import Generating from "./Generating";
 const Jersey = {
-  COMPS, HS, BMM, BMS, EXTC, MECH, ITI,
+   HS, BMM, BMS, EXTC, MECH, ITI,
 };
 
 const Services = () => {
@@ -104,9 +104,6 @@ const Services = () => {
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
                 <h2 className="h2 mb-0 p-0">Marathon</h2>
                 <h4 className="h5 mb-2 text-n-2">January 12th</h4>
-                <p className="body-2 mb-[3rem] text-n-4">
-                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, sint.
-                </p>
               </div>
             </div>
 

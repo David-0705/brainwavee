@@ -87,9 +87,6 @@ const Hero = () => {
             Experience creativity and inspiration like never before with
             dazzling light-driven adventures
           </p>
-          <Button className="mb-20" href="#start" white>
-            Get started
-          </Button>
         </div>
         <BackgroundCircles />
         {/* <Section className="lg:mt-64 " id='start'> */}
