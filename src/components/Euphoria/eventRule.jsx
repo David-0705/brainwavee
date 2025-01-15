@@ -44,8 +44,8 @@ export default function eventRule({ data }) {
                     crosses
                     crossesOffset="lg:translate-y-[5.25rem]"
                     customPaddings>
-                    <Swiper navigation={true} modules={[Navigation]} className="mySwiper w-11/12">
-                        <SwiperSlide className="h-auto">
+                    <Swiper navigation={true} modules={[Navigation]} autoHeight={true} className="mySwiper w-11/12">
+                        <SwiperSlide className="h-auto" >
                             <main className="flex justify-center min-h-screen ">
                                 <section className="flex flex-col gap-4 px-0 py-10 max-w-[800px] justify-center">
                                     <div className="flex flex-col gap-2 flex-wrap">
