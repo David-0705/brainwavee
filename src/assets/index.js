@@ -71,7 +71,12 @@ import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
-
+import card1 from "../assets/benefits/card-1.svg";
+import card2 from "../assets/benefits/card-2.svg";
+import card3 from "../assets/benefits/card-3.svg";
+import card4 from "../assets/benefits/card-4.svg";
+import card5 from "../assets/benefits/card-5.svg";
+import card6 from "../assets/benefits/card-6.svg";
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
@@ -90,7 +95,7 @@ import dbcl from "./college/dbcl.png";
 import img0 from "../assets/card/0.webp";
 import img1 from "../assets/card/1.webp";
 import img2 from "../assets/card/2.webp";
-import img3 from '../assets/card/1.webp';
+import img3 from "../assets/card/1.webp";
 import img4 from "../assets/card/4.webp";
 import img5 from "../assets/card/5.webp";
 import img6 from "../assets/card/6.webp";
@@ -133,6 +138,12 @@ export {
   dbit,
   dbiti,
   dbcl,
+  card1,
+  card2,
+  card3,
+  card4,
+  card5,
+  card6,
   homeSmile,
   file02,
   searchMd,

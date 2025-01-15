@@ -90,7 +90,7 @@ const FetchPointsData = () => {
           <GlowingText text="Points" fs="56px" />
 
           {/* Display top 3 points */}
-          <div className="flex items-center flex-wrap gap-10 justify-center text-center mb-12 -ml-[90px]">
+          <div className="flex items-center flex-wrap gap-20 justify-center text-center mb-12 -ml-[90px]">
             <div className="w-[300px] h-[300px] sm:order-2">
               <CardComponent department={fst.department} image={fst.image} />
             </div>
