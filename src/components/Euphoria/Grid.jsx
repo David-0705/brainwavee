@@ -348,7 +348,11 @@ function Grid() {
     navigate(`/game/${title}`, { state: { STitle } });
   };
   return (
-    <Section id="event">
+    <Section
+    className="pt-[6rem] -mt-[5.25rem]"
+      crosses
+      crossesOffset="lg:translate-y-[5.25rem]"
+      customPaddings id="event">
       <Gradient/>
       <div className="m-10">
         
@@ -607,7 +611,7 @@ function Grid() {
           </SwiperSlide>
         </Swiper>
       </div>
-      <div className='relative top-64 rotate-90 left-96'><Gradient/></div>
+      
     </Section>
   );
 }

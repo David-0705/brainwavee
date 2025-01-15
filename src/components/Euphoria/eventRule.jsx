@@ -10,6 +10,7 @@ import { Gradient } from "../design/Services";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import Section from "../Section";
+import DownloadButton from './Download btn/DownloadBtn';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -73,8 +74,11 @@ export default function eventRule({ data }) {
                                                 <div className="gridboxxx" dangerouslySetInnerHTML={{ __html: (data?.paRule?.html || data?.sportRule?.html || data?.laRule.html) }}></div>
                                             ) : null}
                                         </div>
+                                        <DownloadButton />
                                     </div>
+
                                 </section>
+
                             </main>
                         </SwiperSlide>
                         {matchData && matchData.length > 0 && (
