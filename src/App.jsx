@@ -92,14 +92,14 @@ const App = () => {
           </>
         }
       />
-      {/* <Route
+      <Route
         path="/instruction"
         element={
           <>
             <Instruction/>
           </>
         }
-      /> */}
+      />
 
       {/* <Route path="/" element={<home />} /> */}
       {/* <Route path="/game/:title" element={data?.euphoriaEvents && <Events data={data.euphoriaEvents[0]} />} /> */}

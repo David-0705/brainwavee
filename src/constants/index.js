@@ -1,16 +1,14 @@
 import { light } from "@mui/material/styles/createPalette";
 import {
-  card1,
-  card2,
-  card3,
-  card4,
-  card5,
-  card6,
+  benefitIcon1,
   benefitIcon2,
+  benefitIcon3,
+  benefitIcon4,
   benefitImage2,
   chromecast,
   disc02,
   discord,
+  discordBlack,
   facebook,
   figma,
   file02,
@@ -52,13 +50,13 @@ import {
   img7,
 } from "../assets";
 
-export const dptpg = [
+export const dptpg =[
   {
     id: "0",
     title: "Points",
     url: "/#/points",
-  },
-];
+  }
+]
 
 export const navigation = [
   {
@@ -77,11 +75,11 @@ export const navigation = [
     title: "Departments",
     url: "/#/department",
   },
-  // {
-  //   id: "4",
-  //   title: "Instruction",
-  //   url: "/#/instruction",
-  // },
+  {
+    id: "4",
+    title: "Instruction",
+    url: "/#/instruction",
+  },
   // {
   //   id: "1",
   //   title: "Events",
@@ -304,7 +302,7 @@ export const benefits = [
     id: "0",
     title: "MANAGEMENT",
     text: " ",
-    backgroundUrl: "Card1",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
@@ -314,7 +312,7 @@ export const benefits = [
     id: "1",
     title: "DEPT. CAPTAINS",
     text: " ",
-    backgroundUrl: "Card6",
+    backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
@@ -324,7 +322,7 @@ export const benefits = [
     id: "2",
     title: "CO-ORDINATORS",
     text: " ",
-    backgroundUrl: "Card2",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,

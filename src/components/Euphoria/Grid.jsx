@@ -421,7 +421,7 @@ function Grid() {
           <SwiperSlide>
             <Container component="section" sx={{ mt: 8, mb: 4, }}>
               <div className="flex flex-col items-center justify-center text-center ">
-                <h1 className="h1 mb-2">Sports Fixtures</h1>
+                <h1 className="h1 mb-2">Outdoor Sports</h1>
                 <h4 className="h5 max-w-[50rem] mb-2 text-n-4">
                   Illuminate your potential and explore new horizons with the enchanting events of 'Lumière Enchantée.'
                 </h4>

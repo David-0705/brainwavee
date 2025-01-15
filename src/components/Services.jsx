@@ -82,10 +82,6 @@ const Services = () => {
     }
   };
 
-  const handleMarathonClick = () => {
-    window.location.href = "https://drive.google.com/drive/folders/1q8fif1LsAwa6AkUY9TSrGcafAuoY4b1H";
-  };
-
   return (
     <Section id="how-to-use">
       <div className="container">
@@ -95,7 +91,7 @@ const Services = () => {
           
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
-            <div className="relative min-h-[20rem] border border-n-1/10 rounded-3xl overflow-hidden" onClick={handleMarathonClick}>
+            <div className="relative min-h-[20rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
                 <img
                   src={marathon}

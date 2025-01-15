@@ -9,6 +9,7 @@
   height: auto;
   width: 100%;
   transition: transform 0.5s ease;
+<<<<<<< HEAD
   position: relative; /* Add this to make the match-box position absolute relative to this container */
 }
 
@@ -22,6 +23,9 @@
   border-radius: 10px; /* Optional: keep the same rounded corners */
   z-index: 1; /* Ensure it stays on top of the match-container */
 }
+=======
+  }
+>>>>>>> parent of 226efea (updates)
   
   .match-container:hover{
     transform: translateY(-10px);
