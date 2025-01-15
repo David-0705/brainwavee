@@ -97,18 +97,22 @@ import img6 from "../assets/card/6.webp";
 import img7 from "../assets/card/7.webp";
 
 import HS from "../assets/Gride/HS.png";
-import BMM from "../assets/Gride/BMM.png";
+import DOMF from "../assets/Gride/BMM.png";
 import BMS from "../assets/Gride/BMS.png";
 import EXTC from "../assets/Gride/EXTC.jpeg";
 import ITI from "../assets/Gride/ITI.png";
 import MECH from "../assets/Gride/MECH.png";
+import COMPS from "../assets/Gride/COMPS.png";
+import IT from "../assets/Gride/IT.png";
 
 import DebateDUO from "../assets/Gride/DebateDUO.png";
 
 export {
   DebateDUO,
+  COMPS,
+  IT,
   HS,
-  BMM,
+  DOMF,
   BMS,
   EXTC,
   ITI,

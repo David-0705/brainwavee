@@ -12,17 +12,17 @@ import {
 } from "./design/Services";
 import Data from './Euphoria/fixture.json'
 import './Euphoria/fixture.css';
-import {  HS, BMM, BMS, EXTC, MECH, ITI  } from "../assets";
+import {  COMPS, IT,HS, DOMF, BMS, EXTC, MECH, ITI  } from "../assets";
 
 
 
 const eventDay = [
   {
     "MATCH NO.": "M1",
-    "DEPARTMENT ": "BMM vs IT",
+    "DEPARTMENT ": "DOMF vs IT",
     "DATE": "13th Jan",
     "TIME": "16:15",
-    "Player1": "BMM",
+    "Player1": "DOMF",
     "Player2": "IT"
    },
    {
@@ -53,7 +53,7 @@ const eventDay = [
 
 // import Generating from "./Generating";
 const Jersey = {
-   HS, BMM, BMS, EXTC, MECH, ITI,
+   COMPS, HS, DOMF, BMS, EXTC, MECH, ITI, IT
 };
 
 const Services = () => {

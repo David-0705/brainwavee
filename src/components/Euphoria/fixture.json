@@ -3,10 +3,10 @@
         
          {
           "MATCH NO.": "M1",
-          "DEPARTMENT ": "BMM vs IT",
+          "DEPARTMENT ": "DOMF vs IT",
           "DATE": "13th Jan",
           "TIME": "16:15",
-          "Player1": "BMM",
+          "Player1": "DOMF",
           "Player2": "IT"
          },
          {
@@ -59,10 +59,10 @@
          },
          {
           "MATCH NO.": "M8",
-          "DEPARTMENT ": "BMM vs HS",
+          "DEPARTMENT ": "DOMF vs HS",
           "DATE": "21st Jan",
           "TIME": "16:30",
-          "Player1": "BMM",
+          "Player1": "DOMF",
           "Player2": "HS"
          },
          {
@@ -75,10 +75,10 @@
          },
          {
           "MATCH NO.": "M10",
-          "DEPARTMENT ": "BMM vs ITI",
+          "DEPARTMENT ": "DOMF vs ITI",
           "DATE": "23rd Jan",
           "TIME": "16:30",
-          "Player1": "BMM",
+          "Player1": "DOMF",
           "Player2": "ITI"
          },
          {
@@ -154,11 +154,11 @@
          },
          {
           "MATCH NO.": "M20",
-          "DEPARTMENT ": "ITI vs BMM",
+          "DEPARTMENT ": "ITI vs DOMF",
           "DATE": "17th Jan",
           "TIME": "14:00",
           "Player1": "ITI",
-          "Player2": "BMM"
+          "Player2": "DOMF"
          },
          {
           "MATCH NO.": "M21",
@@ -186,11 +186,11 @@
          },
          {
           "MATCH NO.": "M24",
-          "DEPARTMENT ": "COMPS vs BMM",
+          "DEPARTMENT ": "COMPS vs DOMF",
           "DATE": "20th Jan",
           "TIME": "14:00",
           "Player1": "COMPS",
-          "Player2": "BMM"
+          "Player2": "DOMF"
          },
          {
           "MATCH NO.": "M25",
@@ -202,11 +202,11 @@
          },
          {
           "MATCH NO.": "M26",
-          "DEPARTMENT ": "EXTC vs BMM",
+          "DEPARTMENT ": "EXTC vs DOMF",
           "DATE": "21st Jan",
           "TIME": "14:00",
           "Player1": "EXTC",
-          "Player2": "BMM"
+          "Player2": "DOMF"
          },
          {
           "MATCH NO.": "M27",
@@ -253,15 +253,15 @@
           "Player1": "FINAL"
          }
         ],
-        "Volleyball(B)":[
+        "VOLLEYBALL(B)":[
         
          {
           "MATCH NO.": "M33",
-          "DEPARTMENT ": "MECH vs BMM",
+          "DEPARTMENT ": "MECH vs DOMF",
           "DATE": "16th Jan",
           "TIME": "16:00",
           "Player1": "MECH",
-          "Player2": "BMM"
+          "Player2": "DOMF"
          },
          {
           "MATCH NO.": "M34",
@@ -289,10 +289,10 @@
          },
          {
           "MATCH NO.": "M37",
-          "DEPARTMENT ": "BMM vs ITI",
+          "DEPARTMENT ": "DOMF vs ITI",
           "DATE": "23rd Jan",
           "TIME": "15:00",
-          "Player1": "BMM",
+          "Player1": "DOMF",
           "Player2": "ITI"
          },
          {
@@ -321,10 +321,10 @@
          },
          {
           "MATCH NO.": "M41",
-          "DEPARTMENT ": "BMM vs IT ",
+          "DEPARTMENT ": "DOMF vs IT ",
           "DATE": "20th Jan",
           "TIME": "15:00",
-          "Player1": "BMM",
+          "Player1": "DOMF",
           "Player2": "IT"
          },
          {
@@ -400,11 +400,11 @@
          },
          {
           "MATCH NO.": "M51",
-          "DEPARTMENT ": "MECH vs BMM ",
+          "DEPARTMENT ": "MECH vs DOMF ",
           "DATE": "20th Jan",
           "TIME": "13:30",
           "Player1": "MECH",
-          "Player2": "BMM"
+          "Player2": "DOMF"
          },
          {
           "MATCH NO.": "M52",
@@ -416,19 +416,19 @@
          },
          {
           "MATCH NO.": "M53",
-          "DEPARTMENT ": "EXTC vs BMM",
+          "DEPARTMENT ": "EXTC vs DOMF",
           "DATE": "22nd Jan",
           "TIME": "13:30",
           "Player1": "EXTC",
-          "Player2": "BMM"
+          "Player2": "DOMF"
          },
          {
           "MATCH NO.": "M54",
-          "DEPARTMENT ": "BMS vs BMM",
+          "DEPARTMENT ": "BMS vs DOMF",
           "DATE": "23rd Jan",
           "TIME": "13:30",
           "Player1": "BMS",
-          "Player2": "BMM"
+          "Player2": "DOMF"
          },
          {
           "MATCH NO.": "M55",
@@ -535,10 +535,10 @@
          },
          {
           "MATCH NO.": "M60",
-          "DEPARTMENT ": "BMM vs ITI",
+          "DEPARTMENT ": "DOMF vs ITI",
           "DATE": "27th Jan",
           "TIME": "14:00",
-          "Player1": "BMM",
+          "Player1": "DOMF",
           "Player2": "ITI"
          },
          {
@@ -592,11 +592,11 @@
          },
          {
           "MATCH NO.": "M67",
-          "DEPARTMENT ": "HS vs BMM",
+          "DEPARTMENT ": "HS vs DOMF",
           "DATE": "18th Jan",
           "TIME": "15:00",
           "Player1": "HS",
-          "Player2": "BMM"
+          "Player2": "DOMF"
          },
          {
           "MATCH NO.": "M68",
@@ -608,11 +608,11 @@
          },
          {
           "MATCH NO.": "M69",
-          "DEPARTMENT ": "IT vs BMM",
+          "DEPARTMENT ": "IT vs DOMF",
           "DATE": "22nd Jan ",
           "TIME": "14:30",
           "Player1": "IT",
-          "Player2": "BMM"
+          "Player2": "DOMF"
          },
          {
           "MATCH NO.": "M70",
@@ -656,11 +656,11 @@
          },
          {
           "MATCH NO.": "M75",
-          "DEPARTMENT ": "BMS vs BMM",
+          "DEPARTMENT ": "BMS vs DOMF",
           "DATE": "27th Jan",
           "TIME": "14:30",
           "Player1": "BMS",
-          "Player2": "BMM"
+          "Player2": "DOMF"
          },
          {
           "MATCH NO.": "M76",
@@ -719,10 +719,10 @@
          },
          {
           "MATCH NO.": "M3",
-          "DEPARTMENT ": "BMM vs ITI",
+          "DEPARTMENT ": "DOMF vs ITI",
           "DATE": "17th Jan ",
           "TIME": "15:30",
-          "Player1": "BMM",
+          "Player1": "DOMF",
           "Player2": "ITI"
          },
          {
@@ -764,7 +764,7 @@
           "Player1": "FINAL"
          }
         ],
-        "Volleyball(G)":[
+        "VOLLEYBALL(G)":[
          {
           "MATCH NO.": "M9",
           "DEPARTMENT ": "BMS vs IT",
@@ -775,11 +775,11 @@
          },
          {
           "MATCH NO.": "M10",
-          "DEPARTMENT ": "EXTC vs BMM",
+          "DEPARTMENT ": "EXTC vs DOMF",
           "DATE": "20th Jan ",
           "TIME": "14:00",
           "Player1": "EXTC",
-          "Player2": "BMM"
+          "Player2": "DOMF"
          },
          {
           "MATCH NO.": "M11",
@@ -840,10 +840,10 @@
          },
          {
           "MATCH NO.": "M18",
-          "DEPARTMENT ": "BMM vs EXTC",
+          "DEPARTMENT ": "DOMF vs EXTC",
           "DATE": "16th Jan ",
           "TIME": "13:00",
-          "Player1": "BMM",
+          "Player1": "DOMF",
           "Player2": "EXTC"
          },
          {
@@ -888,10 +888,10 @@
          },
          {
           "MATCH NO.": "M24",
-          "DEPARTMENT ": "BMM vs IT",
+          "DEPARTMENT ": "DOMF vs IT",
           "DATE": "21st Jan",
           "TIME": "13:00",
-          "Player1": "BMM",
+          "Player1": "DOMF",
           "Player2": "IT"
          },
          {
@@ -904,10 +904,10 @@
          },
          {
           "MATCH NO.": "M26",
-          "DEPARTMENT ": "BMM vs HS",
+          "DEPARTMENT ": "DOMF vs HS",
           "DATE": "23rd Jan",
           "TIME": "14:30",
-          "Player1": "BMM",
+          "Player1": "DOMF",
           "Player2": "HS"
          },
          {
@@ -967,10 +967,10 @@
          },
          {
           "MATCH NO.": "M34",
-          "DEPARTMENT ": "BMM vs EXTC",
+          "DEPARTMENT ": "DOMF vs EXTC",
           "DATE": "20th Jan",
           "TIME": "15:30",
-          "Player1": "BMM",
+          "Player1": "DOMF",
           "Player2": "EXTC"
          },
          {
@@ -1040,10 +1040,10 @@
          },
          {
           "MATCH NO.": "M58",
-          "DEPARTMENT ": "BMM vs HS",
+          "DEPARTMENT ": "DOMF vs HS",
           "DATE": "18th Jan",
           "TIME": "14:30",
-          "Player1": "BMM",
+          "Player1": "DOMF",
           "Player2": "HS"
          },
          {
@@ -1056,11 +1056,11 @@
          },
          {
           "MATCH NO.": "M60",
-          "DEPARTMENT ": "COMPS vs BMM",
+          "DEPARTMENT ": "COMPS vs DOMF",
           "DATE": "27th Jan",
           "TIME": "14:30",
           "Player1": "COMPS",
-          "Player2": "BMM"
+          "Player2": "DOMF"
          },
          {
           "MATCH NO.": "M61",
@@ -1088,11 +1088,11 @@
          },
          {
           "MATCH NO.": "M64",
-          "DEPARTMENT ": "EXTC vs BMM",
+          "DEPARTMENT ": "EXTC vs DOMF",
           "DATE": "22nd Jan",
           "TIME": "15:00",
           "Player1": "EXTC",
-          "Player2": "BMM"
+          "Player2": "DOMF"
          },
          {
           "MATCH NO.": "M65",
@@ -1145,84 +1145,6 @@
           "DATE": "31st Jan",
           "TIME": "12:00",
           "Player1": "FINAL"
-         }
-        ],
-        "RINKFOOTBALL(G)":[
-        
-         {
-          "MATCH NO.": "M41",
-          "DATE": "23rd Jan",
-          "TIME": "13:00"
-         },
-         {
-          "MATCH NO.": "M42",
-          "DATE": "23rd Jan",
-          "TIME": "13:30"
-         },
-         {
-          "MATCH NO.": "M43",
-          "DATE": "23rd Jan",
-          "TIME": "14:00"
-         },
-         {
-          "MATCH NO.": "M44",
-          "DATE": "23rd Jan",
-          "TIME": "14:30"
-         },
-         {
-          "MATCH NO.": "M45",
-          "DATE": "23rd Jan",
-          "TIME": "15:00"
-         },
-         {
-          "MATCH NO.": "M46",
-          "DATE": "23rd Jan",
-          "TIME": "15:30"
-         },
-         {
-          "MATCH NO.": "M47",
-          "DATE": "27th Jan",
-          "TIME": "13:00"
-         },
-         {
-          "MATCH NO.": "M48",
-          "DATE": "27th Jan",
-          "TIME": "13:30"
-         },
-         {
-          "MATCH NO.": "M49",
-          "DATE": "27th Jan",
-          "TIME": "15:00"
-         },
-         {
-          "MATCH NO.": "M50",
-          "DATE": "23rd Jan",
-          "TIME": "16:00"
-         },
-         {
-          "MATCH NO.": "M51",
-          "DATE": "23rd Jan",
-          "TIME": "16:15"
-         },
-         {
-          "MATCH NO.": "M52",
-          "DATE": "27th Jan",
-          "TIME": "15:30"
-         },
-         {
-          "MATCH NO.": "M53",
-          "DATE": "28th Jan",
-          "TIME": "14:00"
-         },
-         {
-          "MATCH NO.": "M54",
-          "DATE": "30th Jan",
-          "TIME": "10:30"
-         },
-         {
-          "MATCH NO.": "M55",
-          "DATE": "31st Jan",
-          "TIME": "10:30"
          }
         ]
         }

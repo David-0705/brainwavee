@@ -24,11 +24,12 @@ const EventDetail = ({ data }) => {
 
   const event = data?.sportRuleBooks.find(event => event.sportCheck === STitle) ||
                 data?.paEvents.find(event => event.paCheck === STitle) ||
-                data?.laEvents.find(event => event.laCheck === STitle);
+                data?.laEvents.find(event => event.laCheck === STitle)||
+                data?.indoors.find(event => event.indoorCheck === STitle);
                 
 
 
-  // console.log(event.paTitle);
+  // console.log(event.sportTitle);
 
   if (!event) {
     return <div>No Event Found</div>;
