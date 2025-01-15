@@ -182,7 +182,7 @@ const Services = () => {
                     <h4 className="h4 mb-4">Match Fixtures</h4>
                     <div className="flex flex-col items-center gap-2 m-4">
                       {eventDay.slice(0, 5).map((match, index) => (
-                        <div className="match-container relative h-auto flex items-center justify-between">
+                        <div key={index} className="match-container relative h-auto flex items-center justify-between">
                           <img src={Jersey[match["Player1"]]} className="flag1 w-16 h-auto" />
                           <div className="match-details relative flex flex-col gap-1 h-auto text-center">
                             <p className="h6 text-stone-900 font-bold text-base sm:text-lg">{match["SPORT"]}</p>
@@ -200,35 +200,20 @@ const Services = () => {
                     <h4 className="h4 mb-4">Match Fixtures</h4>
                     <div className="flex flex-col items-center gap-2 m-4">
                       {eventDay.slice(5, 10).map((match, index) => (
-                        <div className="match-container relative h-24	 ">
+                        <div key={index} className="match-container relative h-24	 ">
                           <img src={Jersey[match["Player1"]]} class="flag1" />
-                          <div class="match-details relative flex flex-col gap-1">
+                          <div className="match-details relative flex flex-col gap-1">
                             <p className="h6 text-stone-900 font-bold">{match["SPORT"]}</p>
                             <p>{match["DEPARTMENT"]}</p>
                             <p>{match["DATE"]} at <span className="time">{match["TIME"]}</span></p>
                           </div>
-                          <img src={Jersey[match["Player2"]]} class="flag" />
+                          <img src={Jersey[match["Player2"]]} className="flag" />
                         </div>
                       ))}
                     </div>
                   </div>
                 </SwiperSlide>
               </Swiper>
-              <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Match Fixtures</h4>
-                <div className="flex flex-col items-center gap-2 m-4">
-                  {eventDay.map((match, index) => (
-                    <div key={index} className="match-container relative h-24	 ">
-                      <img src={Jersey[match["Player1"]]}  className="flag1" />
-                      <div className="match-details relative flex flex-col gap-2">
-                        <p>{match["DEPARTMENT "]}</p>
-                        <p>{match["DATE"]} at <span className="time">{match["TIME"]}</span></p>
-                      </div>
-                      <img src={Jersey[match["Player2"]]}  className="flag" />
-                    </div>
-                  ))}
-                </div>
-              </div>
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
                 <video

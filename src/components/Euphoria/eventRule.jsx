@@ -5,7 +5,7 @@ import DefaultPage from "../DefaultPage";
 import { homeNavigation } from "../../constants";
 import BackButton from "./BackButton/BackButton";
 import './fixture.css';
-import { COMPS, IT, HS, DOMF, BMS, EXTC, MECH, ITI } from "../../assets";
+import { COMPS, IT, HS, DOMMF, BMS, EXTC, MECH, ITI } from "../../assets";
 import { Gradient } from "../design/Services";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
@@ -44,10 +44,10 @@ export default function eventRule({ data }) {
                     crosses
                     crossesOffset="lg:translate-y-[5.25rem]"
                     customPaddings>
-                    <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+                    <Swiper navigation={true} modules={[Navigation]} className="mySwiper w-11/12">
                         <SwiperSlide className="h-auto">
-                            <main className="flex justify-center min-h-screen">
-                                <section className="flex flex-col gap-4 px-8 py-10 max-w-[800px] justify-center">
+                            <main className="flex justify-center min-h-screen ">
+                                <section className="flex flex-col gap-4 px-0 py-10 max-w-[800px] justify-center">
                                     <div className="flex flex-col gap-2 flex-wrap">
                                         <div className="flex flex-row gap-2 flex-wrap justify-between">
                                             <h1 className="text-2xl font-bold">{data.sportTitle || data.paTitle || data.laTitle || data.indoorTitle}</h1>
@@ -84,7 +84,7 @@ export default function eventRule({ data }) {
                         {matchData && matchData.length > 0 && (
                             <SwiperSlide className="h-auto">
                                 <main className="flex justify-center min-h-screen">
-                                    <section className="flex flex-col gap-4 px-0 py-10 w-2/3 justify-center md:w-4/5">
+                                    <section className="flex flex-col gap-4 px-0 py-10  justify-center md:w-4/5">
                                         <div className="flex flex-row gap-2 flex-wrap justify-between">
                                             <h1 className="text-2xl font-bold">{data.sportTitle || data.paTitle}</h1>
                                             <div>
