@@ -607,6 +607,7 @@ function Grid() {
           </SwiperSlide>
         </Swiper>
       </div>
+      <div className='relative top-64 rotate-90 left-96'><Gradient/></div>
     </Section>
   );
 }
