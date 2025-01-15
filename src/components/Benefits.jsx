@@ -19,9 +19,9 @@ const Benefits = () => {
           {benefits.map((item) => (
              <a href={item.link} key={item.id}>
            <div
-           className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] w-full sm:w-96"
+           className="block border rounded-[64px] border-[#B026FF] relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] w-full sm:w-96"
            style={{
-             backgroundImage: `url(${item.backgroundUrl})`,
+            //  backgroundImage: `url(${item.backgroundUrl})`,
            }}
            
          >
@@ -61,7 +61,7 @@ const Benefits = () => {
              </div>
            </div>
          
-           <ClipPath />
+           {/* <ClipPath /> */}
          </div>
          </a>
           ))}

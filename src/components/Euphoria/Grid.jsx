@@ -10,7 +10,7 @@ import { useNavigate, useLocation, } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import { DebateDUO } from '../../assets';
-
+import { Gradient } from '../design/Services';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -348,7 +348,12 @@ function Grid() {
     navigate(`/game/${title}`, { state: { STitle } });
   };
   return (
-    <Section id="event">
+    <Section
+    className="pt-[6rem] -mt-[5.25rem]"
+      crosses
+      crossesOffset="lg:translate-y-[5.25rem]"
+      customPaddings id="event">
+      <Gradient/>
       <div className="m-10">
         <Swiper navigation={true} modules={[Navigation]} autoHeight={true} className="mySwiper">
           
@@ -607,6 +612,7 @@ function Grid() {
 
         </Swiper>
       </div>
+      
     </Section>
   );
 }

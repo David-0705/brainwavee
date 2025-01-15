@@ -13,7 +13,7 @@ const CardComponent = ({ department, image }) => {
       </div>
       <div className="card">
         <div className="card-body">
-          <h1 className="card-font h1 ">{department}</h1>
+          <h1 className="card-font h1 text-[42px] ">{department}</h1>
         </div>
       </div>
     </div>
