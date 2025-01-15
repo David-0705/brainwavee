@@ -10,7 +10,7 @@ import { useNavigate, useLocation, } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import { DebateDUO } from '../../assets';
-
+import { Gradient } from '../design/Services';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -349,11 +349,10 @@ function Grid() {
   };
   return (
     <Section id="event">
+      <Gradient/>
       <div className="m-10">
-        <Swiper navigation={true} modules={[Navigation]} className="mySwiper w-">
-          
-
-
+        
+        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
             <Container component="section" sx={{ mt: 8, mb: 4, }}>
               <div className="flex flex-col items-center justify-center text-center ">
@@ -362,8 +361,6 @@ function Grid() {
                   Illuminate your potential and explore new horizons with the enchanting events of 'Lumière Enchantée.'
                 </h4>
               </div>
-
-
               <Box className='gridContainer' sx={{ mt: 8, display: 'flex', flexWrap: 'wrap', gap: 1, }}>
                 {paEvent.map((image) => (
                   <ImageIconButton

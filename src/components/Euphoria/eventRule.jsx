@@ -2,11 +2,10 @@ import { fieldFootball } from "../../assets";
 import Data from './fixture.json';
 import DefaultPage from "../DefaultPage";
 import { homeNavigation } from "../../constants";
-import { RichText } from "@graphcms/rich-text-react-renderer";
 import BackButton from "./BackButton/BackButton";
 import './fixture.css';
 import { COMPS, IT, HS, DOMF, BMS, EXTC, MECH, ITI } from "../../assets";
-
+import { Gradient } from "../design/Services";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 
@@ -29,6 +28,7 @@ export default function eventRule({ data }) {
     return (
         <>
             <DefaultPage nav={homeNavigation}>
+                
                 <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
                     <SwiperSlide className="h-auto"> {/* Updated height to auto */}
                         <main className="flex justify-center min-h-screen"> {/* Ensures no extra blank space */}
@@ -98,6 +98,7 @@ export default function eventRule({ data }) {
                         </SwiperSlide>
                     )}
                 </Swiper>
+                
             </DefaultPage>
         </>
     );

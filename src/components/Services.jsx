@@ -82,6 +82,10 @@ const Services = () => {
     }
   };
 
+  const handleMarathonClick = () => {
+    window.open('https://drive.google.com/drive/folders/1q8fif1LsAwa6AkUY9TSrGcafAuoY4b1H', '_blank');
+  };
+
   return (
     <Section id="how-to-use">
       <div className="container">
@@ -91,7 +95,7 @@ const Services = () => {
           
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
-            <div className="relative min-h-[20rem] border border-n-1/10 rounded-3xl overflow-hidden">
+            <div onClick={handleMarathonClick} className="relative min-h-[20rem] border border-n-1/10 rounded-3xl overflow-hidden hover:cursor-pointer">
               <div className="absolute inset-0">
                 <img
                   src={marathon}
@@ -112,13 +116,13 @@ const Services = () => {
                 <h4 className="h4 mb-4">Match Fixtures</h4>
                 <div className="flex flex-col items-center gap-2 m-4">
                   {eventDay.map((match, index) => (
-                    <div className="match-container relative h-24	 ">
-                      <img src={Jersey[match["Player1"]]}  class="flag1" />
-                      <div class="match-details relative flex flex-col gap-2">
+                    <div key={index} className="match-container relative h-24	 ">
+                      <img src={Jersey[match["Player1"]]}  className="flag1" />
+                      <div className="match-details relative flex flex-col gap-2">
                         <p>{match["DEPARTMENT "]}</p>
                         <p>{match["DATE"]} at <span className="time">{match["TIME"]}</span></p>
                       </div>
-                      <img src={Jersey[match["Player2"]]}  class="flag" />
+                      <img src={Jersey[match["Player2"]]}  className="flag" />
                     </div>
                   ))}
                 </div>
