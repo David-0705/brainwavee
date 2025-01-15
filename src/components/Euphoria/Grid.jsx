@@ -350,73 +350,8 @@ function Grid() {
   return (
     <Section id="event">
       <div className="m-10">
-        <Swiper navigation={true} modules={[Navigation]} className="mySwiper w-">
+        <Swiper navigation={true} modules={[Navigation]} autoHeight={true} className="mySwiper">
           
-
-
-        <SwiperSlide>
-            <Container component="section" sx={{ mt: 8, mb: 4, }}>
-              <div className="flex flex-col items-center justify-center text-center ">
-                <h1 className="h1 mb-2">PERFORMING ARTS</h1>
-                <h4 className="h5 max-w-[50rem] mb-2 text-n-4">
-                  Illuminate your potential and explore new horizons with the enchanting events of 'Lumière Enchantée.'
-                </h4>
-              </div>
-
-
-              <Box className='gridContainer' sx={{ mt: 8, display: 'flex', flexWrap: 'wrap', gap: 1, }}>
-                {paEvent.map((image) => (
-                  <ImageIconButton
-                    key={image.title}
-                    style={{
-                      width: image.width,
-                    }}
-                    onClick={() => handleClick(image.title, image.STitle)}
-                  >
-                    <Box
-                      sx={{
-                        position: 'absolute',
-                        left: 0,
-                        right: 0,
-                        top: 0,
-                        bottom: 0,
-                        borderRadius: 4,
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center 40%',
-                        backgroundImage: `url(${image.url})`,
-                      }}
-                    />
-                    <ImageBackdrop className="imageBackdrop" />
-                    <Box
-                      sx={{
-                        position: 'absolute',
-                        left: 0,
-                        right: 0,
-                        top: 0,
-                        bottom: 0,
-                        display: 'flex',
-                        borderRadius: 4,
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        color: 'common.white',
-                      }}
-                    >
-                      <Typography
-                        component="h3"
-                        variant="h6"
-                        color="inherit"
-                        className="imageTitle"
-                      >
-                        {image.title}
-                        <div className="imageMarked" />
-                      </Typography>
-                    </Box>
-                  </ImageIconButton>
-                ))}
-              </Box>
-            </Container>
-          </SwiperSlide>
-
 
           <SwiperSlide>
             <Container component="section" sx={{ mt: 8, mb: 4, }}>
@@ -480,8 +415,6 @@ function Grid() {
               </Box>
             </Container>
           </SwiperSlide>
-
-         
 
           <SwiperSlide>
             <Container component="section" sx={{ mt: 8, mb: 4, }}>
@@ -608,6 +541,70 @@ function Grid() {
               </Box>
             </Container>
           </SwiperSlide>
+
+          <SwiperSlide>
+            <Container component="section" sx={{ mt: 8, mb: 4, }}>
+              <div className="flex flex-col items-center justify-center text-center ">
+                <h1 className="h1 mb-2">PERFORMING ARTS</h1>
+                <h4 className="h5 max-w-[50rem] mb-2 text-n-4">
+                  Illuminate your potential and explore new horizons with the enchanting events of 'Lumière Enchantée.'
+                </h4>
+              </div>
+
+
+              <Box className='gridContainer' sx={{ mt: 8, display: 'flex', flexWrap: 'wrap', gap: 1, }}>
+                {paEvent.map((image) => (
+                  <ImageIconButton
+                    key={image.title}
+                    style={{
+                      width: image.width,
+                    }}
+                    onClick={() => handleClick(image.title, image.STitle)}
+                  >
+                    <Box
+                      sx={{
+                        position: 'absolute',
+                        left: 0,
+                        right: 0,
+                        top: 0,
+                        bottom: 0,
+                        borderRadius: 4,
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center 40%',
+                        backgroundImage: `url(${image.url})`,
+                      }}
+                    />
+                    <ImageBackdrop className="imageBackdrop" />
+                    <Box
+                      sx={{
+                        position: 'absolute',
+                        left: 0,
+                        right: 0,
+                        top: 0,
+                        bottom: 0,
+                        display: 'flex',
+                        borderRadius: 4,
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        color: 'common.white',
+                      }}
+                    >
+                      <Typography
+                        component="h3"
+                        variant="h6"
+                        color="inherit"
+                        className="imageTitle"
+                      >
+                        {image.title}
+                        <div className="imageMarked" />
+                      </Typography>
+                    </Box>
+                  </ImageIconButton>
+                ))}
+              </Box>
+            </Container>
+          </SwiperSlide>
+
         </Swiper>
       </div>
     </Section>

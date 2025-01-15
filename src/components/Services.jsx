@@ -12,55 +12,119 @@ import {
 } from "./design/Services";
 import Data from './Euphoria/fixture.json'
 import './Euphoria/fixture.css';
-import {  COMPS, IT,HS, DOMF, BMS, EXTC, MECH, ITI  } from "../assets";
+import { COMPS, IT, HS, DOMMF, BMS, EXTC, MECH, ITI } from "../assets";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper/modules';
 
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 
 const eventDay = [
   {
     "MATCH NO.": "M1",
-    "DEPARTMENT ": "DOMF vs IT",
-    "DATE": "13th Jan",
-    "TIME": "16:15",
-    "Player1": "DOMF",
+    "DEPARTMENT": "BMS vs IT",
+    "DATE": "16th Jan",
+    "TIME": "13:30",
+    "SPORT": "Basketball Boys",
+    "Player1": "BMS",
     "Player2": "IT"
-   },
-   {
+  },
+  {
     "MATCH NO.": "M2",
-    "DEPARTMENT ": "BMS vs MECH",
-    "DATE": "14th Jan",
-    "TIME": "16:15",
+    "DEPARTMENT": "DOMMF vs EXTC",
+    "DATE": "16th Jan",
+    "TIME": "13:30",
+    "SPORT": "Throwball Girls",
+    "Player1": "DOMMF",
+    "Player2": "EXTC"
+  },
+  {
+    "MATCH NO.": "M3",
+    "DEPARTMENT": "COMPS vs EXTC",
+    "DATE": "16th Jan",
+    "TIME": "14:00",
+    "SPORT": "Basketball Boys",
+    "Player1": "COMPS",
+    "Player2": "EXTC"
+  },
+  {
+    "MATCH NO.": "M4",
+    "DEPARTMENT": "HS vs MECH",
+    "DATE": "16th Jan",
+    "TIME": "14:00",
+    "SPORT": "Volleyball Girls",
+    "Player1": "HS",
+    "Player2": "MECH"
+  },
+  {
+    "MATCH NO.": "M5",
+    "DEPARTMENT": "ITI vs IT",
+    "DATE": "16th Jan",
+    "TIME": "14:30",
+    "SPORT": "Box Cricket Boys",
+    "Player1": "ITI",
+    "Player2": "IT"
+  },
+  {
+    "MATCH NO.": "M6",
+    "DEPARTMENT": "COMPS vs EXTC",
+    "DATE": "16th Jan",
+    "TIME": "14:30",
+    "SPORT": "Basketball Girls",
+    "Player1": "COMPS",
+    "Player2": "EXTC"
+  },
+  {
+    "MATCH NO.": "M7",
+    "DEPARTMENT": "EXTC vs HS",
+    "DATE": "16th Jan",
+    "TIME": "15:00",
+    "SPORT": "Volleyball Boys",
+    "Player1": "EXTC",
+    "Player2": "HS"
+  },
+  {
+    "MATCH NO.": "M8",
+    "DEPARTMENT": "BMS vs MECH",
+    "DATE": "16th Jan",
+    "TIME": "15:30",
+    "SPORT": "Basketball Girls",
     "Player1": "BMS",
     "Player2": "MECH"
-   },
-   {
-    "MATCH NO.": "M3",
-    "DEPARTMENT ": "EXTC vs COMPS",
-    "DATE": "15th Jan",
-    "TIME": "16:15",
-    "Player1": "EXTC",
-    "Player2": "COMPS"
-   },
-   {
-    "MATCH NO.": "M4",
-    "DEPARTMENT ": "IT vs HS",
+  },
+  {
+    "MATCH NO.": "M9",
+    "DEPARTMENT": "MECH vs DOMMF",
+    "DATE": "16th Jan",
+    "TIME": "16:00",
+    "SPORT": "Volleyball Boys",
+    "Player1": "MECH",
+    "Player2": "DOMMF"
+  },
+  {
+    "MATCH NO.": "M10",
+    "DEPARTMENT": "IT vs HS",
     "DATE": "16th Jan",
     "TIME": "16:30",
+    "SPORT": "Field Football",
     "Player1": "IT",
     "Player2": "HS"
-   },
+  }
 ];
 
 // import Generating from "./Generating";
 const Jersey = {
-   COMPS, HS, DOMF, BMS, EXTC, MECH, ITI, IT
+  COMPS, HS, DOMMF, BMS, EXTC, MECH, ITI, IT
 };
 
 const Services = () => {
   const videoRef = useRef(null); // Reference to the video element
   const [isPlaying, setIsPlaying] = useState(true); // Video play state
   const [progress, setProgress] = useState(0); // Video progress state
-  const matchData = Data["BASEKETBALL(B)"].filter(match => match.date === "16th Jan"  ).slice(0, 4);
+  const matchData = Data["BASEKETBALL(B)"].filter(match => match.date === "16th Jan").slice(0, 4);
 
   const handlePlayPause = () => {
     if (videoRef.current) {
@@ -85,10 +149,10 @@ const Services = () => {
   return (
     <Section id="how-to-use">
       <div className="container">
-      <Heading title="Upcoming Events" />
+        <Heading title="Upcoming Events" />
 
         <div className="relative">
-          
+
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
             <div className="relative min-h-[20rem] border border-n-1/10 rounded-3xl overflow-hidden">
@@ -108,21 +172,44 @@ const Services = () => {
             </div>
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
-              <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Match Fixtures</h4>
-                <div className="flex flex-col items-center gap-2 m-4">
-                  {eventDay.map((match, index) => (
-                    <div className="match-container relative h-24	 ">
-                      <img src={Jersey[match["Player1"]]}  class="flag1" />
-                      <div class="match-details relative flex flex-col gap-2">
-                        <p>{match["DEPARTMENT "]}</p>
-                        <p>{match["DATE"]} at <span className="time">{match["TIME"]}</span></p>
-                      </div>
-                      <img src={Jersey[match["Player2"]]}  class="flag" />
+              <Swiper navigation={true} modules={[Navigation]} className="mySwiper h-auto">
+                <SwiperSlide>
+                  <div className="py-12 px-0 xl:px-8">
+                    <h4 className="h4 mb-4">Match Fixtures</h4>
+                    <div className="flex flex-col items-center gap-2 m-4">
+                      {eventDay.slice(0, 5).map((match, index) => (
+                        <div className="match-container relative h-auto flex items-center justify-between">
+                          <img src={Jersey[match["Player1"]]} className="flag1 w-16 h-auto" />
+                          <div className="match-details relative flex flex-col gap-1 h-auto text-center">
+                            <p className="h6 text-stone-900 font-bold text-base sm:text-lg">{match["SPORT"]}</p>
+                            <p className="text-sm sm:text-base">{match["DEPARTMENT"]}</p>
+                            <p className="text-sm sm:text-base">{match["DATE"]} at <span className="time">{match["TIME"]}</span></p>
+                          </div>
+                          <img src={Jersey[match["Player2"]]} className="flag w-16 h-auto" />
+                        </div>
+                      ))}
                     </div>
-                  ))}
-                </div>
-              </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="py-12 px-4 xl:px-8">
+                    <h4 className="h4 mb-4">Match Fixtures</h4>
+                    <div className="flex flex-col items-center gap-2 m-4">
+                      {eventDay.slice(5, 10).map((match, index) => (
+                        <div className="match-container relative h-24	 ">
+                          <img src={Jersey[match["Player1"]]} class="flag1" />
+                          <div class="match-details relative flex flex-col gap-1">
+                            <p className="h6 text-stone-900 font-bold">{match["SPORT"]}</p>
+                            <p>{match["DEPARTMENT"]}</p>
+                            <p>{match["DATE"]} at <span className="time">{match["TIME"]}</span></p>
+                          </div>
+                          <img src={Jersey[match["Player2"]]} class="flag" />
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </SwiperSlide>
+              </Swiper>
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
                 <video
