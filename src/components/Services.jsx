@@ -23,96 +23,18 @@ import 'swiper/css/navigation';
 
 
 const eventDay = [
-  {
-    "MATCH NO.": "M1",
-    "DEPARTMENT": "BMS vs IT",
-    "DATE": "16th Jan",
-    "TIME": "13:30",
-    "SPORT": "Basketball Boys",
-    "Player1": "BMS",
-    "Player2": "IT"
-  },
-  {
-    "MATCH NO.": "M2",
-    "DEPARTMENT": "DOMMF vs EXTC",
-    "DATE": "16th Jan",
-    "TIME": "13:30",
-    "SPORT": "Throwball Girls",
-    "Player1": "DOMMF",
-    "Player2": "EXTC"
-  },
-  {
-    "MATCH NO.": "M3",
-    "DEPARTMENT": "COMPS vs EXTC",
-    "DATE": "16th Jan",
-    "TIME": "14:00",
-    "SPORT": "Basketball Boys",
-    "Player1": "COMPS",
-    "Player2": "EXTC"
-  },
-  {
-    "MATCH NO.": "M4",
-    "DEPARTMENT": "HS vs MECH",
-    "DATE": "16th Jan",
-    "TIME": "14:00",
-    "SPORT": "Volleyball Girls",
-    "Player1": "HS",
-    "Player2": "MECH"
-  },
-  {
-    "MATCH NO.": "M5",
-    "DEPARTMENT": "ITI vs IT",
-    "DATE": "16th Jan",
-    "TIME": "14:30",
-    "SPORT": "Box Cricket Boys",
-    "Player1": "ITI",
-    "Player2": "IT"
-  },
-  {
-    "MATCH NO.": "M6",
-    "DEPARTMENT": "COMPS vs EXTC",
-    "DATE": "16th Jan",
-    "TIME": "14:30",
-    "SPORT": "Basketball Girls",
-    "Player1": "COMPS",
-    "Player2": "EXTC"
-  },
-  {
-    "MATCH NO.": "M7",
-    "DEPARTMENT": "EXTC vs HS",
-    "DATE": "16th Jan",
-    "TIME": "15:00",
-    "SPORT": "Volleyball Boys",
-    "Player1": "EXTC",
-    "Player2": "HS"
-  },
-  {
-    "MATCH NO.": "M8",
-    "DEPARTMENT": "BMS vs MECH",
-    "DATE": "16th Jan",
-    "TIME": "15:30",
-    "SPORT": "Basketball Girls",
-    "Player1": "BMS",
-    "Player2": "MECH"
-  },
-  {
-    "MATCH NO.": "M9",
-    "DEPARTMENT": "MECH vs DOMMF",
-    "DATE": "16th Jan",
-    "TIME": "16:00",
-    "SPORT": "Volleyball Boys",
-    "Player1": "MECH",
-    "Player2": "DOMMF"
-  },
-  {
-    "MATCH NO.": "M10",
-    "DEPARTMENT": "IT vs HS",
-    "DATE": "16th Jan",
-    "TIME": "16:30",
-    "SPORT": "Field Football",
-    "Player1": "IT",
-    "Player2": "HS"
-  }
+  { "DATE": "17th Jan", "MATCH NO.": "M20", "SPORT": "THROWBALL(G)", "DEPARTMENT": "HS vs IT", "Player1": "HS", "Player2": "IT", "TIME": "13:00" },
+  // { "MATCH NO.": "M19", "SPORT": "BASEKETBALL(B)", "DEPARTMENT": "HS vs MECH", "TIME": "13:00", "Player1": "HS", "Player2": "MECH", "Date": "17th Jan" },
+  // { "MATCH NO.": "M50", "SPORT": "BOXCRICKET(B)", "DEPARTMENT": "BMS vs MECH", "TIME": "13:30", "Player1": "BMS", "Player2": "MECH", "Date": "17th Jan" },
+  { "DATE": "17th Jan", "MATCH NO.": "M17", "SPORT": "THROWBALL(G)", "DEPARTMENT": "BMS vs MECH", "Player1": "BMS", "Player2": "MECH", "TIME": "14:00" },
+  { "MATCH NO.": "M20", "SPORT": "BASEKETBALL(B)", "DEPARTMENT": "ITI vs DOMMF", "TIME": "14:00", "Player1": "ITI", "Player2": "DOMMF", "Date": "17th Jan" },
+  { "DATE": "17th Jan", "MATCH NO.": "M56", "SPORT": "TUGOFWAR(B)", "DEPARTMENT": "HS vs IT", "Player1": "HS", "Player2": "IT", "TIME": "14:30" },
+  { "DATE": "17th Jan", "MATCH NO.": "M56", "SPORT": "TUGOFWAR(G)", "DEPARTMENT": "EXTC vs COMPS", "Player1": "EXTC", "Player2": "COMPS", "TIME": "14:30" },
+  { "DATE": "17th Jan", "MATCH NO.": "M57", "SPORT": "TUGOFWAR(G)", "DEPARTMENT": "BMS vs IT", "Player1": "BMS", "Player2": "IT", "TIME": "15:00" },
+  { "DATE": "17th Jan", "MATCH NO.": "M3", "SPORT": "BASKETBALL(GIRLS)", "DEPARTMENT": "DOMMF vs ITI", "Player1": "DOMMF", "Player2": "ITI", "TIME": "15:30" },
+  { "MATCH NO.": "M35", "SPORT": "VOLLEYBALL(B)", "DEPARTMENT": "IT vs ITI", "TIME": "16:00", "Player1": "IT", "Player2": "ITI", "Date": "17th Jan" },
+  { "DATE": "17th Jan", "MATCH NO.": "M33", "SPORT": "BOXCRICKET(G)", "DEPARTMENT": "COMPS vs HS", "Player1": "COMPS", "Player2": "HS", "TIME": "16:00" },
+  { "MATCH NO.": "M7", "SPORT": "FIELDFOOTBALL", "DEPARTMENT": "BMS vs COMPS", "TIME": "16:30", "Player1": "BMS", "Player2": "COMPS", "Date": "17th Jan" },
 ];
 
 // import Generating from "./Generating";
@@ -199,7 +121,7 @@ const Services = () => {
                   <div className="py-12 px-4 xl:px-8">
                     <h4 className="h4 mb-4">Match Fixtures</h4>
                     <div className="flex flex-col items-center gap-2 m-4">
-                      {eventDay.slice(5, 10).map((match, index) => (
+                      {eventDay.slice(5, 12).map((match, index) => (
                         <div key={index} className="match-container relative h-24	 ">
                           <img src={Jersey[match["Player1"]]} class="flag1" />
                           <div className="match-details relative flex flex-col gap-1">
