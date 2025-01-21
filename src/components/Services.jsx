@@ -27,14 +27,17 @@ const eventDay = [
   
   {"MATCH NO.": "M27", "SPORT": "BASEKETBALL(B)", "DEPARTMENT": "IT vs HS", "TIME": "13:00", "Player1": "IT", "Player2": "HS", "Date": "22nd Jan"},
   {"MATCH NO.": "M22", "SPORT": "THROWBALL(G)", "DEPARTMENT": "EXTC vs HS", "TIME": "13:00", "Player1": "EXTC", "Player2": "HS","Date": "22nd Jan"},
-  {"MATCH NO.": "M53", "SPORT": "BOXCRICKET(B)", "DEPARTMENT": "EXTC vs DOMMF", "TIME": "13:30", "Player1": "EXTC", "Player2": "DOMMF", "Date": "22nd Jan"},
-  {"MATCH NO.": "M9", "SPORT": "VOLLEYBALL(G)", "DEPARTMENT": "BMS vs IT", "TIME": "14:00", "Player1": "BMS", "Player2": "IT","Date": "22nd Jan"},
+  {"MATCH NO.": "M36", "SPORT": "BOX CRICKET(G)", "DEPARTMENT": "MECH vs IT", "TIME": "13:30", "Player1": "MECH", "Player2": "IT","Date": "22nd Jan"},
   {"MATCH NO.": "M28", "SPORT": "BASEKETBALL(B)", "DEPARTMENT": "COMPS vs ITI", "TIME": "14:00", "Player1": "COMPS", "Player2": "ITI", "Date": "22nd Jan"},
-  {"MATCH NO.": "M63", "SPORT": "TUGOFWAR(G)", "DEPARTMENT": "BMS vs MECH", "TIME": "14:30", "Player1": "BMS", "Player2": "MECH","Date": "22nd Jan"},
-  {"MATCH NO.": "M64", "SPORT": "TUGOFWAR(G)", "DEPARTMENT": "EXTC vs DOMMF", "TIME": "15:00", "Player1": "EXTC", "Player2": "DOMMF","Date": "22nd Jan"},
-  {"MATCH NO.": "M36", "SPORT": "BOXCRICKET(G)", "DEPARTMENT": "MECH vs IT", "TIME": "15:30", "Player1": "MECH", "Player2": "IT","Date": "22nd Jan"},
-  {"MATCH NO.": "M34", "SPORT": "VOLLEYBALL(B)", "DEPARTMENT": "BMS vs COMPS", "TIME": "16:00", "Player1": "BMS", "Player2": "COMPS", "Date": "22nd Jan"},
-  {"MATCH NO.": "M9", "SPORT": "FIELDFOOTBALL", "DEPARTMENT": "BMS vs EXTC", "TIME": "16:30", "Player1": "BMS", "Player2": "EXTC", "Date": "22nd Jan"},
+  {"MATCH NO.": "M9", "SPORT": "VOLLEYBALL(G)", "DEPARTMENT": "BMS vs IT", "TIME": "14:00", "Player1": "BMS", "Player2": "IT","Date": "22nd Jan"},
+  {"MATCH NO.": "M63", "SPORT": "TUG OF WAR(B)", "DEPARTMENT": "MECH vs COMPS", "TIME": "14:30", "Player1": "MECH", "Player2": "COMPS","Date": "22nd Jan"},
+  {"MATCH NO.": "M63", "SPORT": "TUG OF WAR(G)", "DEPARTMENT": "BMS vs MECH", "TIME": "14:30", "Player1": "BMS", "Player2": "MECH","Date": "22nd Jan"},
+  {"MATCH NO.": "M53", "SPORT": "BOX CRICKET(B)", "DEPARTMENT": "BMS vs MECH", "TIME": "14:30", "Player1": "BMS", "Player2": "MECH", "Date": "22nd Jan"},
+  {"MATCH NO.": "M64", "SPORT": "TUG OF WAR(B)", "DEPARTMENT": "EXTC vs ITI", "TIME": "15:00", "Player1": "EXTC", "Player2": "ITI","Date": "22nd Jan"},
+  {"MATCH NO.": "M64", "SPORT": "TUG OF WAR(G)", "DEPARTMENT": "EXTC vs DOMMF", "TIME": "15:00", "Player1": "EXTC", "Player2": "DOMMF","Date": "22nd Jan"},
+  {"MATCH NO.": "M53", "SPORT": "BOX CRICKET(B)", "DEPARTMENT": "EXTC vs DOMMF", "TIME": "15:30", "Player1": "EXTC", "Player2": "DOMMF", "Date": "22nd Jan"},
+  {"MATCH NO.": "M34", "SPORT": "VOLLEY BALL(B)", "DEPARTMENT": "BMS vs COMPS", "TIME": "16:00", "Player1": "BMS", "Player2": "COMPS", "Date": "22nd Jan"},
+  {"MATCH NO.": "M9", "SPORT": "FIELD FOOTBALL", "DEPARTMENT": "BMS vs EXTC", "TIME": "16:30", "Player1": "BMS", "Player2": "EXTC", "Date": "22nd Jan"},
 ];
 
 // import Generating from "./Generating";
@@ -103,7 +106,7 @@ const Services = () => {
                   <div className="py-12 px-0 xl:px-8">
                     <h4 className="h4 mb-4">Match Fixtures</h4>
                     <div className="flex flex-col items-center gap-2 m-4">
-                      {eventDay.slice(0, 5).map((match, index) => (
+                      {eventDay.slice(0, 6).map((match, index) => (
                         <div key={index} className="match-container relative h-auto flex items-center justify-between">
                           <img src={Jersey[match["Player1"]]} className="flag1 w-16 h-auto" />
                           <div className="match-details relative flex flex-col gap-1 h-auto text-center">
@@ -121,7 +124,7 @@ const Services = () => {
                   <div className="py-12 px-4 xl:px-8">
                     <h4 className="h4 mb-4">Match Fixtures</h4>
                     <div className="flex flex-col items-center gap-2 m-4">
-                      {eventDay.slice(5, 12).map((match, index) => (
+                      {eventDay.slice(6, 15).map((match, index) => (
                         <div key={index} className="match-container relative h-24	 ">
                           <img src={Jersey[match["Player1"]]} className="flag1" />
                           <div className="match-details relative flex flex-col gap-1">
