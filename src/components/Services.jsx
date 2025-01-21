@@ -127,7 +127,7 @@ const Services = () => {
                           <div className="match-details relative flex flex-col gap-1">
                             <p className="h6 text-stone-900 font-bold">{match["SPORT"]}</p>
                             <p>{match["DEPARTMENT"]}</p>
-                            <p>{match["DATE"]} at <span className="time">{match["TIME"]}</span></p>
+                            <p>{match["Date"]} at <span className="time">{match["TIME"]}</span></p>
                           </div>
                           <img src={Jersey[match["Player2"]]} className="flag" />
                         </div>
