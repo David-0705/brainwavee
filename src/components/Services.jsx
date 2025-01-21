@@ -23,18 +23,18 @@ import 'swiper/css/navigation';
 
 
 const eventDay = [
-  { "DATE": "17th Jan", "MATCH NO.": "M20", "SPORT": "THROWBALL(G)", "DEPARTMENT": "HS vs IT", "Player1": "HS", "Player2": "IT", "TIME": "13:00" },
-  // { "MATCH NO.": "M19", "SPORT": "BASEKETBALL(B)", "DEPARTMENT": "HS vs MECH", "TIME": "13:00", "Player1": "HS", "Player2": "MECH", "Date": "17th Jan" },
-  // { "MATCH NO.": "M50", "SPORT": "BOXCRICKET(B)", "DEPARTMENT": "BMS vs MECH", "TIME": "13:30", "Player1": "BMS", "Player2": "MECH", "Date": "17th Jan" },
-  { "DATE": "17th Jan", "MATCH NO.": "M17", "SPORT": "THROWBALL(G)", "DEPARTMENT": "BMS vs MECH", "Player1": "BMS", "Player2": "MECH", "TIME": "14:00" },
-  { "MATCH NO.": "M20", "SPORT": "BASEKETBALL(B)", "DEPARTMENT": "ITI vs DOMMF", "TIME": "14:00", "Player1": "ITI", "Player2": "DOMMF", "Date": "17th Jan" },
-  { "DATE": "17th Jan", "MATCH NO.": "M56", "SPORT": "TUGOFWAR(B)", "DEPARTMENT": "HS vs IT", "Player1": "HS", "Player2": "IT", "TIME": "14:30" },
-  { "DATE": "17th Jan", "MATCH NO.": "M56", "SPORT": "TUGOFWAR(G)", "DEPARTMENT": "EXTC vs COMPS", "Player1": "EXTC", "Player2": "COMPS", "TIME": "14:30" },
-  { "DATE": "17th Jan", "MATCH NO.": "M57", "SPORT": "TUGOFWAR(G)", "DEPARTMENT": "BMS vs IT", "Player1": "BMS", "Player2": "IT", "TIME": "15:00" },
-  { "DATE": "17th Jan", "MATCH NO.": "M3", "SPORT": "BASKETBALL(GIRLS)", "DEPARTMENT": "DOMMF vs ITI", "Player1": "DOMMF", "Player2": "ITI", "TIME": "15:30" },
-  { "MATCH NO.": "M35", "SPORT": "VOLLEYBALL(B)", "DEPARTMENT": "IT vs ITI", "TIME": "16:00", "Player1": "IT", "Player2": "ITI", "Date": "17th Jan" },
-  { "DATE": "17th Jan", "MATCH NO.": "M33", "SPORT": "BOXCRICKET(G)", "DEPARTMENT": "COMPS vs HS", "Player1": "COMPS", "Player2": "HS", "TIME": "16:00" },
-  { "MATCH NO.": "M7", "SPORT": "FIELDFOOTBALL", "DEPARTMENT": "BMS vs COMPS", "TIME": "16:30", "Player1": "BMS", "Player2": "COMPS", "Date": "17th Jan" },
+  
+  
+  {"MATCH NO.": "M27", "SPORT": "BASEKETBALL(B)", "DEPARTMENT": "IT vs HS", "TIME": "13:00", "Player1": "IT", "Player2": "HS", "Date": "22nd Jan"},
+  {"MATCH NO.": "M22", "SPORT": "THROWBALL(G)", "DEPARTMENT": "EXTC vs HS", "TIME": "13:00", "Player1": "EXTC", "Player2": "HS","Date": "22nd Jan"},
+  {"MATCH NO.": "M53", "SPORT": "BOXCRICKET(B)", "DEPARTMENT": "EXTC vs DOMMF", "TIME": "13:30", "Player1": "EXTC", "Player2": "DOMMF", "Date": "22nd Jan"},
+  {"MATCH NO.": "M9", "SPORT": "VOLLEYBALL(G)", "DEPARTMENT": "BMS vs IT", "TIME": "14:00", "Player1": "BMS", "Player2": "IT","Date": "22nd Jan"},
+  {"MATCH NO.": "M28", "SPORT": "BASEKETBALL(B)", "DEPARTMENT": "COMPS vs ITI", "TIME": "14:00", "Player1": "COMPS", "Player2": "ITI", "Date": "22nd Jan"},
+  {"MATCH NO.": "M63", "SPORT": "TUGOFWAR(G)", "DEPARTMENT": "BMS vs MECH", "TIME": "14:30", "Player1": "BMS", "Player2": "MECH","Date": "22nd Jan"},
+  {"MATCH NO.": "M64", "SPORT": "TUGOFWAR(G)", "DEPARTMENT": "EXTC vs DOMMF", "TIME": "15:00", "Player1": "EXTC", "Player2": "DOMMF","Date": "22nd Jan"},
+  {"MATCH NO.": "M36", "SPORT": "BOXCRICKET(G)", "DEPARTMENT": "MECH vs IT", "TIME": "15:30", "Player1": "MECH", "Player2": "IT","Date": "22nd Jan"},
+  {"MATCH NO.": "M34", "SPORT": "VOLLEYBALL(B)", "DEPARTMENT": "BMS vs COMPS", "TIME": "16:00", "Player1": "BMS", "Player2": "COMPS", "Date": "22nd Jan"},
+  {"MATCH NO.": "M9", "SPORT": "FIELDFOOTBALL", "DEPARTMENT": "BMS vs EXTC", "TIME": "16:30", "Player1": "BMS", "Player2": "EXTC", "Date": "22nd Jan"},
 ];
 
 // import Generating from "./Generating";
@@ -109,7 +109,7 @@ const Services = () => {
                           <div className="match-details relative flex flex-col gap-1 h-auto text-center">
                             <p className="h6 text-stone-900 font-bold text-base sm:text-lg">{match["SPORT"]}</p>
                             <p className="text-sm sm:text-base">{match["DEPARTMENT"]}</p>
-                            <p className="text-sm sm:text-base">{match["DATE"]} at <span className="time">{match["TIME"]}</span></p>
+                            <p className="text-sm sm:text-base">{match["Date"]} at <span className="time">{match["TIME"]}</span></p>
                           </div>
                           <img src={Jersey[match["Player2"]]} className="flag w-16 h-auto" />
                         </div>

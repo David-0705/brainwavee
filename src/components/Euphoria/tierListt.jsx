@@ -142,7 +142,7 @@ export default function TierSystem() {
       customPaddings id="event">
       <Gradient />
       <div className="tier-system p-10">
-        <h1 className="title m-10">Tier System</h1>
+        <h1 className="title h3 m-10">Tier System</h1>
         <div className="tiers">
           {tiers.map((tier, index) => (
             <div key={tier.title} className="tier">
