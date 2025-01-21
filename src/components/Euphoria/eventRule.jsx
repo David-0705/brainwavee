@@ -22,7 +22,7 @@ const Jersey = {
 };
 
 export default function eventRule({ data }) {
-    console.log(data);
+    // console.log(data);
     const dataEvent = data.sport;
     const matchData = data.sportCheck && Data[data.sportCheck] ? Data[data.sportCheck] : null;
 

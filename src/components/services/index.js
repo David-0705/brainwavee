@@ -98,9 +98,9 @@ export const FixtureEvent = async () => {
     // }
 
     const response = await graphqlClient.request(query);
-    console.log('Data collected successfully:', response.fixtures);
+    // console.log('Data collected successfully:', response.fixtures);
     return response
 };
 
-EuphoriaEvent();
-FixtureEvent();
+// EuphoriaEvent();
+// FixtureEvent();

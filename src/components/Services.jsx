@@ -93,7 +93,7 @@ const Services = () => {
               </div>
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
                 <h2 className="h2 mb-0 p-0">Marathon</h2>
-                <h4 className="h5 mb-2 text-n-2">January 12th</h4>
+                <h4 className="h5 mb-2 text-n-2">January 11th</h4>
               </div>
             </div>
 
@@ -123,7 +123,7 @@ const Services = () => {
                     <div className="flex flex-col items-center gap-2 m-4">
                       {eventDay.slice(5, 12).map((match, index) => (
                         <div key={index} className="match-container relative h-24	 ">
-                          <img src={Jersey[match["Player1"]]} class="flag1" />
+                          <img src={Jersey[match["Player1"]]} className="flag1" />
                           <div className="match-details relative flex flex-col gap-1">
                             <p className="h6 text-stone-900 font-bold">{match["SPORT"]}</p>
                             <p>{match["DEPARTMENT"]}</p>

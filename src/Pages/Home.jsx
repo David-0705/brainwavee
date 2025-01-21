@@ -8,6 +8,7 @@ import { homeNavigation } from "../constants";
 import Roadmap from "../components/Roadmap";
 import Services from "../components/Services";
 import Grid from "../components/Euphoria/Grid";
+import TierSystem from "../components/Euphoria/tierListt";
 
 import {useState , useEffect} from "react";
 import {EuphoriaEvent}  from "../components/services/index";
@@ -39,6 +40,7 @@ export default function Home(){
         <Services />
         <Grid />
         <Benefits />
+        {/* <TierSystem/> */}
         {/* {data?.euphoriaEvents && <Events data={data.euphoriaEvents[0]} />} */}
         {/* <Collaboration /> */}
         {/* <Pricing /> */}

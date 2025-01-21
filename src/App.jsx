@@ -5,6 +5,7 @@ import Points from './Pages/Points';
 import Events from './Pages/Events';
 import EventRule from './components/Euphoria/eventRule';
 import Departments from './Pages/Departments';
+import TierSystem from './components/Euphoria/tierListt';
 import { departments } from './constants';
 import DisplayDept from './components/Department/DisplayDept';
 import { EuphoriaEvent } from "./components/services/index";
@@ -17,10 +18,10 @@ const EventDetail = ({ data }) => {
   const location = useLocation();
   const { STitle } = location.state || {}; // Ensure `state` is correctly destructured
   const { title } = useParams();
-  if (!STitle) {
-    console.log('STitle is missing');
-  }
-  console.log('STitle:', STitle); // Log to confirm if `STitle` is received
+  // if (!STitle) {
+  //   console.log('STitle is missing');
+  // }
+  // console.log('STitle:', STitle); // Log to confirm if `STitle` is received
 
   const event = data?.sportRuleBooks.find(event => event.sportCheck === STitle) ||
                 data?.paEvents.find(event => event.paCheck === STitle) ||
@@ -45,10 +46,10 @@ const App = () => {
     const fetchEuphoriaEventData = async () => {
       try {
         const res = await EuphoriaEvent();
-        console.log('EuphoriaEvent data:', res);
+        // console.log('EuphoriaEvent data:', res);
         setdata(res);
       } catch (error) {
-        console.error('Error fetching EuphoriaEvent data:', error);
+        // console.error('Error fetching EuphoriaEvent data:', error);
       } finally {
         setLoading(false);
       }
@@ -97,6 +98,14 @@ const App = () => {
         element={
           <>
             <Instruction/>
+          </>
+        }
+      />
+      <Route
+        path="/tierlist"
+        element={
+          <>
+            <TierSystem/>
           </>
         }
       />

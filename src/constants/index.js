@@ -80,14 +80,16 @@ export const navigation = [
     title: "Instruction",
     url: "/#/instruction",
   },
-  // {
-  //   id: "1",
-  //   title: "Events",
-  //   url: "#events",
-  // },
+  {
+    id: "5",
+    title: "Tier List",
+    url: "/#/tierlist",
+  },
+  
 ];
 
 export const pointsnav = [];
+export const tierlist = [];
 
 export const capimg = [img0, img1, img2, img3, img4, img5, img6, img7];
 
