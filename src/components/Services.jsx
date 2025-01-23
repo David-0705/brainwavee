@@ -24,31 +24,15 @@ import 'swiper/css/navigation';
 
 const eventDay = [
   
-  {"MATCH NO.": "M54", "SPORT": "Rink Football Girls", "Date":"23rd Jan","TIME":"1pm - 5pm"},
-  {
-          "MATCH NO.": "M57",
-          "SPORT": "KABADDI",
-          "DEPARTMENT": "HS vs IT",
-          "Date": "23rd Jan",
-          "TIME": "13:00",
-          "Player1": "HS",
-          "Player2": "IT"
-         },
-         {"MATCH NO.": "M54", "SPORT": "BOXCRICKET(B)", "DEPARTMENT": "BMS vs DOMMF", "TIME": "13:30", "Player1": "BMS", "Player2": "DOMMF", "Date": "23rd Jan"},
-         {
-          "MATCH NO.": "M58",
-          "SPORT": "KABADDI",
-          "DEPARTMENT": "MECH vs BMS",
-          "Date": "23rd Jan",
-          "TIME": "14:00",
-          "Player1": "MECH",
-          "Player2": "BMS"
-         },
-  {"MATCH NO.": "M26", "SPORT": "THROWBALL(G)", "DEPARTMENT": "DOMMF vs HS", "TIME": "14:30", "Player1": "DOMMF", "Player2": "HS", "Date":"23rd Jan"},
-  {"MATCH NO.": "M37", "SPORT": "VOLLEYBALL(B)", "DEPARTMENT": "DOMMF vs ITI", "TIME": "15:00", "Player1": "DOMMF", "Player2": "ITI", "Date": "23rd Jan"},
-  {"MATCH NO.": "M42", "SPORT": "VOLLEYBALL(B)", "DEPARTMENT": "COMPS vs HS", "TIME": "16:00", "Player1": "COMPS", "Player2": "HS", "Date": "23rd Jan"},
-  {"MATCH NO.": "M10", "SPORT": "FIELDFOOTBALL", "DEPARTMENT": "DOMMF vs ITI", "TIME": "16:30", "Player1": "DOMMF", "Player2": "ITI", "Date": "23rd Jan"},
-
+  {"MATCH NO.": "M54", "SPORT": "Intercollege Rink Football (BOYS)", "Date":"24rd Jan","TIME":"8pm - 4:30pm"},
+  {"MATCH NO.": "M55", "SPORT": "BOXCRICKET(B)", "DEPARTMENT": "ITI vs COMPS", "TIME": "13:00", "Player1": "ITI", "Player2": "COMPS", "Date": "24th Jan"},
+  {"MATCH NO.": "M11", "SPORT": "VOLLEYBALL(G)", "DEPARTMENT": "ITI vs COMPS", "TIME": "13:30", "Player1": "ITI", "Player2": "COMPS","Date": "24th Jan"},
+  {"MATCH NO.": "M56", "SPORT": "BOXCRICKET(B)", "DEPARTMENT": "EXTC vs MECH", "TIME": "13:45", "Player1": "EXTC", "Player2": "MECH", "Date": "24th Jan"},
+  {"MATCH NO.": "M56.1", "SPORT": "BOXCRICKET(B)", "DEPARTMENT": "IT vs COMPS", "TIME": "14:30", "Player1": "IT", "Player2": "COMPS", "Date": "24th Jan"},
+  {"MATCH NO.": "M56.2", "SPORT": "BOXCRICKET(B)", "DEPARTMENT": "BMS vs EXTC", "TIME": "15:15", "Player1": "BMS", "Player2": "EXTC", "Date": "24th Jan"},
+  {"MATCH NO.": "M56.3", "SPORT": "BOXCRICKET(B)", "DEPARTMENT": "ITI vs HS", "TIME": "16:00", "Player1": "ITI", "Player2": "HS", "Date": "24th Jan"},
+  {"MATCH NO.": "M5", "SPORT": "FIELDFOOTBALL", "DEPARTMENT": "MECH vs EXTC", "TIME": "16:30", "Player1": "MECH", "Player2": "EXTC", "Date": "24th Jan"},
+ 
 ];
 
 // import Generating from "./Generating";
