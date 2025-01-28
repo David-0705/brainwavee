@@ -24,26 +24,25 @@ import 'swiper/css/navigation';
 
 const eventDay = [
   
-
-  
-    {"MATCH NO.": "M01", "SPORT": "Athletics", "DEPARTMENT": "", "TIME": "7:00 am- 9:30 am", "Player1": "", "Player2": "", "Date": "28th Jan"},
-    {"MATCH NO.": "M01", "SPORT": "KABADDI(BOYS)", "DEPARTMENT": "EXTC vs COMPS", "TIME": "13:00", "Player1": "EXTC", "Player2": "COMPS", "Date": "28th Jan"},
-    {"MATCH NO.": "M02", "SPORT": "BOX CRICKET(BOYS)", "DEPARTMENT": "IT vs HS", "TIME": "13:00", "Player1": "IT", "Player2": "HS", "Date": "28th Jan"},
-    {"MATCH NO.": "M03", "SPORT": "THROWBALL(GIRLS)", "DEPARTMENT": "ITI vs COMPS", "TIME": "13:30", "Player1": "ITI", "Player2": "COMPS", "Date": "28th Jan"},
-    {"MATCH NO.": "M04", "SPORT": "KABADDI(BOYS)", "DEPARTMENT": "ITI vs DOMMF", "TIME": "14:00", "Player1": "ITI", "Player2": "DOMMF", "Date": "28th Jan"},
-    {"MATCH NO.": "M05", "SPORT": "VOLLEYBALL(GIRLS)", "ROUND": "Semi-Final 1", "TIME": "14:00", "Date": "28th Jan"},
-    {"MATCH NO.": "M06", "SPORT": "BASKETBALL(BOYS)", "ROUND": "Semi-Final 2", "DEPARTMENT": "IT vs COMPS", "TIME": "14:00", "Player1": "IT", "Player2": "COMPS", "Date": "28th Jan"},
-    {"MATCH NO.": "M07", "SPORT": "TUG OF WAR(BOYS)", "DEPARTMENT": "DOMMF vs BMS", "TIME": "14:30", "Player1": "DOMMF", "Player2": "BMS", "Date": "28th Jan"},
-    {"MATCH NO.": "M08", "SPORT": "TUG OF WAR(GIRLS)", "DEPARTMENT": "HS vs COMPS", "TIME": "14:30", "Player1": "HS", "Player2": "COMPS", "Date": "28th Jan"},
-    {"MATCH NO.": "M09", "SPORT": "TUG OF WAR(GIRLS)", "DEPARTMENT": "COMPS vs DOMMF", "TIME": "14:30", "Player1": "COMPS", "Player2": "DOMMF", "Date": "28th Jan"},
-    {"MATCH NO.": "M10", "SPORT": "VOLLEYBALL(BOYS)", "DEPARTMENT": "BMS vs EXTC", "TIME": "15:00", "Player1": "BMS", "Player2": "EXTC", "Date": "28th Jan"},
-    {"MATCH NO.": "M11", "SPORT": "VOLLEYBALL(BOYS)", "DEPARTMENT": "MECH vs ITI", "TIME": "16:00", "Player1": "MECH", "Player2": "ITI", "Date": "28th Jan"},
-    {"MATCH NO.": "M12", "SPORT": "BOX CRICKET(GIRLS)", "ROUND": "Semi-Final 1", "DEPARTMENT": "COMPS vs IT", "TIME": "16:00", "Player1": "COMPS", "Player2": "IT", "Date": "28th Jan"},
-    {"MATCH NO.": "M13", "SPORT": "FIELD FOOTBALL", "ROUND": "Semi-Final 1", "DEPARTMENT": "COMPS vs DOMMF", "TIME": "16:30", "Player1": "COMPS", "Player2": "DOMMF", "Date": "28th Jan"}
-  
-  
-    
- 
+    {"MATCH NO.": "M101", "SPORT": "BOX CRICKET(B)", "DEPARTMENT": "IT vs EXTC", "TIME": "10:00", "Player1": "IT", "Player2": "EXTC", "Date": "29th Jan"},
+    {"MATCH NO.": "M102", "SPORT": "THROWBALL(G)", "DEPARTMENT": "BMS vs IT", "TIME": "10:00", "Player1": "BMS", "Player2": "IT", "Date": "29th Jan"},
+    {"MATCH NO.": "M103", "SPORT": "BASKETBALL(G)", "DEPARTMENT": "COMPS vs HS", "TIME": "10:30", "Player1": "COMPS", "Player2": "HS", "Date": "29th Jan"},
+    {"MATCH NO.": "M104", "SPORT": "BOX CRICKET(B)", "DEPARTMENT": "HS vs MECH", "TIME": "10:30", "Player1": "HS", "Player2": "MECH", "Date": "29th Jan"},
+    {"MATCH NO.": "M105", "SPORT": "KABADDI(B)", "DEPARTMENT": "IT vs ITI", "TIME": "11:00", "Player1": "IT", "Player2": "ITI", "Date": "29th Jan"},
+    {"MATCH NO.": "M106", "SPORT": "THROWBALL(G)", "DEPARTMENT": "COMPS vs DOMMF", "TIME": "11:00", "Player1": "COMPS", "Player2": "DOMMF", "Date": "29th Jan"},
+    {"MATCH NO.": "M107", "SPORT": "VOLLEYBALL(G)", "DEPARTMENT": "BMS vs HS", "TIME": "11:30", "Player1": "BMS", "Player2": "HS", "Date": "29th Jan"},
+    {"MATCH NO.": "M108", "SPORT": "BASKETBALL(G)", "DEPARTMENT": "DOMMF vs BMS", "TIME": "11:30", "Player1": "DOMMF", "Player2": "BMS", "Date": "29th Jan"},
+    {"MATCH NO.": "M109", "SPORT": "KABADDI(B)", "DEPARTMENT": "EXTC vs BMS", "TIME": "12:30", "Player1": "EXTC", "Player2": "BMS", "Date": "29th Jan"},
+    {"MATCH NO.": "M110", "SPORT": "VOLLEYBALL(G)", "DEPARTMENT": "COMPS vs DOMMF", "TIME": "12:30", "Player1": "COMPS", "Player2": "DOMMF", "Date": "29th Jan"},
+    {"MATCH NO.": "M111", "SPORT": "BASKETBALL(G)", "DEPARTMENT": "DOMMF vs BMS", "TIME": "13:00", "Player1": "DOMMF", "Player2": "BMS", "Date": "29th Jan"},
+    {"MATCH NO.": "M112", "SPORT": "TUG OF WAR(B)", "DEPARTMENT": "IT vs MECH", "TIME": "13:30", "Player1": "IT", "Player2": "MECH", "Date": "29th Jan"},
+    {"MATCH NO.": "M113", "SPORT": "TUG OF WAR(G)", "DEPARTMENT": "HS vs IT", "TIME": "13:30", "Player1": "HS", "Player2": "IT", "Date": "29th Jan"},
+    {"MATCH NO.": "M114", "SPORT": "VOLLEYBALL(B)", "DEPARTMENT": "MECH vs COMPS", "TIME": "13:30", "Player1": "MECH", "Player2": "COMPS", "Date": "29th Jan"},
+    {"MATCH NO.": "M115", "SPORT": "TUG OF WAR(B)", "DEPARTMENT": "HS vs COMPS", "TIME": "14:00", "Player1": "HS", "Player2": "COMPS", "Date": "29th Jan"},
+    {"MATCH NO.": "M116", "SPORT": "TUG OF WAR(G)", "DEPARTMENT": "EXTC vs BMS", "TIME": "14:00", "Player1": "EXTC", "Player2": "BMS", "Date": "29th Jan"},
+    {"MATCH NO.": "M117", "SPORT": "VOLLEYBALL(B)", "DEPARTMENT": "IT vs BMS", "TIME": "14:30", "Player1": "IT", "Player2": "BMS", "Date": "29th Jan"},
+    {"MATCH NO.": "M118", "SPORT": "FIELD FOOTBALL", "DEPARTMENT": "BMS vs HS", "TIME": "15:30", "Player1": "BMS", "Player2": "HS", "Date": "29th Jan"}
+   
 ];
 
 // import Generating from "./Generating";
@@ -111,9 +110,9 @@ const Services = () => {
                 <SwiperSlide>
                   <div className="py-12 px-0 xl:px-8">
                     <h4 className="h4 mb-4">Match Fixtures</h4>
-                    <div className="flex flex-col items-center gap-2 m-4">
+                    <div className="flex flex-col items-center gap-2 m-4 overflow-hidden">
                       {eventDay.slice(0, 6).map((match, index) => (
-                        <div key={index} className="match-container relative h-auto flex items-center justify-between">
+                        <div key={index} className="match-container relative h-auto flex items-center justify-between overflow-hidden ">
                           <img src={Jersey[match["Player1"]]} className="flag1 w-16 h-auto" />
                           <div className="match-details relative flex flex-col gap-1 h-auto text-center">
                             <p className="h6 text-stone-900 font-bold text-base sm:text-lg">{match["SPORT"]}</p>
@@ -127,23 +126,42 @@ const Services = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="py-12 px-4 xl:px-8">
+                  <div className="py-12 px-0 xl:px-8">
                     <h4 className="h4 mb-4">Match Fixtures</h4>
                     <div className="flex flex-col items-center gap-2 m-4">
-                      {eventDay.slice(6, 15).map((match, index) => (
-                        <div key={index} className="match-container relative h-24	 ">
-                          <img src={Jersey[match["Player1"]]} className="flag1" />
-                          <div className="match-details relative flex flex-col gap-1">
-                            <p className="h6 text-stone-900 font-bold">{match["SPORT"]}</p>
-                            <p>{match["DEPARTMENT"]}</p>
-                            <p>{match["Date"]} at <span className="time">{match["TIME"]}</span></p>
+                      {eventDay.slice(6,12).map((match, index) => (
+                        <div key={index} className="match-container relative h-auto flex items-center justify-between overflow-hidden">
+                          <img src={Jersey[match["Player1"]]} className="flag1 w-16 h-auto" />
+                          <div className="match-details relative flex flex-col gap-1 h-auto text-center">
+                            <p className="h6 text-stone-900 font-bold text-base sm:text-lg">{match["SPORT"]}</p>
+                            <p className="text-sm sm:text-base">{match["DEPARTMENT"]}</p>
+                            <p className="text-sm sm:text-base">{match["Date"]} at <span className="time">{match["TIME"]}</span></p>
                           </div>
-                          <img src={Jersey[match["Player2"]]} className="flag" />
+                          <img src={Jersey[match["Player2"]]} className="flag w-16 h-auto" />
                         </div>
                       ))}
                     </div>
                   </div>
                 </SwiperSlide>
+                <SwiperSlide>
+                  <div className="py-12 px-0 xl:px-8">
+                    <h4 className="h4 mb-4">Match Fixtures</h4>
+                    <div className="flex flex-col items-center gap-2 m-4">
+                      {eventDay.slice(12, 20).map((match, index) => (
+                        <div key={index} className="match-container relative h-auto flex items-center justify-between overflow-hidden">
+                          <img src={Jersey[match["Player1"]]} className="flag1 w-16 h-auto" />
+                          <div className="match-details relative flex flex-col gap-1 h-auto text-center">
+                            <p className="h6 text-stone-900 font-bold text-base sm:text-lg">{match["SPORT"]}</p>
+                            <p className="text-sm sm:text-base">{match["DEPARTMENT"]}</p>
+                            <p className="text-sm sm:text-base">{match["Date"]} at <span className="time">{match["TIME"]}</span></p>
+                          </div>
+                          <img src={Jersey[match["Player2"]]} className="flag w-16 h-auto" />
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </SwiperSlide>
+                
               </Swiper>
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
