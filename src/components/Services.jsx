@@ -24,124 +24,137 @@ import 'swiper/css/navigation';
 
 const eventDay = [
   
-
     {
-      "MATCH NO.": "M201",
+      "MATCH NO.": "M301",
       "SPORT": "ATHLETICS",
       "DEPARTMENT": "ALL",
       "TIME": "7:00 am to 9:30 am",
       "Player1": "N/A",
       "Player2": "N/A",
-      "Date": "30th Jan"
+      "Date": "31st Jan"
     },
     {
-      "MATCH NO.": "M202",
-      "SPORT": "BOX CRICKET(B)",
-      "DEPARTMENT": "EXTC vs HS",
+      "MATCH NO.": "M302",
+      "SPORT": "BOX CRICKET(BOYS)",
+      "DEPARTMENT": "MECH vs IT",
+      "ROUND": "Final",
       "TIME": "10:00",
-      "Player1": "EXTC",
-      "Player2": "HS",
-      "Date": "30th Jan"
-    },
-    {
-      "MATCH NO.": "M203",
-      "SPORT": "BOX CRICKET(G)",
-      "DEPARTMENT": "IT vs BMS",
-      "TIME": "11:00",
-      "Player1": "IT",
-      "Player2": "BMS",
-      "Date": "30th Jan"
-    },
-    {
-      "MATCH NO.": "M204",
-      "SPORT": "TUG OF WAR(B)",
-      "DEPARTMENT": "HS vs IT",
-      "TIME": "11:30",
-      "Player1": "HS",
+      "Player1": "MECH",
       "Player2": "IT",
-      "Date": "30th Jan"
+      "Date": "31st Jan"
     },
     {
-      "MATCH NO.": "M205",
-      "SPORT": "TUG OF WAR(G)",
+      "MATCH NO.": "M303",
+      "SPORT": "BOX CRICKET(GIRLS)",
+      "DEPARTMENT": "COMPS vs EXTC",
+      "ROUND": "Final",
+      "TIME": "11:00",
+      "Player1": "COMPS",
+      "Player2": "EXTC",
+      "Date": "31st Jan"
+    },
+    {
+      "MATCH NO.": "M304",
+      "SPORT": "KABADDI(BOYS)",
+      "DEPARTMENT": "BMS vs ITI",
+      "ROUND": "Third Place",
+      "TIME": "11:00",
+      "Player1": "BMS",
+      "Player2": "ITI",
+      "Date": "31st Jan"
+    },
+    {
+      "MATCH NO.": "M305",
+      "SPORT": "TUG OF WAR(BOYS)",
+      "DEPARTMENT": "MECH vs COMPS",
+      "ROUND": "Final",
+      "TIME": "10:30",
+      "Player1": "MECH",
+      "Player2": "COMPS",
+      "Date": "31st Jan"
+    },
+    {
+      "MATCH NO.": "M306",
+      "SPORT": "TUG OF WAR(GIRLS)",
+      "DEPARTMENT": "BMS vs HS",
+      "ROUND": "Final",
+      "TIME": "11:00",
+      "Player1": "BMS",
+      "Player2": "HS",
+      "Date": "31st Jan"
+    },
+    {
+      "MATCH NO.": "M307",
+      "SPORT": "THROWBALL(GIRLS)",
+      "DEPARTMENT": "DOMMF vs BMS",
+      "ROUND": "Final",
+      "TIME": "12:00",
+      "Player1": "DOMMF",
+      "Player2": "BMS",
+      "Date": "31st Jan"
+    },
+    {
+      "MATCH NO.": "M308",
+      "SPORT": "KABADDI(BOYS)",
       "DEPARTMENT": "IT vs EXTC",
+      "ROUND": "Final",
       "TIME": "12:00",
       "Player1": "IT",
       "Player2": "EXTC",
-      "Date": "30th Jan"
+      "Date": "31st Jan"
     },
     {
-      "MATCH NO.": "M206",
-      "SPORT": "THROWBALL(G)",
-      "DEPARTMENT": "IT vs COMPS",
-      "TIME": "2:30",
-      "Player1": "IT",
-      "Player2": "COMPS",
-      "Date": "30th Jan"
-    },
-    {
-      "MATCH NO.": "M207",
-      "SPORT": "BASKETBALL(B)",
-      "DEPARTMENT": "COMPS vs EXTC",
+      "MATCH NO.": "M309",
+      "SPORT": "BASKETBALL(BOYS)",
+      "DEPARTMENT": "IT vs BMS",
+      "ROUND": "Final",
       "TIME": "1:00",
-      "Player1": "COMPS",
-      "Player2": "EXTC",
-      "Date": "30th Jan"
-    },
-    {
-      "MATCH NO.": "M208",
-      "SPORT": "KABBADI(B)",
-      "DEPARTMENT": "ITI vs BMS",
-      "TIME": "12:30",
-      "Player1": "ITI",
-      "Player2": "BMS",
-      "Date": "30th Jan"
-    },
-    {
-      "MATCH NO.": "M209",
-      "SPORT": "BASKETBALL(G)",
-      "DEPARTMENT": "HS vs DOMMF",
-      "TIME": "1:30",
-      "Player1": "HS",
-      "Player2": "DOMMF",
-      "Date": "30th Jan"
-    },
-    {
-      "MATCH NO.": "M210",
-      "SPORT": "KABBADI(B)",
-      "DEPARTMENT": "FINALS - IT vs EXTC",
-      "TIME": "2:00",
       "Player1": "IT",
-      "Player2": "EXTC",
-      "Date": "30th Jan"
+      "Player2": "BMS",
+      "Date": "31st Jan"
     },
     {
-      "MATCH NO.": "M211",
-      "SPORT": "VOLLEYBALL(G)",
-      "DEPARTMENT": "HS vs COMPS",
+      "MATCH NO.": "M310",
+      "SPORT": "BASKETBALL(GIRLS)",
+      "DEPARTMENT": "COMPS vs BMS",
+      "ROUND": "Final",
       "TIME": "12:30",
-      "Player1": "HS",
-      "Player2": "COMPS",
-      "Date": "30th Jan"
-    },
-    {
-      "MATCH NO.": "M212",
-      "SPORT": "VOLLEYBALL(B)",
-      "DEPARTMENT": "COMPS vs IT",
-      "TIME": "3:30",
       "Player1": "COMPS",
-      "Player2": "IT",
-      "Date": "30th Jan"
+      "Player2": "BMS",
+      "Date": "31st Jan"
     },
     {
-      "MATCH NO.": "M213",
-      "SPORT": "FIELD FOOTBALL",
-      "DEPARTMENT": "DOMMF vs HS",
-      "TIME": "4:00",
+      "MATCH NO.": "M311",
+      "SPORT": "VOLLEYBALL(GIRLS)",
+      "DEPARTMENT": "DOMMF vs BMS",
+      "ROUND": "Final",
+      "TIME": "1:00",
       "Player1": "DOMMF",
-      "Player2": "HS",
-      "Date": "30th Jan"
+      "Player2": "BMS",
+      "Date": "31st Jan"
+    },
+    {
+      "MATCH NO.": "M312",
+      "SPORT": "VOLLEYBALL(BOYS)",
+      "DEPARTMENT": "MECH vs BMS",
+      "ROUND": "Final",
+      "TIME": "2:00",
+      "Player1": "MECH",
+      "Player2": "BMS",
+      "Date": "31st Jan"
+    },
+    {
+      "MATCH NO.": "M313",
+      "SPORT": "FIELD FOOTBALL",
+      "DEPARTMENT": "BMS vs COMPS",
+      "ROUND": "Final",
+      "TIME": "3:00",
+      "Player1": "BMS",
+      "Player2": "COMPS",
+      "Date": "31st Jan"
     }
+
+  
   
 ];
 
@@ -211,7 +224,7 @@ const Services = () => {
                   <div className="py-12 px-0 xl:px-8">
                     <h4 className="h4 mb-4">Match Fixtures</h4>
                     <div className="flex flex-col items-center gap-2 m-4 overflow-hidden">
-                      {eventDay.slice(0, 6).map((match, index) => (
+                      {eventDay.slice(0, 7).map((match, index) => (
                         <div key={index} className="match-container relative h-auto flex items-center justify-between overflow-hidden ">
                           <img src={Jersey[match["Player1"]]} className="flag1 w-16 h-auto" />
                           <div className="match-details relative flex flex-col gap-1 h-auto text-center">
